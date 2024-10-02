@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title></title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <div id="container">
+    <div id="logo">
+      
+      <img src="logo1.svg" alt="">
+    </div>
+
+    <div class="slidecontainer">
+      <span id="minus"></span>
+
+      <div class="range-wrap">
+        <div class="rangePos">
+          <div class="range-value" id="rangeV"></div>
+          <input id="myRange" type="range" min="0.25" max="4.00" value="1" step="0.01">
+
+        </div>
+      </div>
+      <span id="plus"></span>
+
+    </div>
+    <div id="lowersection" class="panel">
+      <p id="rating">Rate us : <span><a
+            href="https://chrome.google.com/webstore/detail/video-speed-controller/gioehmkjkeamcinbdelehlpnpdcdjpdp/reviews"
+            target="_blank">
+            <img src="rate.svg" alt=""></a></span></p>
+
+      <button id="resetbtn">
+        <p id="btn">RESET</p>
+      </button>
+    </div>
+    
+
+  </div>
+
+  <script type="module" src="popup.js"></script>
+</body>
+
+</html>

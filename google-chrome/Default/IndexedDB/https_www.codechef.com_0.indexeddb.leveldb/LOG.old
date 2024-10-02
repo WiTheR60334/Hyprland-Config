@@ -1,0 +1,7 @@
+2024/08/31-00:00:34.377 cc8 Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_www.codechef.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/31-00:00:34.378 cc8 Recovering log #3
+2024/08/31-00:00:34.378 cc8 Reusing old log /home/wither/.config/google-chrome/Default/IndexedDB/https_www.codechef.com_0.indexeddb.leveldb/000003.log 
+2024/08/31-00:05:54.201 cc8 Level-0 table #5: started
+2024/08/31-00:05:54.203 cc8 Level-0 table #5: 830 bytes OK
+2024/08/31-00:05:54.206 cc8 Delete type=0 #3
+2024/08/31-00:05:54.206 cc8 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

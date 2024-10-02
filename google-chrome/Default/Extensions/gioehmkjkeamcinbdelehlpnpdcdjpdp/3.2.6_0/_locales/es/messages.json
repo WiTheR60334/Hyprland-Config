@@ -1,0 +1,11 @@
+{
+   "desName": {
+      "message": "Activate this extension to control the video speed for Netflix video, Prime Video, Hot Star, and more"
+   },
+   "extName": {
+      "message": "Video Speeder"
+   },
+   "reset": {
+      "message": "Reiniciar"
+   }
+}

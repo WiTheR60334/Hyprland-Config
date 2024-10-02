@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "The description of the extension, displayed in the web store.",
+      "message": "Verbessere deine Texte mit den KI-gestützten Produktivitätstools von QuillBot: Rechtschreibprüfung, Text umschreiben, Text schreiben mit KI und mehr!"
+   },
+   "extensionName": {
+      "description": "The name of the extension, displayed in the web store.",
+      "message": "QuillBot: KI-unterstützte Schreibtools"
+   }
+}

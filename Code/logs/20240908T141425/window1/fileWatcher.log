@@ -1,0 +1,2 @@
+2024-09-08 14:14:38.566 [error] [File Watcher (parcel)] Unexpected error: inotify_add_watch on '/home/wither/.config/Code/logs/20240831T132622' failed: No such file or directory (EUNKNOWN) (path: /home)
+2024-09-08 14:14:38.566 [error] [File Watcher (universal)] inotify_add_watch on '/home/wither/.config/Code/logs/20240831T132622' failed: No such file or directory

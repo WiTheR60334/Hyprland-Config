@@ -1,0 +1,137 @@
+2024-10-01 20:15:24.170 [info] [main] Log level: Info
+2024-10-01 20:15:24.170 [info] [main] Validating found git in: "git"
+2024-10-01 20:15:24.170 [info] [main] Using git "2.43.0" from "git"
+2024-10-01 20:15:24.170 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-01 20:15:24.170 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-01 20:15:24.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.170 [info] > git rev-parse --show-toplevel [17ms]
+2024-10-01 20:15:24.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.170 [info] > git rev-parse --show-toplevel [117ms]
+2024-10-01 20:15:24.170 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.170 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-01 20:15:24.195 [info] > git rev-parse --show-toplevel [20ms]
+2024-10-01 20:15:24.195 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.292 [info] > git rev-parse --show-toplevel [81ms]
+2024-10-01 20:15:24.292 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.306 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-01 20:15:24.306 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:24.326 [info] > git rev-parse --show-toplevel [15ms]
+2024-10-01 20:15:24.326 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:25.501 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-01 20:15:25.501 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:15:55.362 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-01 20:15:55.368 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-01 20:15:55.374 [info] [Model][openRepository] Opened repository: /home/wither/libinput-gestures
+2024-10-01 20:15:55.383 [info] > git config --get commit.template [2ms]
+2024-10-01 20:15:55.392 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-01 20:15:55.396 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/libinput-gestures/.git/refs/remotes/origin/master'
+2024-10-01 20:15:55.397 [info] > git rev-parse refs/remotes/origin/master [1ms]
+2024-10-01 20:15:55.405 [info] > git status -z -uall [3ms]
+2024-10-01 20:15:55.419 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [8ms]
+2024-10-01 20:15:55.425 [info] > git config --get commit.template [6ms]
+2024-10-01 20:15:55.425 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-10-01 20:15:55.425 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-01 20:15:55.435 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-01 20:15:55.435 [info] > git reflog master --grep-reflog=branch: Created from *. [5ms]
+2024-10-01 20:15:55.443 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/libinput-gestures/.git/refs/remotes/origin/master'
+2024-10-01 20:15:55.445 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-10-01 20:15:55.451 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [12ms]
+2024-10-01 20:15:55.460 [info] > git status -z -uall [9ms]
+2024-10-01 20:15:55.460 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [2ms]
+2024-10-01 20:15:55.474 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-01 20:15:55.478 [info] > git config --local branch.master.vscode-merge-base origin/master [12ms]
+2024-10-01 20:15:55.488 [info] > git config --local branch.master.vscode-merge-base [10ms]
+2024-10-01 20:15:55.493 [info] > git config --get commit.template [5ms]
+2024-10-01 20:15:55.495 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n158 --follow -- /home/wither/libinput-gestures/libinput-gestures [9ms]
+2024-10-01 20:15:55.524 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [31ms]
+2024-10-01 20:15:55.534 [info] > git merge-base refs/heads/master refs/remotes/origin/master [5ms]
+2024-10-01 20:15:55.539 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-10-01 20:15:55.542 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/libinput-gestures/.git/refs/remotes/origin/master'
+2024-10-01 20:15:55.543 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [5ms]
+2024-10-01 20:15:55.547 [info] > git rev-parse refs/remotes/origin/master [5ms]
+2024-10-01 20:15:55.551 [info] > git diff --name-status -z --diff-filter=ADMR 46d34a9dc54ad828b7e480bfad2047dab81cfe31...refs/remotes/origin/master [5ms]
+2024-10-01 20:15:55.552 [info] > git status -z -uall [2ms]
+2024-10-01 20:15:55.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-01 20:15:55.563 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-10-01 20:15:55.570 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-10-01 20:15:55.705 [info] > git show --textconv :libinput-gestures [14ms]
+2024-10-01 20:15:55.707 [info] > git ls-files --stage -- /home/wither/libinput-gestures/libinput-gestures [3ms]
+2024-10-01 20:15:55.720 [info] > git cat-file -s c467db1f1bb34976a656665be2f9a51493cf0f33 [3ms]
+2024-10-01 20:15:55.959 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-01 20:15:56.130 [info] > git rev-list --count 39ab4d55b0e2c0ae907addf0cdf0c314aa4031da.. -- /home/wither/libinput-gestures/libinput-gestures [11ms]
+2024-10-01 20:15:56.155 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n123 --follow -- /home/wither/libinput-gestures/libinput-gestures [11ms]
+2024-10-01 20:15:56.632 [info] > git config --get commit.template [13ms]
+2024-10-01 20:15:56.634 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-01 20:15:56.646 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/libinput-gestures/.git/refs/remotes/origin/master'
+2024-10-01 20:15:56.648 [info] > git rev-parse refs/remotes/origin/master [2ms]
+2024-10-01 20:15:56.663 [info] > git status -z -uall [4ms]
+2024-10-01 20:15:56.680 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-01 20:15:56.693 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-10-01 20:15:56.707 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [3ms]
+2024-10-01 20:15:56.722 [info] > git ls-files --stage -- /home/wither/libinput-gestures/libinput-gestures [2ms]
+2024-10-01 20:15:56.735 [info] > git cat-file -s c467db1f1bb34976a656665be2f9a51493cf0f33 [3ms]
+2024-10-01 20:15:56.753 [info] > git show --textconv :libinput-gestures [4ms]
+2024-10-01 20:16:06.110 [info] > git show --textconv :libinput-gestures [17ms]
+2024-10-01 20:16:06.114 [info] > git ls-files --stage -- /home/wither/libinput-gestures/libinput-gestures [6ms]
+2024-10-01 20:16:06.130 [info] > git cat-file -s c467db1f1bb34976a656665be2f9a51493cf0f33 [4ms]
+2024-10-01 20:16:22.198 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-01 20:16:22.198 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:16:22.270 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-01 20:16:22.270 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-01 20:16:38.571 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n158 --follow -- /home/wither/libinput-gestures/internal [6ms]
+2024-10-01 20:16:38.774 [info] > git show --textconv :internal [6ms]
+2024-10-01 20:16:38.775 [info] > git ls-files --stage -- /home/wither/libinput-gestures/internal [2ms]
+2024-10-01 20:16:38.782 [info] > git cat-file -s b94e70144aa3949460cf88d661c0d7ece3971ed2 [1ms]
+2024-10-01 20:16:43.655 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n158 --follow -- /home/wither/libinput-gestures/libinput-gestures.conf [8ms]
+2024-10-01 20:16:43.860 [info] > git show --textconv :libinput-gestures.conf [11ms]
+2024-10-01 20:16:43.862 [info] > git ls-files --stage -- /home/wither/libinput-gestures/libinput-gestures.conf [3ms]
+2024-10-01 20:16:43.875 [info] > git cat-file -s 5d7988e2b434975bdf1a7c5b31ab1cbf4a6d7e4d [3ms]
+2024-10-02 09:11:11.818 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-02 09:11:11.818 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-02 09:11:56.182 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2024-10-02 09:11:56.197 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 46d34a9dc54ad828b7e480bfad2047dab81cfe31 [9ms]
+2024-10-02 09:11:56.199 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 46d34a9dc54ad828b7e480bfad2047dab81cfe31.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [3ms]
+2024-10-02 09:11:56.260 [info] > git rev-parse --show-toplevel [8ms]
+2024-10-02 09:11:56.260 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-10-02 09:11:56.271 [info] > git merge-base refs/heads/master refs/remotes/origin/master [2ms]
+2024-10-02 09:11:56.294 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 46d34a9dc54ad828b7e480bfad2047dab81cfe31 [8ms]
+2024-10-02 09:11:56.298 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 46d34a9dc54ad828b7e480bfad2047dab81cfe31.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [5ms]
+2024-10-02 09:11:57.905 [info] > git merge-base refs/heads/master refs/remotes/origin/master [3ms]
+2024-10-02 09:11:57.931 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 46d34a9dc54ad828b7e480bfad2047dab81cfe31 [5ms]
+2024-10-02 09:11:57.932 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 46d34a9dc54ad828b7e480bfad2047dab81cfe31.. --topo-order --decorate=full refs/heads/master refs/remotes/origin/master [1ms]
+2024-10-02 09:12:37.240 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-02 09:12:37.250 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-02 09:12:37.255 [info] [Model][openRepository] Opened repository: /home/wither/.config
+2024-10-02 09:12:37.268 [info] > git config --get commit.template [2ms]
+2024-10-02 09:12:37.280 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-02 09:12:37.282 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-10-02 09:12:37.283 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:37.346 [info] > git status -z -uall [52ms]
+2024-10-02 09:12:37.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [398ms]
+2024-10-02 09:12:37.787 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:37.790 [info] > git config --get commit.template [3ms]
+2024-10-02 09:12:37.791 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-02 09:12:37.797 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-02 09:12:37.797 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:37.806 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-02 09:12:37.822 [info] > git status -z -uall [21ms]
+2024-10-02 09:12:37.885 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [41ms]
+2024-10-02 09:12:37.885 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:37.908 [info] > git show --textconv :waybar/configs/[TOP & BOT] SummitSplit [5ms]
+2024-10-02 09:12:37.908 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n158 --follow -- /home/wither/.config/waybar/configs/[TOP & BOT] SummitSplit [9ms]
+2024-10-02 09:12:37.908 [info] fatal: your current branch 'master' does not have any commits yet
+2024-10-02 09:12:37.910 [info] > git ls-files --stage -- /home/wither/.config/waybar/configs/[TOP & BOT] SummitSplit [3ms]
+2024-10-02 09:12:40.037 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-02 09:12:40.038 [info] > git config --get commit.template [10ms]
+2024-10-02 09:12:40.038 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-02 09:12:40.038 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:40.084 [info] > git status -z -uall [38ms]
+2024-10-02 09:12:40.174 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [60ms]
+2024-10-02 09:12:40.174 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:45.185 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-02 09:12:45.186 [info] > git config --get commit.template [5ms]
+2024-10-02 09:12:45.186 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-02 09:12:45.186 [warning] [Git][getBranch] No such branch: master
+2024-10-02 09:12:45.205 [info] > git status -z -uall [15ms]
+2024-10-02 09:12:45.249 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [29ms]
+2024-10-02 09:12:45.249 [warning] [Git][getBranch] No such branch: master

@@ -1,0 +1,51 @@
+{
+   "action": {
+      "default_icon": "images/selectext-128-icon.png",
+      "default_popup": "popup.html",
+      "default_title": "selectext"
+   },
+   "background": {
+      "service_worker": "background.js",
+      "type": "module"
+   },
+   "commands": {
+      "copy-text-from-video": {
+         "description": "Copy Text from Video",
+         "suggested_key": {
+            "default": "Alt+S"
+         }
+      },
+      "copy-video-screenshot": {
+         "description": "Copy Video Screenshot",
+         "suggested_key": {
+            "default": "Alt+A"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "polyfills/browser-polyfill.min.js", "jquery/jquery-3.5.1.min.js", "jquery/jquery-ui.min.js", "arrive/arrive.min.js", "lodash/lodash.min.js", "selectable/selectable.js", "config.js", "common.js", "settingsManager.js", "login.js", "limit.js", "review.js", "content.js", "shortcut.js", "iframeListener.js", "screenshot.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "js": [ "polyfills/browser-polyfill.min.js", "siteListener.js" ],
+      "matches": [ "*://*.selectext.app/*" ],
+      "run_at": "document_start"
+   } ],
+   "description": "Copy text directly from videos on Youtube and any site",
+   "host_permissions": [ "\u003Call_urls>" ],
+   "icons": {
+      "128": "images/selectext-128-icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9Y/g/NWMX3bsSGb+xMVNRYPH9wKIyoAwKSks/jxoLEDJuAdXozEUQENCRoHJ/HTRnHm8ZyC0mBxwO4AYEZa/2/HECQ9Fe2u3oZGAFt/ycfX/i9ficcEKgbldxzQc0aepWpQJM2spICB0kkqczNi5p+Qo8OO/TtZ3hBKh8EoSJaOo/WI4C8V+NgfE8l0UtOhMArzYlZqCfRH9i8NP6frtYSe7DJMAOq7Rh7aBRkrEL1g6yhImfMXlh2bjIcSDlc2XccKldo6liPSgLl0ykmu9SYuLSikMVBh9jQiiv44Cvu22bdcm5USnBurAIPbrHtYJ64Xn7hW6b2t57O6ZAasrBwIDAQAB",
+   "manifest_version": 3,
+   "name": "Selectext: Copy Text from Videos",
+   "permissions": [ "activeTab", "storage", "browsingData", "scripting" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.12",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "images/image.svg", "images/copy.svg", "images/camera.svg", "images/selectext-logo-filled.svg", "fonts/open_sans/open-sans-v18-latin-800.woff", "fonts/open_sans/open-sans-v18-latin-regular.woff", "fonts/open_sans/OpenSans-Bold.woff", "login.html", "limit.html", "review.html", "shadow.css", "login.css" ]
+   } ]
+}

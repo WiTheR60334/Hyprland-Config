@@ -1,0 +1,538 @@
+:root {
+    --themeColour: rgb(0, 185, 251);
+}
+
+
+.selectextPopupWrapper {
+    width: 280px;
+    /*height: 500px;*/
+    text-align: left;
+    padding: 20px;
+    /* padding-top: 15px; */
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+    font-weight: 700;
+}
+
+
+.selectextLogoHeader {
+    width: 190px;
+}
+
+.selectextUserIconWrapper {
+    display: flex;
+    align-items: center;
+    /* margin-top: 5px; */
+}
+
+.settingsIcon {
+    width: 35px;
+    height: 35px;
+    cursor: pointer;
+    /* padding-right: 5px; */
+    /* margin-top: 5px; */
+    /* margin-left: 5px; */
+}
+
+.radioButtonsWrapper input {
+    cursor: pointer;
+}
+
+.selectextHeaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.selectextSubHeader {
+    color: black;
+    font-family: 'Open Sans ExtraBold', 'Arial', sans-serif !important;
+    font-size: 18px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: left;
+    width: 100%;
+}
+
+
+.togglesRow {
+    display: flex;
+    margin-bottom: 0px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+/*SLIDER*/
+/* The switch - the box around the slider */
+.selectextSwitch {
+    position: relative;
+    display: inline-block;
+    width: 48px;
+    height: 28px;
+}
+
+
+/* Hide default HTML checkbox */
+.selectextSwitch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 20px;
+    width: 20px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+
+input:checked+.slider {
+    background-color: var(--themeColour);
+}
+
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--themeColour);
+}
+
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 28px;
+}
+
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.themeColour {
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+
+@-webkit-keyframes glow {
+    from {
+        box-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--themeColour);
+    }
+
+    to {
+        box-shadow: 0 0 10px #fff, 0 0 20px var(--themeColour), 0 0 30px var(--themeColour);
+    }
+}
+
+
+.colourPanelWrapper {
+    flex: 1 0 21%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: 0;
+}
+
+
+.colourPanel {
+    width: 35px;
+    height: 35px;
+    background-color: rgb(0, 185, 251);
+    margin: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+
+.colourPanel:hover {
+    width: 40px;
+    height: 40px;
+    transform: scale(1.03);
+}
+
+
+.colourPanelRow {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 40px;
+}
+
+
+.selectextRunOnWrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+
+.toggleTableWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.selectextButton {
+    display: inline-block;
+    outline: 0;
+    border: none;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 4px;
+    font-size: 14px;
+    height: 30px;
+    background-color: #e7e6e7;
+    color: #0e0e10;
+    padding: 0 20px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    max-width: 100%;
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+}
+
+.selectextButton:hover {
+    background-color: #bbbbbb;
+}
+
+label {
+    font-family: 'Open Sans Bold', 'Arial', sans-serif !important;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.selectextIsNotAvailable {
+    text-align: center;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+input[type="radio"] {
+    /* -ms-transform: scale(1.5);
+    /* IE 9 */
+    /* -webkit-transform: scale(1.5); */
+    /* Chrome, Safari, Opera */
+    /* transform: scale(1.5);  */
+    /* align-self: flex-start; */
+    margin: 0;
+    margin-right: 10px;
+    border: 0px;
+
+    /* remove standard background appearance */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* create custom radiobutton appearance */
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    padding: 3px;
+    /* background-color only for content */
+    background-clip: content-box;
+    border: 2px solid #bbbbbb;
+    background-color: #e7e6e7;
+    border-radius: 50%;
+}
+
+input[type="radio"]:checked {
+    background-color: var(--themeColour)
+}
+
+.radioButtonWrapper {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+
+.labelSubText {
+    font-weight: normal;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    font-size: 14px;
+    margin: 0;
+}
+
+.selectexth4 {
+    margin: 0;
+    font-size: 14px;
+}
+
+.upgradeButton, .tutorialButton, .upgradeToProButton {
+    width: 100%;
+    background-color: rgb(0, 185, 251);
+    /* font-size: 15px; */
+    padding: 0 10px;
+}
+
+.upgradeButton:hover, .tutorialButton:hover, .upgradeToProButton:hover {
+    background-color: rgb(0, 185, 251);
+    filter: brightness(85%);
+}
+
+.upgradeButtonWrapper {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.resetsInText {
+    font-size: 14px;
+}
+
+.usageText {
+    font-size: 14px;
+}
+
+.planTypeBox {
+    border-radius: 4px;
+    background-color: #0000000d;
+    color: #0e0e10;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.yourPlanHeader {
+    display: inline-block;
+    width: unset;
+    margin: 0;
+}
+
+.yourPlanWrapper {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.userIcon {
+    width: 35px;
+    cursor: pointer;
+    margin-left: 4px;
+}
+
+.selectextPlanWrapper {
+    margin: 0;
+    padding: 0;
+}
+
+
+.notSignedInText {
+    font-size: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    text-align: center;
+}
+
+.shortcutPickerWrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.editIcon {
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+}
+
+
+.keyboardShortcutHeader {
+    width: unset !important;
+    margin: 0 !important;
+}
+
+.shortcutDisplay {
+    font-size: 16px;
+    border: 1px solid var(--themeColour);
+    border-radius: 5px;
+    padding: 3px;
+    cursor: pointer;
+}
+
+.shortcutDisplay:hover {
+    background-color: var(--themeColour);
+}
+
+.settingsToggleLabel {
+    font-size: 15px;
+    margin-left: 10px;
+}
+
+.copyTextFromVideosKeyboardShortcutTogglesRow {
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.copyTextShortcutDisplay {
+    align-self: flex-end;
+}
+
+.copyTextKeyboardShortcutToggleWrap {
+    display: flex;
+    align-items: center;
+}
+
+.settingsWrapper {
+    height: 100%;
+}
+
+.settingsContentWrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.copyScreenshotHeader, .copyTextHeader {
+    margin-bottom: 7px;
+}
+
+.settingsWrapper {
+    display: none;
+    flex-direction: column;
+}
+
+.backArrowIcon {
+    width: 28px;
+    height: 28px;
+    margin: -2px;
+}
+
+.backButtonWrapper {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    color: #5f6368;
+    flex: 0;
+    margin-left: -5px;
+    margin-top: -5px;
+}
+
+.backButtonWrapper:hover {
+    color: black;
+}
+
+.settingsTopRowWrapper {
+    display: flex;
+}
+
+.copyTextFullyDisabled, .copyScreenshotFullyDisabled {
+    color: red;
+    visibility: hidden;
+}
+
+.settingsIconWrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.settingsAlert {
+    position: absolute;
+    top: 0;
+    right: 0;
+    pointer-events: none;
+    width: 15px;
+    visibility: hidden;
+}
+
+.lockedScreenshot {
+    
+    z-index: 10;
+
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: calc(100% + 20px);
+    /* opacity: 50%; */
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.copyVideoScreenshotWrapper {
+    position: relative;
+}
+
+
+
+.circularLockTop {
+    position: absolute;
+    top: -30px;
+    width: 60px;
+    height: 30px;
+    background-color: rgba(0, 185, 251, 0.5);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.keyholeImg {
+    position: absolute;
+    top: -20px;
+    width: 15px;
+}
+
+.coverOverlay {
+    background-color: white;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: 0.4s;
+    border-radius: 15px;
+}
+
+.lockedShade {
+    background-color: rgba(0, 185, 251, 0.5);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+
+}
+
+.upgradeToProButton {
+    z-index: 1000;
+    font-size: 16px;
+}

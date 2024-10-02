@@ -1,0 +1,46 @@
+2024/09/01-10:59:27.039 4074 Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/01-10:59:27.039 4074 Recovering log #4
+2024/09/01-10:59:27.039 4074 Reusing old log /home/wither/.config/google-chrome/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/000004.log 
+2024/09/01-11:07:53.853 4075 Level-0 table #8: started
+2024/09/01-11:07:53.879 4075 Level-0 table #8: 1045339 bytes OK
+2024/09/01-11:07:53.881 4075 Delete type=0 #4
+2024/09/01-11:08:07.831 4083 Compacting 1@1 + 1@2 files
+2024/09/01-11:08:07.851 4083 Generated table #9@1: 1057 keys, 417283 bytes
+2024/09/01-11:08:07.851 4083 Compacted 1@1 + 1@2 files => 417283 bytes
+2024/09/01-11:08:07.853 4083 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/01-11:08:37.558 4075 Level-0 table #11: started
+2024/09/01-11:08:37.589 4075 Level-0 table #11: 1229712 bytes OK
+2024/09/01-11:08:37.591 4075 Delete type=2 #5
+2024/09/01-11:08:37.591 4075 Delete type=2 #8
+2024/09/01-11:08:37.591 4075 Delete type=0 #7
+2024/09/01-11:08:37.635 4075 Compacting 1@1 + 1@2 files
+2024/09/01-11:08:37.655 4075 Generated table #12@1: 1022 keys, 249969 bytes
+2024/09/01-11:08:37.655 4075 Compacted 1@1 + 1@2 files => 249969 bytes
+2024/09/01-11:08:37.656 4075 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/01-11:08:37.657 4075 Delete type=2 #9
+2024/09/01-11:08:37.657 4075 Delete type=2 #11
+2024/09/01-11:09:25.991 4074 Level-0 table #14: started
+2024/09/01-11:09:26.022 4074 Level-0 table #14: 1209249 bytes OK
+2024/09/01-11:09:26.025 4074 Delete type=0 #10
+2024/09/01-11:09:28.636 4074 Compacting 1@1 + 1@2 files
+2024/09/01-11:09:28.662 4074 Generated table #15@1: 1135 keys, 184082 bytes
+2024/09/01-11:09:28.662 4074 Compacted 1@1 + 1@2 files => 184082 bytes
+2024/09/01-11:09:28.664 4074 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/01-11:09:28.665 4074 Delete type=2 #12
+2024/09/01-11:09:28.665 4074 Delete type=2 #14
+2024/09/01-11:10:02.884 4075 Level-0 table #17: started
+2024/09/01-11:10:02.910 4075 Level-0 table #17: 1119021 bytes OK
+2024/09/01-11:10:02.912 4075 Delete type=0 #13
+2024/09/01-11:10:02.954 4075 Compacting 1@1 + 1@2 files
+2024/09/01-11:10:02.974 4075 Generated table #18@1: 1890 keys, 597614 bytes
+2024/09/01-11:10:02.974 4075 Compacted 1@1 + 1@2 files => 597614 bytes
+2024/09/01-11:10:02.976 4075 compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/01-11:10:02.976 4075 Delete type=2 #15
+2024/09/01-11:10:02.977 4075 Delete type=2 #17
+2024/09/01-11:10:40.020 4075 Level-0 table #20: started
+2024/09/01-11:10:40.052 4075 Level-0 table #20: 1165954 bytes OK
+2024/09/01-11:10:40.054 4075 Delete type=0 #16
+2024/09/01-11:10:40.149 4076 Compacting 1@1 + 1@2 files
+2024/09/01-11:10:40.189 4076 Generated table #21@1: 2070 keys, 545944 bytes
+2024/09/01-11:10:40.189 4076 Compacted 1@1 + 1@2 files => 545944 bytes
+2024/09/01-11:10:40.191 4076 compacted to: files[ 0 0 1 0 0 0 0 ]

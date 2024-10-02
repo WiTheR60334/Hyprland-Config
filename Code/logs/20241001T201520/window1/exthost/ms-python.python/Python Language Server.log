@@ -1,0 +1,28 @@
+2024-10-01 20:16:24.096 [info] [Info  - 8:16:24 PM] (7294) Server root directory: file:///home/wither/.vscode/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-01 20:16:24.096 [info] [Info  - 8:16:24 PM] (7294) Pylance language server 2024.9.2 (pyright version 1.1.378, commit ce64adc1) starting
+2024-10-01 20:16:24.099 [info] [Info  - 8:16:24 PM] (7294) Starting service instance "home"
+2024-10-01 20:16:24.124 [info] [Info  - 8:16:24 PM] (7294) Setting environmentName for service "home": "3.12.3 (global)"
+2024-10-01 20:16:24.124 [info] [Info  - 8:16:24 PM] (7294) Setting pythonPath for service "home": "/bin/python3"
+2024-10-01 20:16:24.124 [info] [Info  - 8:16:24 PM] (7294) No include entries specified; assuming /home
+2024-10-01 20:16:24.125 [info] [Info  - 8:16:24 PM] (7294) Auto-excluding **/node_modules
+2024-10-01 20:16:24.125 [info] [Info  - 8:16:24 PM] (7294) Auto-excluding **/__pycache__
+2024-10-01 20:16:24.125 [info] [Info  - 8:16:24 PM] (7294) Auto-excluding **/.*
+2024-10-01 20:16:24.145 [info] [Info  - 8:16:24 PM] (7294) Assuming Python version 3.12.3.final.0
+2024-10-01 20:16:24.429 [info] [Info  - 8:16:24 PM] (7294) Found 14 source files
+2024-10-01 20:16:24.596 [info] [Info  - 8:16:24 PM] (7294) Background analysis(1) root directory: file:///home/wither/.vscode/extensions/ms-python.vscode-pylance-2024.9.2/dist
+2024-10-01 20:16:24.596 [info] [Info  - 8:16:24 PM] (7294) Background analysis(1) started
+2024-10-01 20:16:25.021 [info] [Info  - 8:16:25 PM] (7294) Indexer background runner(2) root directory: file:///home/wither/.vscode/extensions/ms-python.vscode-pylance-2024.9.2/dist (index)
+2024-10-01 20:16:25.021 [info] [Info  - 8:16:25 PM] (7294) Indexing(2) started
+2024-10-01 20:16:25.337 [info] [Info  - 8:16:25 PM] (7294) scanned(2) 107 files over 1 exec env
+2024-10-01 20:16:26.223 [info] [Info  - 8:16:26 PM] (7294) indexed(2) 61 files over 1 exec env
+2024-10-01 20:16:26.244 [info] [Info  - 8:16:26 PM] (7294) Indexing finished(2).
+2024-10-01 20:16:33.805 [info] (Client) The existing extension didn't exit within 10 seconds. New instance will start, but you might encounter issues.
+2024-10-01 20:16:33.806 [info] (Client) Pylance async client (2024.9.2) started with python extension (2024.14.1)
+2024-10-02 09:11:56.275 [info] [Info  - 9:11:56 AM] (7294) Setting environmentName for service "home": "3.12.3 (global)"
+2024-10-02 09:11:56.275 [info] [Info  - 9:11:56 AM] (7294) Setting pythonPath for service "home": "/bin/python3"
+2024-10-02 09:11:56.276 [info] [Info  - 9:11:56 AM] (7294) No include entries specified; assuming /home
+2024-10-02 09:11:56.276 [info] [Info  - 9:11:56 AM] (7294) Auto-excluding **/node_modules
+2024-10-02 09:11:56.276 [info] [Info  - 9:11:56 AM] (7294) Auto-excluding **/__pycache__
+2024-10-02 09:11:56.276 [info] [Info  - 9:11:56 AM] (7294) Auto-excluding **/.*
+2024-10-02 09:11:56.303 [info] [Info  - 9:11:56 AM] (7294) Assuming Python version 3.12.3.final.0
+2024-10-02 09:11:56.533 [info] [Info  - 9:11:56 AM] (7294) Found 14 source files

@@ -1,0 +1,11 @@
+{
+   "desName": {
+      "message": "この拡張機能を有効にして、Netflix ビデオ、Prime Video、Hot Star などのビデオ速度を制御します"
+   },
+   "extName": {
+      "message": "ビデオスピードコントローラー"
+   },
+   "reset": {
+      "message": "リセット"
+   }
+}

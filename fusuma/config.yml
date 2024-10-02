@@ -1,0 +1,19 @@
+swipe:
+  4:
+    left:
+      command: "xdotool key alt+Right" # History forward
+    right:
+      command: "xdotool key alt+Left" # History back
+pinch:
+  2:
+    in:
+      command: "xdotool key ctrl+minus" 
+      threshold: 0.9
+    out:
+      command: "xdotool key ctrl+plus"
+      threshold: 0.9
+threshold:
+  swipe: 0.5
+interval:
+  swipe: 0.5
+  pinch: 0.5

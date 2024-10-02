@@ -1,0 +1,6 @@
+2024/09/01-10:58:33.627 4075 Creating DB /home/wither/.config/google-chrome/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb since it was missing.
+2024/09/01-10:58:33.630 4075 Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_onedrive.live.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/01-10:59:20.027 4075 Level-0 table #5: started
+2024/09/01-10:59:20.030 4075 Level-0 table #5: 1041 bytes OK
+2024/09/01-10:59:20.031 4075 Delete type=0 #3
+2024/09/01-10:59:20.032 4075 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

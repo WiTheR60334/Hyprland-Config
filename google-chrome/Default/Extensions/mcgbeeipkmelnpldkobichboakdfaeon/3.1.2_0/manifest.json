@@ -1,0 +1,53 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "/icons/default/128x128.png",
+         "16": "/icons/default/16x16.png",
+         "19": "/icons/default/19x19.png",
+         "38": "/icons/default/38x38.png",
+         "48": "/icons/default/48x48.png"
+      },
+      "default_title": "BlackboxAI"
+   },
+   "background": {
+      "service_worker": "background/index.js"
+   },
+   "commands": {
+      "take-screenshot": {
+         "description": "BlackboxAI Vision",
+         "suggested_key": {
+            "default": "Ctrl+E",
+            "mac": "Command+E"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "js": [ "readability.js", "turndown.js", "bot.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "description": "Write Code better and faster. BLACKBOX AI is an AI coding assistant that helps developers by providing real-time code suggestions",
+   "icons": {
+      "128": "/icons/default/128x128.png",
+      "16": "/icons/default/16x16.png",
+      "19": "/icons/default/19x19.png",
+      "38": "/icons/default/38x38.png",
+      "48": "/icons/default/48x48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArTPnVsmAvoOtSh/Q2gffR9tBzqHU9T3fdOQweLJ5kv0waZ6QHB9INnzLQ/8DvpLYYs17dBgEZaojOsmUN+jcL3zBRnmq7c+cfUENh+l8uMJbZLgWLUJ/RQLfUi1YnpSJNjSZd4wfKlfyuFBP1ia7hlGffDMOYYVoQlEA4jLW9lTBT/S4Md1sYSrF56Qnnoo3vYBUCEUhRGYgf+HfWy1eKAIUXTCg7KbQ/7aqBPNzORN+0nvVLNtnVZC/fi+vmHtW31c94T4s5IxIHW+12Ju+AzDn8748VxAPILoMDd8hAYsR/MzKT5omEd6lwrPfPovwSAgl87YRmK1KRMmoKFIzSwIDAQAB",
+   "manifest_version": 3,
+   "name": "BlackboxAI",
+   "omnibox": {
+      "keyword": "bx"
+   },
+   "options_page": "/options/index.html",
+   "permissions": [ "storage", "scripting", "activeTab", "sidePanel", "tabs", "scripting" ],
+   "side_panel": {
+      "default_path": "sidepanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.1.2",
+   "web_accessible_resources": [ {
+      "matches": [ "\u003Call_urls>" ],
+      "resources": [ "/vendor/Jcrop.gif", "/content/pixel.png" ]
+   } ]
+}

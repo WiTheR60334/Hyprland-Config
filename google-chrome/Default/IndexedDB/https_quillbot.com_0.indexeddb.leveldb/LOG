@@ -1,0 +1,6 @@
+2024/08/29-11:34:19.026 6140 Creating DB /home/wither/.config/google-chrome/Default/IndexedDB/https_quillbot.com_0.indexeddb.leveldb since it was missing.
+2024/08/29-11:34:19.029 6140 Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_quillbot.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/08/29-11:34:19.034 6145 Level-0 table #5: started
+2024/08/29-11:34:19.035 6145 Level-0 table #5: 1317 bytes OK
+2024/08/29-11:34:19.037 6145 Delete type=0 #3
+2024/08/29-11:34:19.037 6142 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

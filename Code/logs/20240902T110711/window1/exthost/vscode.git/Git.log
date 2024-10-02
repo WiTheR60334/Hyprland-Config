@@ -1,0 +1,56 @@
+2024-09-02 11:07:13.016 [info] [main] Log level: Info
+2024-09-02 11:07:13.016 [info] [main] Validating found git in: "git"
+2024-09-02 11:07:13.016 [info] [main] Using git "2.43.0" from "git"
+2024-09-02 11:07:13.016 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-02 11:07:13.016 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-02 11:07:13.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.016 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:13.016 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.025 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-02 11:07:13.025 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.026 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-02 11:07:13.062 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:13.062 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.097 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:13.097 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.113 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:13.113 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:13.169 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:13.169 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:15.113 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:15.113 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-02 11:07:22.850 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-02 11:07:22.854 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-02 11:07:22.858 [info] [Model][openRepository] Opened repository: /home/wither/.oh-my-zsh
+2024-09-02 11:07:22.863 [info] > git config --get commit.template [1ms]
+2024-09-02 11:07:22.868 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-02 11:07:22.891 [info] > git status -z -uall [19ms]
+2024-09-02 11:07:22.899 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [5ms]
+2024-09-02 11:07:22.902 [info] > git config --get commit.template [3ms]
+2024-09-02 11:07:22.904 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-09-02 11:07:22.904 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-02 11:07:22.910 [info] > git reflog master --grep-reflog=branch: Created from *. [3ms]
+2024-09-02 11:07:22.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [9ms]
+2024-09-02 11:07:22.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [6ms]
+2024-09-02 11:07:22.923 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n136 --follow -- /home/wither/.oh-my-zsh/oh-my-zsh.sh [5ms]
+2024-09-02 11:07:22.945 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [23ms]
+2024-09-02 11:07:22.945 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-02 11:07:22.954 [info] > git merge-base refs/heads/master refs/remotes/origin/master [6ms]
+2024-09-02 11:07:22.958 [info] > git rev-list --count --left-right refs/heads/master...refs/remotes/origin/master [1ms]
+2024-09-02 11:07:22.962 [info] > git diff --name-status -z --diff-filter=ADMR c80050d6f538d6d8d8942068ea9bf1d4de2b14e8...refs/remotes/origin/master [1ms]
+2024-09-02 11:07:22.972 [info] > git status -z -uall [21ms]
+2024-09-02 11:07:22.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-09-02 11:07:22.979 [info] > git config --local branch.master.vscode-merge-base [1ms]
+2024-09-02 11:07:22.979 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-02 11:07:22.982 [info] > git reflog master --grep-reflog=branch: Created from *. [1ms]
+2024-09-02 11:07:22.985 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [1ms]
+2024-09-02 11:07:22.988 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-02 11:07:22.988 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-02 11:07:23.178 [info] > git show --textconv :oh-my-zsh.sh [6ms]
+2024-09-02 11:07:23.180 [info] > git ls-files --stage -- /home/wither/.oh-my-zsh/oh-my-zsh.sh [2ms]
+2024-09-02 11:07:23.188 [info] > git cat-file -s b1032841c67703d76b1d8591eb2e923e5216318a [2ms]
+2024-09-02 11:07:23.371 [info] > git rev-list --count c80050d6f538d6d8d8942068ea9bf1d4de2b14e8.. -- /home/wither/.oh-my-zsh/oh-my-zsh.sh [4ms]
+2024-09-02 11:07:23.381 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n2 --follow -- /home/wither/.oh-my-zsh/oh-my-zsh.sh [5ms]
+2024-09-02 11:07:23.411 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-02 11:08:00.938 [info] > git rev-parse --show-toplevel [0ms]
+2024-09-02 11:08:00.938 [info] fatal: not a git repository (or any of the parent directories): .git

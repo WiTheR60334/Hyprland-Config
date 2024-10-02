@@ -1,0 +1,37 @@
+2024-10-01 20:15:22.943 [info] Started local extension host with pid 6805.
+2024-10-01 20:15:24.614 [error] [Extension Host] [LanguageModelAccess] Error: GitHubLoginFailed
+    at kS.authShowWarnings (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:14119)
+    at kS.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:12143)
+    at Q_.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:144:2645)
+    at AS._getAuthSession (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:2188)
+    at r (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:627)
+    at AS._registerLanguageModels (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1513)
+    at async Promise.all (index 0)
+    at async Promise.allSettled (index 0)
+    at tut (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:4466)
+    at Zct (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:3435)
+    at m.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+    at m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+    at m.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-10-01 20:15:24.617 [error] [Extension Host] [LanguageModelAccess] Error: GitHubLoginFailed
+    at kS.authShowWarnings (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:14119)
+    at kS.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:12143)
+    at Q_.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:144:2645)
+    at AS._getAuthSession (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:2188)
+    at /home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1777
+    at AS._registerEmbeddings (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:1747)
+    at async Promise.all (index 1)
+    at async Promise.allSettled (index 0)
+    at tut (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:4466)
+    at Zct (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:1365:3435)
+    at m.n (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6409)
+    at m (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:6372)
+    at m.l (/usr/share/code/resources/app/out/vs/workbench/api/node/extensionHostProcess.js:144:5829)
+2024-10-01 20:15:24.621 [error] [Extension Host] [ContextKeysContribution] You are not signed in to GitHub. Please sign in to use Copilot.
+2024-10-01 20:15:25.710 [info] [perf] Render performance baseline is 29ms
+2024-10-01 20:30:24.716 [error] [Extension Host] [LanguageModelAccess] Error: GitHubLoginFailed
+    at kS.authShowWarnings (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:14119)
+    at kS.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:633:12143)
+    at Q_.getCopilotToken (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:144:2645)
+    at AS._getAuthSession (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:2188)
+    at Timeout.r [as _onTimeout] (/home/wither/.vscode/extensions/github.copilot-chat-0.18.2/dist/extension.js:634:627)

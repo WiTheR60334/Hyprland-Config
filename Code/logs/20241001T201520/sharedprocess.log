@@ -1,0 +1,55 @@
+2024-10-01 20:15:23.140 [info] Deleted uninstalled extension from disk bierner.markdown-preview-github-styles /home/wither/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4
+2024-10-01 20:15:23.140 [info] Deleted uninstalled extension from disk github.copilot /home/wither/.vscode/extensions/github.copilot-1.229.0
+2024-10-01 20:15:27.605 [info] Getting Manifest... github.copilot
+2024-10-01 20:15:27.697 [info] Installing extension: github.copilot {"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"pinned":false,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-01 20:15:30.800 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 627ms.
+2024-10-01 20:15:30.987 [info] Extracted extension to file:///home/wither/.vscode/extensions/github.copilot-1.234.0: github.copilot
+2024-10-01 20:15:30.998 [info] Renamed to /home/wither/.vscode/extensions/github.copilot-1.234.0
+2024-10-01 20:15:31.010 [info] Marked extension as uninstalled github.copilot-1.232.0
+2024-10-01 20:15:31.016 [info] Extension installed successfully: github.copilot vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-10-01 20:15:31.082 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-10-01 20:16:03.176 [info] Getting Manifest... ms-python.python
+2024-10-01 20:16:03.191 [info] Installing extension: ms-python.python {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-10-01 20:16:04.413 [info] Getting Manifest... ms-python.vscode-pylance
+2024-10-01 20:16:04.442 [info] Getting Manifest... ms-python.debugpy
+2024-10-01 20:16:04.535 [info] Installing extension: ms-python.vscode-pylance {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-01 20:16:04.537 [info] Installing extension: ms-python.debugpy {"isMachineScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-10-01 20:16:16.332 [info] Extension signature verification result for ms-python.debugpy: Success. Executed: true. Duration: 1115ms.
+2024-10-01 20:16:17.119 [info] Extracted extension to file:///home/wither/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64: ms-python.debugpy
+2024-10-01 20:16:17.150 [info] Renamed to /home/wither/.vscode/extensions/ms-python.debugpy-2024.10.0-linux-x64
+2024-10-01 20:16:17.267 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-10-01 20:16:18.917 [info] Extension signature verification result for ms-python.vscode-pylance: Success. Executed: true. Duration: 639ms.
+2024-10-01 20:16:19.756 [info] Extension signature verification result for ms-python.python: Success. Executed: true. Duration: 754ms.
+2024-10-01 20:16:21.394 [info] Extracted extension to file:///home/wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64: ms-python.python
+2024-10-01 20:16:21.424 [info] Renamed to /home/wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64
+2024-10-01 20:16:21.508 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-10-01 20:16:22.065 [info] Extracted extension to file:///home/wither/.vscode/extensions/ms-python.vscode-pylance-2024.9.2: ms-python.vscode-pylance
+2024-10-01 20:16:22.098 [info] Renamed to /home/wither/.vscode/extensions/ms-python.vscode-pylance-2024.9.2
+2024-10-01 20:16:22.155 [info] Extension installed successfully: ms-python.debugpy vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-10-01 20:16:22.155 [info] Extension installed successfully: ms-python.python vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-10-01 20:16:22.156 [info] Extension installed successfully: ms-python.vscode-pylance vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-10-01 20:16:22.195 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

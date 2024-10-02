@@ -1,0 +1,51 @@
+{
+   "action": {
+      "default_popup": "popup.html"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "_execute_action": {
+         "suggested_key": {
+            "linux": "Ctrl+Shift+J",
+            "mac": "Alt+Y",
+            "windows": "Ctrl+Shift+Y"
+         }
+      },
+      "left": {
+         "description": "Decrease Speed",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Left",
+            "mac": "Command+Shift+Left"
+         }
+      },
+      "right": {
+         "description": "Increase Speed",
+         "suggested_key": {
+            "default": "Ctrl+Shift+Right",
+            "mac": "Command+Shift+Right"
+         }
+      }
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content.js" ],
+      "matches": [ "\u003Call_urls>" ]
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_desName__",
+   "host_permissions": [ "*://*/*" ],
+   "icons": {
+      "128": "ICON 128.png",
+      "16": "ICON 16.png",
+      "32": "ICON 32.png",
+      "64": "ICON 64.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiQ/C4DYgit+w7iIpZGqA3UpMpcKvOdH9DYifBmDGIyPj6uj3jFTAoQgc9Y8t7b1LgGGjRGOXks1oo+u0NrGppycLZMTog0gtfLMHBHs4qJH9aW61QBuIzoZI94yMfSAqt9OsjKF3IaBdO6XXDHsQRcONyWKrCMKkGrLLX1fWk6rBfq/K1HwgxspTJYQG/I5/eTPmGL0plBpcIY+fOBaihcC0b0gO/s28AAs1s1Xl6ULnr/EwiSWbY1nsTTuARPK/MeWW2nPCi3xuXlB9rBrlSwwPU2tQBsDvk+Ep/MhWUZIl+6/SpCm9rou8JBzV9aHyIxaThG7YW3iecC5vLe01zQIDAQAB",
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.2.6"
+}

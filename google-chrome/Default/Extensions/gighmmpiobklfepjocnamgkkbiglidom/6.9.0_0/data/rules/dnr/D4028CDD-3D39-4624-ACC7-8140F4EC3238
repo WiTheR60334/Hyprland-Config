@@ -1,0 +1,6558 @@
+[
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "sub_frame",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/area=*/posid=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041004
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/keyword*/area=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041005
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/section=adblock_desktop^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041006
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "?format=js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041007
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "?guci=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041008
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "?v127|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041009
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/area=halfpagead",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041010
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/area=branding",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041011
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||domnovrek.com^",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty"
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041012
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/partnerjsapi/v3?previouszhashes=&hash=*&clbk=sklik",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041013
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&uid=ssp-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041014
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": ".cz/*/js/a.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041015
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.user-api.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041016
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||cnc.cdn.dopc.cz^*?format=js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041017
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "/scripts^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041018
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": ".cz/*/area=adblock",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041019
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "&pssp1=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041020
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&cmpstate=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041021
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&ifr=0|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz",
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041022
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "=js&lst=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz",
+        "iprima.cz",
+        "kinobox.cz",
+        "nasepenize.cz",
+        "fights.cz",
+        "novinky.cz",
+        "super.cz",
+        "sport.cz",
+        "kupi.cz",
+        "horoskopy.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041023
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/tigatage:",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz",
+        "iprima.cz",
+        "kinobox.cz",
+        "nasepenize.cz",
+        "fights.cz",
+        "novinky.cz",
+        "super.cz",
+        "sport.cz",
+        "kupi.cz",
+        "horoskopy.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041024
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||w-cached.cncenter.cz/js/cnc-ads-controller.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "extra.cz",
+        "onetv.cz",
+        "info.cz",
+        "ahaonline.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041025
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "client=ca-pub-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz",
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041026
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "/dynamic^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kupi.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041027
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||super.cz/*&*=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "super.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041028
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||sport.cz/*&*=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "sport.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041029
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||www.kupi.cz/*&*=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.kupi.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041030
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||seznamzpravy.cz/*/static/js/*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "seznamzpravy.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041031
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "seznamzpravy.cz/*seznamzpravy.cz",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041032
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "seznamzpravy.cz/*ssp.js",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041033
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "seznamzpravy.cz/*cmp",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041034
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||d49-a.sdn.cz^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "iprima.cz",
+        "kinobox.cz",
+        "kupi.cz",
+        "lidovky.cz",
+        "nasepenize.cz",
+        "novinky.cz",
+        "onetv.cz",
+        "sport.cz",
+        "super.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041035
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||userscontent.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "iprima.cz",
+        "kinobox.cz",
+        "kupi.cz",
+        "lidovky.cz",
+        "nasepenize.cz",
+        "novinky.cz",
+        "onetv.cz",
+        "sport.cz",
+        "super.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041036
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": ".cz/*,,*,|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041037
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=autapay/*,|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041038
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "play/safety=^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041039
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "miniplayer/safety=^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041040
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=miniplayer/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041041
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": ",e8o,",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041042
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=ostatni",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041043
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=pare-toll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041044
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=busroll-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041045
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=paretol-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041046
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=qa-retoll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041047
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/poho0ze5nci=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041048
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/nachotina=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041049
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/elloeonora=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041050
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/past.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041051
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/pasta.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041052
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "&adfassetid=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.ahaonline.cz",
+        "info.cz",
+        "onetv.cz",
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041053
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041054
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||jwpsrv.com/content/conversions/*/videos/*.mp4?token=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041055
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "?bv=0&autoscalebox=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041056
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=postroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041057
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=preroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041058
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=paretoll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041059
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/fal854heat^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041060
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "hlouhopaes=no5",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041061
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/ledo2vnyce=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041062
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "/doubleclick_dmm^*/file.mp4",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ahaonline.cz",
+        "info.cz",
+        "onetv.cz",
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041063
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "preroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041064
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "midroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041065
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "postroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "iprima.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041066
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||seznam.cz/*/static/*/*?nocache=1^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.seznam.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041067
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||seznam.cz/*/*/js/*?nocache=1^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.seznam.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041068
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/partnerjsapi/v3?previouszhashes=&hash=*&clbk=sklik",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041069
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&uid=ssp-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041070
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": ".cz/*/js/a.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041071
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.user-api.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041072
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||cnc.cdn.dopc.cz.^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "blesk.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041073
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||cnc.cdn.dopc.cz^*?format=js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041074
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "/scripts^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041075
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": ".cz/*/area=adblock",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041076
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "&pssp1=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz",
+        "www.idnes.cz",
+        "expres.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041077
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&cmpstate=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz",
+        "expres.cz",
+        "www.idnes.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041078
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "&ifr=0|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.idnes.cz",
+        "expres.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041079
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "=js&lst=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.idnes.cz",
+        "expres.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz",
+        "tiscali.cz",
+        "kinobox.cz",
+        "osobnosti.cz",
+        "karaoketexty.cz",
+        "nasepenize.cz",
+        "fights.cz",
+        "novinky.cz",
+        "super.cz",
+        "sport.cz",
+        "kupi.cz",
+        "horoskopy.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041080
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/tigatage:",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.idnes.cz",
+        "expres.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz",
+        "tiscali.cz",
+        "kinobox.cz",
+        "osobnosti.cz",
+        "karaoketexty.cz",
+        "nasepenize.cz",
+        "fights.cz",
+        "novinky.cz",
+        "super.cz",
+        "sport.cz",
+        "kupi.cz",
+        "horoskopy.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041081
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||w-cached.cncenter.cz/js/cnc-ads-controller.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "blesk.cz",
+        "reflex.cz",
+        "zive.cz",
+        "auto.cz",
+        "e15.cz",
+        "autorevue.cz",
+        "dama.cz",
+        "maminka.cz",
+        "mojezdravi.cz",
+        "zeny.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041082
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "client=ca-pub-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.idnes.cz",
+        "expres.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041083
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||d49-a.sdn.cz^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "expres.cz",
+        "karaoketexty.cz",
+        "kinobox.cz",
+        "kupi.cz",
+        "lidovky.cz",
+        "maminka.cz",
+        "mojezdravi.cz",
+        "nasepenize.cz",
+        "novinky.cz",
+        "osobnosti.cz",
+        "reflex.cz",
+        "sport.cz",
+        "super.cz",
+        "tiscali.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041084
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||userscontent.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "expres.cz",
+        "karaoketexty.cz",
+        "kinobox.cz",
+        "kupi.cz",
+        "lidovky.cz",
+        "maminka.cz",
+        "mojezdravi.cz",
+        "nasepenize.cz",
+        "novinky.cz",
+        "osobnosti.cz",
+        "reflex.cz",
+        "sport.cz",
+        "super.cz",
+        "tiscali.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041085
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||www.karaoketexty.cz/*/*.png",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "karaoketexty.cz"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAC0lEQVQI12NgQAcAABIAAe+JVKQAAAAASUVORK5CYII="
+      }
+    },
+    "id": 1041086
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||www.karaoketexty.cz/*/*.jpg",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "karaoketexty.cz"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAC0lEQVQI12NgQAcAABIAAe+JVKQAAAAASUVORK5CYII="
+      }
+    },
+    "id": 1041087
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||karaoketexty.cz/img/*.png",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "karaoketexty.cz"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041088
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||karaoketexty.cz/img/*.jpg",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "karaoketexty.cz"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041089
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "?client=ca-pub-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "karaoketexty.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041090
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": ".cz/*,*,|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041091
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=autapay/*,|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041092
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "play/safety=^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041093
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "miniplayer/safety=^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041094
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=miniplayer/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041095
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "e8o,",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041096
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=ostatni",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041097
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=pare-toll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041098
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=busroll-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041099
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=paretol-",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041100
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=qa-retoll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041101
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/poho0ze5nci=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041102
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/nachotina=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041103
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/elloeonora=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041104
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/past.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "expres.cz",
+        "www.idnes.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041105
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/pasta.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041106
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "&adfassetid=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "expres.cz",
+        "www.idnes.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041107
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||videos-fms.jwpsrv.com/*/content/conversions/*.mp4|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041108
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||jwpsrv.com/content/conversions/*/videos/*.mp4?token=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041109
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "?bv=0&autoscalebox=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041110
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=postroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041111
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=preroll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041112
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "=paretoll",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041113
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/fal854heat^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041114
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "hlouhopaes=no5",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041115
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/ledo2vnyce=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041116
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/?bn=*&ord=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "expres.cz",
+        "idnes.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041117
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "ad0r",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "expres.cz",
+        "idnes.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041118
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "/doubleclick_dmm^*/file.mp4",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "expres.cz",
+        "idnes.cz",
+        "auto.cz",
+        "autorevue.cz",
+        "maminka.cz",
+        "reflex.cz",
+        "blesk.cz",
+        "dama.cz",
+        "e15.cz",
+        "mojezdravi.cz",
+        "zeny.cz",
+        "zive.cz"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041119
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||info.error-report.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "picrew.me",
+        "javatpoint.com",
+        "m.ygosu.com",
+        "ndtvprofit.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041120
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||warnermedia.com/api/v1/events?*=ad-break*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cnn.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041121
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xhamster.com/api/models/vast?*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xhamster.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041122
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||st.bebi.com/bebi_v3.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "lolhentai.net"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041123
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "/*gek|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "animenova.org",
+        "animeplus.tv",
+        "gogoanimes.co",
+        "kiss-anime.ws",
+        "readcomiconline.to",
+        "mangareader.net",
+        "animewow.org",
+        "animeland.us"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041124
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "/*rek|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "animenova.org",
+        "animeplus.tv",
+        "gogoanimes.co",
+        "kiss-anime.ws",
+        "readcomiconline.to",
+        "mangareader.net",
+        "animewow.org",
+        "animeland.us"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041125
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/wp-includes/css/admin-bar.min.css^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kiss-anime.ws",
+        "animeland.us",
+        "thewatchcartoononline.tv"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041126
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/jsvendor/app.^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041127
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/scripts/jquery.min.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "readcomiconline.to"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041128
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/assets",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041129
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/cache2/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "watchcartoonsonline.eu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041130
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/wp-includes/js/jwplayer.js?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "watchcartoonsonline.eu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041131
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/homepage",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041132
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/sid",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041133
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/mya/lfa.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "thewatchcartoononline.tv",
+        "wcostream.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041134
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||facebook.com/xti.php?",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041135
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||facebook.net^*/fbevents.js",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty"
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041136
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||facebook.com/tr",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty"
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041137
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||connect.facebook.net^*/fbds.js",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty"
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041138
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||marketrealist.com/3:",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "marketrealist.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041139
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||1u0oqad.diqx.namemc.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "namemc.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041140
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||grlnpmbc.goar.justjared.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "justjared.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041141
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||audiofanzine.com/sorrier^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041142
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d2wlwbnaa4keje.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041143
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d2san7t27xb2pn.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041144
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d1htpt0i4k7m8x.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041145
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d3awx1l7oivs5m.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041146
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d2t7a3zbo166a9.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041147
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d3t4q9r0y6a1oz.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041148
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d1oxccu2k3w6jx.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041149
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d11a2fzhgzqe7i.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041150
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d1lu68kpg9miy0.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041151
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||dlkfm8bqz0bpx.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041152
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d12ysuoljjyfqa.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041153
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||d3pk579obpqv7b.cloudfront.net^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041154
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||2h81gp.tkepyc.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pch.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041155
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||1r7efqo.tjfmd.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pch.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041156
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||1qboss9.ejuslehq.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pch.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041157
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||1ov2pp0.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ign.com",
+        "ignboards.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041158
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||1htpkw6.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ign.com",
+        "ignboards.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041159
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||sftcdn.net/acmp^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "softonic.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041160
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/wpsite-background-takeover*/js/wpsite_clickable.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "agronews.ua",
+        "aegeanews.gr",
+        "batterypoweronline.com",
+        "brezovycukr.cz",
+        "centrocommercialevulcano.com",
+        "cieonline.co.uk",
+        "commsbusiness.co.uk",
+        "dailygrindonline.net",
+        "davincidiamondsslot.net",
+        "delo.bg",
+        "dynastyseries.com",
+        "fabmx1.com",
+        "fat-bike.com",
+        "fmj.co.uk",
+        "localemagazine.com",
+        "loveourweddingmag.com",
+        "metaforespress.gr",
+        "myvalley.it",
+        "niestatystyczny.pl",
+        "primapaginamarsala.it",
+        "ringelnatz.net",
+        "schoolsweek.co.uk",
+        "sikkenscolore.it",
+        "sportbet.gr",
+        "stadtstudenten.de",
+        "stagemilk.com",
+        "tautasdziesmas.lv",
+        "thetoneking.com",
+        "toplickevesti.com",
+        "zeroradio.co.uk"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041161
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||adgarden.market^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "factfeed.com",
+        "mdrntoday.com",
+        "travelroo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041162
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "*.com/*b8121.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "mult34.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041163
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||see.xxx/poppy/*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "see.xxx"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041164
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||hdtube.porn/hdt/hdt.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "hdtube.porn"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041165
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/js/initsite.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "anysex.com",
+        "xcafe.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041166
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/js/customscript.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pornwhite.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041167
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/local_p.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bigtitslust.com",
+        "freeporn8.com",
+        "maturetubehere.com",
+        "megatube.xxx"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041168
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/s/js/ssu.v2.js?v=*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bigtitslust.com",
+        "freeporn8.com",
+        "maturetubehere.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041169
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||a.streamoupload.*^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041170
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||txxx.com/*x/*.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "gaytxxx.com",
+        "transtxxx.com",
+        "txxx.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041171
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||noukotumorn.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "dl-protect.link"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041172
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||myfastcdn.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041173
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||thikraik.net^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kickassanime.io"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041174
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/js.mangapro.top/*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "comick.top"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041175
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/rass7.*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "upornia.com",
+        "vjav.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041176
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/barbar7.*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "hclips.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041177
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||hcjs.nv7s.com/xif*/*.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "hclips.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041178
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/nofa7.*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "txxx.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041179
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/apsti7.*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "txxx.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041180
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/magic/*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pornhits.com",
+        "porntop.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041181
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "regexFilter": "^https?:\\/\\/www\\.freeuseporn\\.com\\/[0-9a-f]{12}\\.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "freeuseporn.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041182
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||smallseotools.com/webimages/garamar*.png^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "smallseotools.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041183
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||root-nation.com/wp-content/uploads/*background",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "root-nation.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041184
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||nosteam.ro/notcaptcha/adheader.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "nosteamgames.ro"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041185
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/larkf?id=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "animeunity.cc"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041186
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||tubesafari.com/*/new_popunder.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "tubesafari.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041187
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||older-women-porn.com/black-credit-71cc^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "older-women-porn.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041188
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||footfetishvid.com/*/*.php^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "footfetishvid.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041189
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "*.com/*fbeea*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "footfetishvid.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041190
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "*.6ec7e42994.com/*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "lscomic.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041191
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "*.e437040a9a.com/api/senddata?^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "porntrex.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041192
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||js.onclckmn.com/*.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "porntrex.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041193
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||content.sinpartycdn.com/*pre-roll-ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "sinparty.com"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAuJtZGF0AAACrwYF//+r3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE2MCByMzAxMU0gY2RlOWE5MyAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMjAgLSBodHRwOi8vd3d3LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0xIHJlZj0zIGRlYmxvY2s9MTowOjAgYW5hbHlzZT0weDM6MHgxMTMgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBtaXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MCB0cmVsbGlzPTEgOHg4ZGN0PTEgY3FtPTAgZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz0yIGxvb2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNlZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MyBiX3B5cmFtaWQ9MiBiX2FkYXB0PTEgYl9iaWFzPTAgZGlyZWN0PTEgd2VpZ2h0Yj0xIG9wZW5fZ29wPTAgd2VpZ2h0cD0yIGtleWludD0yNTAga2V5aW50X21pbj0yNSBzY2VuZWN1dD00MCBpbnRyYV9yZWZyZXNoPTAgcmNfbG9va2FoZWFkPTQwIHJjPWNyZiBtYnRyZWU9MSBjcmY9MjMuMCBxY29tcD0wLjYwIHFwbWluPTAgcXBtYXg9NjkgcXBzdGVwPTQgaXBfcmF0aW89MS40MCBhcT0xOjEuMDAAgAAAACNliIQAK//+9dvzLK5umjbe9jc2CT9EPcfnoOYC2tjtP+go4QAAAwRtb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAKAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACLnRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAZAAAADgAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAACgAAAAAAAEAAAAAAaZtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAADIAAAACAFXEAAAAAAAtaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlcgAAAAFRbWluZgAAABR2bWhkAAAAAQAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAABEXN0YmwAAACtc3RzZAAAAAAAAAABAAAAnWF2YzEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAZAA4AEgAAABIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY//8AAAA3YXZjQwFkAAr/4QAaZ2QACvNlHJ42JwEQAAADABAAAAMDIPEiWWABAAZo6+PLIsD8+PgAAAAAEHBhc3AAAAABAAAAAQAAABhzdHRzAAAAAAAAAAEAAAABAAACAAAAABxzdHNjAAAAAAAAAAEAAAABAAAAAQAAAAEAAAAUc3RzegAAAAAAAALaAAAAAQAAABRzdGNvAAAAAAAAAAEAAAAwAAAAYnVkdGEAAABabWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAbWRpcmFwcGwAAAAAAAAAAAAAAAAtaWxzdAAAACWpdG9vAAAAHWRhdGEAAAABAAAAAExhdmY1OC40NS4xMDA="
+      }
+    },
+    "id": 1041194
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||content.sinpartycdn.com/videos-ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "sinparty.com"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAuJtZGF0AAACrwYF//+r3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE2MCByMzAxMU0gY2RlOWE5MyAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMjAgLSBodHRwOi8vd3d3LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0xIHJlZj0zIGRlYmxvY2s9MTowOjAgYW5hbHlzZT0weDM6MHgxMTMgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBtaXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MCB0cmVsbGlzPTEgOHg4ZGN0PTEgY3FtPTAgZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz0yIGxvb2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNlZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MyBiX3B5cmFtaWQ9MiBiX2FkYXB0PTEgYl9iaWFzPTAgZGlyZWN0PTEgd2VpZ2h0Yj0xIG9wZW5fZ29wPTAgd2VpZ2h0cD0yIGtleWludD0yNTAga2V5aW50X21pbj0yNSBzY2VuZWN1dD00MCBpbnRyYV9yZWZyZXNoPTAgcmNfbG9va2FoZWFkPTQwIHJjPWNyZiBtYnRyZWU9MSBjcmY9MjMuMCBxY29tcD0wLjYwIHFwbWluPTAgcXBtYXg9NjkgcXBzdGVwPTQgaXBfcmF0aW89MS40MCBhcT0xOjEuMDAAgAAAACNliIQAK//+9dvzLK5umjbe9jc2CT9EPcfnoOYC2tjtP+go4QAAAwRtb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAKAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACLnRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAZAAAADgAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAACgAAAAAAAEAAAAAAaZtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAADIAAAACAFXEAAAAAAAtaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlcgAAAAFRbWluZgAAABR2bWhkAAAAAQAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAABEXN0YmwAAACtc3RzZAAAAAAAAAABAAAAnWF2YzEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAZAA4AEgAAABIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY//8AAAA3YXZjQwFkAAr/4QAaZ2QACvNlHJ42JwEQAAADABAAAAMDIPEiWWABAAZo6+PLIsD8+PgAAAAAEHBhc3AAAAABAAAAAQAAABhzdHRzAAAAAAAAAAEAAAABAAACAAAAABxzdHNjAAAAAAAAAAEAAAABAAAAAQAAAAEAAAAUc3RzegAAAAAAAALaAAAAAQAAABRzdGNvAAAAAAAAAAEAAAAwAAAAYnVkdGEAAABabWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAbWRpcmFwcGwAAAAAAAAAAAAAAAAtaWxzdAAAACWpdG9vAAAAHWRhdGEAAAABAAAAAExhdmY1OC40NS4xMDA="
+      }
+    },
+    "id": 1041195
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||porndoe.com/movie/preroll/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "porntrex.com"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:video/mp4;base64,AAAAIGZ0eXBpc29tAAACAGlzb21pc28yYXZjMW1wNDEAAAAIZnJlZQAAAuJtZGF0AAACrwYF//+r3EXpvebZSLeWLNgg2SPu73gyNjQgLSBjb3JlIDE2MCByMzAxMU0gY2RlOWE5MyAtIEguMjY0L01QRUctNCBBVkMgY29kZWMgLSBDb3B5bGVmdCAyMDAzLTIwMjAgLSBodHRwOi8vd3d3LnZpZGVvbGFuLm9yZy94MjY0Lmh0bWwgLSBvcHRpb25zOiBjYWJhYz0xIHJlZj0zIGRlYmxvY2s9MTowOjAgYW5hbHlzZT0weDM6MHgxMTMgbWU9aGV4IHN1Ym1lPTcgcHN5PTEgcHN5X3JkPTEuMDA6MC4wMCBtaXhlZF9yZWY9MSBtZV9yYW5nZT0xNiBjaHJvbWFfbWU9MCB0cmVsbGlzPTEgOHg4ZGN0PTEgY3FtPTAgZGVhZHpvbmU9MjEsMTEgZmFzdF9wc2tpcD0xIGNocm9tYV9xcF9vZmZzZXQ9LTIgdGhyZWFkcz0yIGxvb2thaGVhZF90aHJlYWRzPTEgc2xpY2VkX3RocmVhZHM9MCBucj0wIGRlY2ltYXRlPTEgaW50ZXJsYWNlZD0wIGJsdXJheV9jb21wYXQ9MCBjb25zdHJhaW5lZF9pbnRyYT0wIGJmcmFtZXM9MyBiX3B5cmFtaWQ9MiBiX2FkYXB0PTEgYl9iaWFzPTAgZGlyZWN0PTEgd2VpZ2h0Yj0xIG9wZW5fZ29wPTAgd2VpZ2h0cD0yIGtleWludD0yNTAga2V5aW50X21pbj0yNSBzY2VuZWN1dD00MCBpbnRyYV9yZWZyZXNoPTAgcmNfbG9va2FoZWFkPTQwIHJjPWNyZiBtYnRyZWU9MSBjcmY9MjMuMCBxY29tcD0wLjYwIHFwbWluPTAgcXBtYXg9NjkgcXBzdGVwPTQgaXBfcmF0aW89MS40MCBhcT0xOjEuMDAAgAAAACNliIQAK//+9dvzLK5umjbe9jc2CT9EPcfnoOYC2tjtP+go4QAAAwRtb292AAAAbG12aGQAAAAAAAAAAAAAAAAAAAPoAAAAKAABAAABAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAACLnRyYWsAAABcdGtoZAAAAAMAAAAAAAAAAAAAAAEAAAAAAAAAKAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAEAAAAAAZAAAADgAAAAAACRlZHRzAAAAHGVsc3QAAAAAAAAAAQAAACgAAAAAAAEAAAAAAaZtZGlhAAAAIG1kaGQAAAAAAAAAAAAAAAAAADIAAAACAFXEAAAAAAAtaGRscgAAAAAAAAAAdmlkZQAAAAAAAAAAAAAAAFZpZGVvSGFuZGxlcgAAAAFRbWluZgAAABR2bWhkAAAAAQAAAAAAAAAAAAAAJGRpbmYAAAAcZHJlZgAAAAAAAAABAAAADHVybCAAAAABAAABEXN0YmwAAACtc3RzZAAAAAAAAAABAAAAnWF2YzEAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAZAA4AEgAAABIAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAY//8AAAA3YXZjQwFkAAr/4QAaZ2QACvNlHJ42JwEQAAADABAAAAMDIPEiWWABAAZo6+PLIsD8+PgAAAAAEHBhc3AAAAABAAAAAQAAABhzdHRzAAAAAAAAAAEAAAABAAACAAAAABxzdHNjAAAAAAAAAAEAAAABAAAAAQAAAAEAAAAUc3RzegAAAAAAAALaAAAAAQAAABRzdGNvAAAAAAAAAAEAAAAwAAAAYnVkdGEAAABabWV0YQAAAAAAAAAhaGRscgAAAAAAAAAAbWRpcmFwcGwAAAAAAAAAAAAAAAAtaWxzdAAAACWpdG9vAAAAHWRhdGEAAAABAAAAAExhdmY1OC40NS4xMDA="
+      }
+    },
+    "id": 1041196
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xanimu.com/ablck",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xanimu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041197
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xanimu.com/*.php",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xanimu.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041198
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ark.tubi.video/v2/*.mp4^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "tubitv.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041199
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "media"
+      ],
+      "urlFilter": "||nimg.jp/nicoad/instream/video/*.mp4",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "nicovideo.jp"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041200
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||hotpepper.jp/doc/*/townwork.jpg^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041201
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||bance.jp/bnc*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "himanatokiniyaruo.com",
+        "vippers.jp",
+        "matomeantena.com",
+        "anige-sokuhouvip.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041202
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||www.planet.fr/foretimes^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041203
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||viedemerde.fr/cuckolding^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041204
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||ladepeche.fr/taffrail^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041205
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||laprovence.com/fatalistic^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041206
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||e-sante.fr/responsiblenesses^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041207
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||1yv1phk.jaz.sportauto.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041208
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||1v9d7vx.jaz.sportauto.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041209
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||ib3i33.cob.autojournal.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041210
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||1v9d7vx.cob.autojournal.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041211
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||mssjxgfk.gos.autoplus.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041212
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||ovtyvnei.g00.closermag.fr^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041213
+  },
+  {
+    "action": {
+      "type": "modifyHeaders",
+      "responseHeaders": [
+        {
+          "header": "Content-Security-Policy",
+          "operation": "append",
+          "value": "script-src 'self'"
+        }
+      ]
+    },
+    "condition": {
+      "urlFilter": "||tirexo.day^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "main_frame",
+        "sub_frame"
+      ]
+    },
+    "priority": 1000,
+    "id": 1041214
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xnxx-sexfilme.com/*==/^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xnxx-sexfilme.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041215
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xnxx-sexfilme.com/*froload.js?v=2^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xnxx-sexfilme.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041216
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||pushpad.xyz^",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty",
+      "initiatorDomains": [
+        "xnxx-sexfilme.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041217
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||adform.net/banners/scripts/adx.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "delfi.lt"
+      ]
+    },
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "url": "data:application/javascript,"
+      }
+    },
+    "id": 1041218
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||g.cda.pl/player*?ads&vi*^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cda.pl"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041219
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/images/bettilt*.png^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "pobre.wtf"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041220
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "/img.akubebas.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "indoxx1.show"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041221
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||filemoon.sx/ad.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cuevana.biz",
+        "cuevana3.eu",
+        "cuevana3me.net",
+        "cuevana4.me"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041222
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||24fa533251.com/*.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "hispasexy.org"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041223
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cuevana3.eu/edgesystemv1.js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cuevana3.eu"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1041224
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "/notice.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041225
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "/privacymanager.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041226
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "/polyfills.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041227
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/message?message_id=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041228
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/consent/*/privacy-manager-view?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041229
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "^consentuuid^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041230
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "^requestuuid^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041231
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.privacy-mgmt.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "ladenzeile.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041232
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||sp-prod.net^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041233
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/wrappermessagingwithoutdetection.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041234
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "/gdpr/native-message?requestuuid=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041235
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||api.cleverpush.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041236
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||cleverpush.com/iframe?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041237
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||static.cleverpush.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "11freunde.de",
+        "auto-motor-sport.de",
+        "auto-motor-und-sport.de",
+        "autobild.de",
+        "bike-bild.de",
+        "bild.de",
+        "boerse-online.de",
+        "brigitte.de",
+        "businessinsider.de",
+        "bz-berlin.de",
+        "clever-tanken.de",
+        "computerbild.de",
+        "eltern.de",
+        "emarketer.com",
+        "express.de",
+        "faz.de",
+        "faz.net",
+        "finanzen.at",
+        "finanzen.ch",
+        "finanzen.net",
+        "fitbook.de",
+        "focus.de",
+        "gala.de",
+        "gamechannel.com",
+        "geo.de",
+        "gofeminin.de",
+        "handelsblatt.com",
+        "idealo.at",
+        "idealo.co.uk",
+        "idealo.de",
+        "idealo.es",
+        "idealo.fr",
+        "idealo.it",
+        "immonet.de",
+        "insider-inc.com",
+        "insider.com",
+        "insiderintelligence.com",
+        "jetzt.de",
+        "kabeleins.de",
+        "kochbar.de",
+        "kombi.de",
+        "meinestadt.de",
+        "metal-hammer.de",
+        "musikexpress.de",
+        "myhomebook.de",
+        "n-tv.de",
+        "noizz.de",
+        "onmeda.de",
+        "politico.eu",
+        "prosieben.de",
+        "ran.de",
+        "rollingstone.de",
+        "rtl.de",
+        "rtl2.de",
+        "sat1.de",
+        "seloger.com",
+        "sixx.de",
+        "spiegel.de",
+        "sport.de",
+        "sportbild.bild.de",
+        "stern.de",
+        "stylebook.de",
+        "techbook.de",
+        "testbild.de",
+        "transfermarkt.at",
+        "transfermarkt.ch",
+        "transfermarkt.co.uk",
+        "transfermarkt.com",
+        "transfermarkt.com.tr",
+        "transfermarkt.de",
+        "transfermarkt.fr",
+        "transfermarkt.it",
+        "transfermarkt.nl",
+        "transfermarkt.pl",
+        "transfermarkt.pt",
+        "transfermarkt.us",
+        "travelbook.de",
+        "tvnow.de",
+        "tvspielfilm.de",
+        "vip.de",
+        "vox.de",
+        "welt.de",
+        "wetter.com",
+        "wetter.de",
+        "wieistmeineip.at",
+        "wieistmeineip.ch",
+        "wieistmeineip.de",
+        "zeit.de",
+        "axelspringer.com",
+        "sport1.de",
+        "sueddeutsche.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041238
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||cdn.idealo.com/storage/cmp/cmp-idealo.js|",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "idealo.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041239
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||script.finanzen.ch/content/scripts/cookie.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "finanzen.ch"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041240
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "||cmp-proxy.idealo.de/notice.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "idealo.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041241
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "||bild.de/notice.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041242
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "||consent.boerse-online.de/notice.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "boerse-online.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041243
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||analytics.jst.ai/api/session^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "emarketer.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041244
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||kameleoon.eu/ip.gif",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "welt.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041245
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||aswpsdkus.com/notify/*/ua-html-prompt.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ran.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041246
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||aswpsdkus.com/notify/*/ua-sdk.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ran.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041247
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||taboola.com/computerbild/*/json?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "computerbild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041248
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||taboola.com/libtrc/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bz-berlin.de",
+        "computerbild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041249
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||taboola.com/bzde/trc/3/json?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bz-berlin.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041250
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cookielaw.org^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "politico.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041251
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||trc.taboola.com/*/trc/*/json?tim=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "travelbook.de",
+        "stylebook.de",
+        "rollingstone.de",
+        "metal-hammer.de",
+        "jetzt.de",
+        "sport1.de",
+        "fitbook.de",
+        "musikexpress.de",
+        "sportbild.bild.de",
+        "techbook.de",
+        "myhomebook.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041252
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||taboola.com/libtrc/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "sport1.de",
+        "myhomebook.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041253
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "image"
+      ],
+      "urlFilter": "||widgets.trustedshops.com/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "lesershop24.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041254
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||scdn.cxense.com/cx.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "welt.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041255
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||hotjar.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "idealo.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041256
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||siteintercept.qualtrics.com/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "idealo.at"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041257
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cs3.wettercomassets.com/wcomv5/images/ads/tirol_logos/*.png",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "wetter.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041258
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||googletagmanager.com/gtm.js?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "wetter.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041259
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||sats.manager-magazin.de/rest/v*/delivery?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "manager-magazin.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041260
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||google-analytics.com/gtm/optimize.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "focus.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041261
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||googletagmanager.com/gtm.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "focus.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041262
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.cxense.com/cx.cce.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "businessinsider.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041263
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.cxense.com/cx.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "businessinsider.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041264
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||api.cxense.com/public/widget/data?json=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "businessinsider.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041265
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cleverpush.com/sdk/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "mycleverpush.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041266
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||pushwoosh.com^",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty",
+      "initiatorDomains": [
+        "wetter.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041267
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||asadcdn.com/adlib/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "autobild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041268
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||googletagmanager.com/gtm.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "autobild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041269
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "stylesheet"
+      ],
+      "urlFilter": "||googleapis.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "autobild.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041270
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||scripts.finanzen.at/content/scripts/web-push/init.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "finanzen.at"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041271
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||scripts.finanzen.ch/content/scripts/web-push/init.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "finanzen.ch"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041272
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||scripts.finanzen.net/content/scripts/web-push/init.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "finanzen.net"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041273
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||api.amplitude.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "insiderintelligence.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041274
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "sub_frame",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||cmp.osano.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "insider.com",
+        "insiderintelligence.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041275
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script",
+        "sub_frame",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||usercentrics.eu^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "boerse-online.de",
+        "idealo.co.uk",
+        "immonet.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041276
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||js.hs-banner.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "insider-inc.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041277
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "other",
+        "csp_report",
+        "image",
+        "stylesheet",
+        "object",
+        "sub_frame",
+        "websocket",
+        "webbundle",
+        "ping",
+        "xmlhttprequest",
+        "media",
+        "font"
+      ],
+      "urlFilter": "/borlabs-cookie/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "kombi.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041278
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||consentmanager.net^",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty",
+      "initiatorDomains": [
+        "axelspringer-syndication.de",
+        "onmeda.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041279
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cmp.tvspielfilm.de^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "tvspielfilm.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041280
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "/sdk.privacy-center.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "seloger.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041281
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||scripts.finanzen.net/js/cmp/cmp.min.js",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041282
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.taboola.com/libtrc/*/loader.js",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041283
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.taboola.com/libtrc/impl.",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041284
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cdn.taboola.com/libtrc/card-interference-detector.",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041285
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||taboola.com^*/json?tim=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "xmlhttprequest"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041286
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||trc.taboola.com^*/trc/*/json?",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041287
+  },
+  {
+    "priority": 2001,
+    "condition": {
+      "resourceTypes": [
+        "main_frame"
+      ],
+      "urlFilter": "||trmwidget.eu^",
+      "isUrlFilterCaseSensitive": false,
+      "requestDomains": [
+        "bz-berlin.de"
+      ]
+    },
+    "action": {
+      "type": "allowAllRequests"
+    },
+    "id": 1041288
+  },
+  {
+    "priority": 2001,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||trmwidget.eu^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bz-berlin.de"
+      ]
+    },
+    "action": {
+      "type": "allowAllRequests"
+    },
+    "id": 1041289
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||trmwidget.eu^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bz-berlin.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041290
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||mv.outbrain.com/multivac/",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041291
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||widgets.outbrain.com^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041292
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||outbrainimg.com^",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "thirdParty",
+      "resourceTypes": [
+        "image"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041293
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||fundingchoicesmessages.google.com^",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script",
+        "sub_frame",
+        "xmlhttprequest"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1041294
+  }
+]

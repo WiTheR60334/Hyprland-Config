@@ -1,0 +1,29 @@
+{
+   "background": {
+      "persistent": false,
+      "scripts": [ "background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "images/chicken-wings.png",
+         "16": "images/chicken-wings.png",
+         "24": "images/chicken-wings.png",
+         "32": "images/chicken-wings.png"
+      },
+      "default_popup": "popup.html",
+      "default_title": "Black Box"
+   },
+   "description": "Base level extension",
+   "icons": {
+      "128": "images/chicken-wings.png",
+      "16": "images/chicken-wings.png",
+      "24": "images/chicken-wings.png",
+      "32": "images/chicken-wings.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4+fnrs6jC5sYNDDDP9AqXy+yUCfUsoazknoaydb4sJbqmk/muG8O3A7FfEH0GeZoIOk7zNm7SRD+Dd7ej2HW73sumxifMM7jlFFMlqaUcUeq1qCN6cj4xpA+GOGFfbbQBbx/KMvFpZYhD4ZjQIaUrhZjcOO9L5rTVf5Ql5UeFlcv56EUoSYQcED2ZxKdi7556V7ekXK1Dg5kUvtamwUIoi88H26VVHw7b3wTY4T3i7XaLm3ADT/NBrXy3bjGKn40MhGRG+GafA5rW9mFn2qscc7SoCgItPJrE8V7C+9X5wBjZ4VjnFAWJxHoSXRetiDQL+yyNYNnPFiyl8kX/M7rtQIDAQAB",
+   "manifest_version": 2,
+   "name": "Black Box",
+   "permissions": [ "storage", "tabs", "*://*/*" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.0.0.2"
+}

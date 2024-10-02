@@ -1,0 +1,39 @@
+2024-09-12 23:26:32.808 [info] Getting Manifest... github.copilot
+2024-09-12 23:26:32.826 [info] Installing extension: github.copilot {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-12 23:26:34.300 [info] Getting Manifest... github.copilot-chat
+2024-09-12 23:26:34.378 [info] Installing extension: github.copilot-chat {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"},"context":{"dependecyOrPackExtensionInstall":true}}
+2024-09-12 23:26:42.353 [info] Extension signature verification result for github.copilot-chat: Success. Executed: true. Duration: 636ms.
+2024-09-12 23:26:42.628 [info] Extracted extension to file:///home/wither/.vscode/extensions/github.copilot-chat-0.18.2: github.copilot-chat
+2024-09-12 23:26:42.644 [info] Renamed to /home/wither/.vscode/extensions/github.copilot-chat-0.18.2
+2024-09-12 23:26:42.746 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-09-12 23:26:44.030 [info] Extension signature verification result for github.copilot: Success. Executed: true. Duration: 571ms.
+2024-09-12 23:26:44.399 [info] Extracted extension to file:///home/wither/.vscode/extensions/github.copilot-1.229.0: github.copilot
+2024-09-12 23:26:44.409 [info] Renamed to /home/wither/.vscode/extensions/github.copilot-1.229.0
+2024-09-12 23:26:44.426 [info] Extension installed successfully: github.copilot-chat vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-09-12 23:26:44.426 [info] Extension installed successfully: github.copilot vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-09-12 23:26:44.492 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)
+2024-09-12 23:27:01.999 [info] Getting Manifest... bierner.markdown-preview-github-styles
+2024-09-12 23:27:02.015 [info] Installing extension: bierner.markdown-preview-github-styles {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/wither/.vscode/extensions/extensions.json","path":"/home/wither/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.92.2","date":"2024-08-14T17:29:30.058Z"}}
+2024-09-12 23:27:03.281 [info] Extension signature verification result for bierner.markdown-preview-github-styles: Success. Executed: true. Duration: 587ms.
+2024-09-12 23:27:03.312 [info] Extracted extension to file:///home/wither/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4: bierner.markdown-preview-github-styles
+2024-09-12 23:27:03.322 [info] Renamed to /home/wither/.vscode/extensions/bierner.markdown-preview-github-styles-2.0.4
+2024-09-12 23:27:03.344 [info] Extension installed successfully: bierner.markdown-preview-github-styles vscode-userdata:/home/wither/.vscode/extensions/extensions.json
+2024-09-12 23:27:03.407 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/wither/.vscode/extensions/extensions.json.vsctmp'
+    at o.create (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19408)
+    at u (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:54:19519)
+    at p.hb (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:36714)
+    at p.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:29034)
+    at async c.stat (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:59:14940)
+    at async z.ub (/usr/share/code/resources/app/out/vs/code/node/sharedProcess/sharedProcessMain.js:105:120384)

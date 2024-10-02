@@ -1,0 +1,273 @@
+.selectextLoginWrapper,
+.selectextLimitWrapper,
+.selectextReviewWrapper {
+  z-index: 1000000;
+  pointer-events: auto;
+  text-align: center;
+  font-family: "Open Sans Regular", "Arial", sans-serif !important;
+  font-size: 14px;
+  background-color: white;
+  box-shadow: 1px 1px 1px 1px rgb(153, 153, 153);
+  border-radius: 5px;
+  height: fit-content;
+  padding: 15px;
+  position: absolute;
+}
+
+.selectextLimitWrapper p {
+  margin: 0;
+}
+
+.selectextLimitWrapper h3 {
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.selectextLimitWrapper button {
+  margin-top: 10px;
+}
+
+.selectextLoginTitle {
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.selectextButton {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #0000000d;
+  color: #0e0e10;
+  padding: 0 20px;
+  font-family: "Open Sans Bold", "Arial", sans-serif !important;
+}
+
+.upgradeButton {
+  width: 300px;
+  background-color: rgb(0, 185, 251);
+  font-size: 14px;
+  padding: 0 10px;
+}
+
+.upgradeButton:hover {
+  background-color: rgb(0, 185, 251) !important;
+  filter: brightness(85%);
+}
+
+@-webkit-keyframes glow {
+  from {
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px rgb(0, 185, 251);
+  }
+  to {
+    box-shadow: 0 0 5px #fff, 0 0 10px rgb(0, 185, 251),
+      0 0 15px rgb(0, 185, 251);
+  }
+}
+
+.selectextLoginLogo,
+.selectextLimitLogo,
+.selectextReviewLogo {
+  width: 230px;
+  margin-bottom: 5px;
+}
+
+.selectextReviewLogo {
+  width: 200px;
+}
+
+.selectextSmallButtonsWrapper {
+  margin-top: 10px;
+}
+
+.selectextSmallButton {
+  display: inline-block;
+  outline: 0;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  border-radius: 4px;
+  font-size: 13px;
+  height: 30px;
+  background-color: #0000000d;
+  color: #0e0e10;
+  padding: 0 10px;
+}
+
+.selectextSmallButton:hover {
+  background-color: #0000001a;
+}
+
+.selectextWhyButton {
+  margin-left: 10px;
+}
+
+.selectextHelpMessageWrapper,
+.selectextWhyMessageWrapper {
+  display: none;
+  white-space: pre-line;
+  font-family: "Open Sans Regular", "Arial", sans-serif !important;
+  font-size: 13px;
+  margin: 0px;
+}
+
+.selectextHelpMessageWrapper > p,
+.selectextWhyMessageWrapper > p {
+  margin: 0px;
+}
+
+.selectextHelpMessageHeader {
+  text-align: left;
+  font-weight: bold;
+}
+
+.selectextHelpMessageWrapper {
+  text-align: left;
+}
+
+.selectextHelpMessageHeader {
+  margin-bottom: 7px;
+  text-align: center;
+  margin: 0px;
+}
+
+.reviewP {
+  margin-top: 0px;
+}
+
+.leaveReviewButton {
+  background-color: rgb(0, 185, 251);
+  padding: 0 10px;
+  margin-right: 10px;
+}
+
+.leaveReviewButton:hover {
+  background-color: rgb(0, 185, 251) !important;
+  filter: brightness(85%);
+}
+
+.selectextButton:hover {
+  background-color: #bbbbbb;
+}
+
+
+/* Google login button CSS */
+.gsi-material-button {
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  -webkit-appearance: none;
+  background-color: #f2f2f2;
+  background-image: none;
+  border: none;
+  -webkit-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  color: #1f1f1f;
+  cursor: pointer;
+  font-family: "Roboto", arial, sans-serif;
+  font-size: 14px;
+  height: 40px;
+  letter-spacing: 0.25px;
+  outline: none;
+  overflow: hidden;
+  padding: 0 12px;
+  position: relative;
+  text-align: center;
+  -webkit-transition: background-color 0.218s, border-color 0.218s,
+    box-shadow 0.218s;
+  transition: background-color 0.218s, border-color 0.218s, box-shadow 0.218s;
+  vertical-align: middle;
+  white-space: nowrap;
+  width: auto;
+  max-width: 400px;
+  min-width: min-content;
+}
+
+.gsi-material-button .gsi-material-button-icon {
+  height: 20px;
+  margin-right: 12px;
+  min-width: 20px;
+  width: 20px;
+}
+
+.gsi-material-button .gsi-material-button-content-wrapper {
+  -webkit-align-items: center;
+  align-items: center;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+
+.gsi-material-button .gsi-material-button-contents {
+  -webkit-flex-grow: 1;
+  flex-grow: 1;
+  font-family: "Roboto", arial, sans-serif;
+  font-weight: 500;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+}
+
+.gsi-material-button .gsi-material-button-state {
+  -webkit-transition: opacity 0.218s;
+  transition: opacity 0.218s;
+  bottom: 0;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.gsi-material-button:disabled {
+  cursor: default;
+  background-color: #ffffff61;
+}
+
+.gsi-material-button:disabled .gsi-material-button-state {
+  background-color: #1f1f1f1f;
+}
+
+.gsi-material-button:disabled .gsi-material-button-contents {
+  opacity: 38%;
+}
+
+.gsi-material-button:disabled .gsi-material-button-icon {
+  opacity: 38%;
+}
+
+.gsi-material-button:not(:disabled):active .gsi-material-button-state,
+.gsi-material-button:not(:disabled):focus .gsi-material-button-state {
+  background-color: #001d35;
+  opacity: 12%;
+}
+
+.gsi-material-button:not(:disabled):hover {
+  -webkit-box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+  box-shadow: 0 1px 2px 0 rgba(60, 64, 67, 0.3),
+    0 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
+
+.gsi-material-button:not(:disabled):hover .gsi-material-button-state {
+  background-color: #001d35;
+  opacity: 8%;
+}
+
+/* end of google login button styles */
+
+.selectextSignInWithGoogleText {
+    font-weight: bold !important;
+}

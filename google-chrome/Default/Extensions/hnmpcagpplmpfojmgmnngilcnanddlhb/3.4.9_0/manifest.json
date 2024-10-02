@@ -1,0 +1,47 @@
+{
+   "background": {
+      "page": "background.html"
+   },
+   "browser_action": {
+      "default_popup": "popup.html",
+      "default_title": "Windscribe"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/browser-polyfill.min.js", "/content-scripts/geolocation-spoofing.js", "/content-scripts/language-switch.js", "/content-scripts/proxy-time.js", "/content-scripts/worker-block.js", "/js/vapi.js", "/js/vapi-client.js", "/js/contentscript.js" ],
+      "matches": [ "http://*/*", "https://*/*", "file://*/*" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": false,
+      "js": [ "/content-scripts/get-iframes.js", "/js/scriptlets/subscriber.js" ],
+      "matches": [ "http://*/*", "https://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "/content-scripts/get-creds.js" ],
+      "matches": [ "https://windscribe.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';",
+   "default_locale": "en",
+   "description": "Windscribe helps you mask your physical location, circumvent censorship, and block ads and trackers on websites you use every day",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp7e85eDxTRR3lPY9SsTyX8BiHwlY/u8Z/YP2CxNygi5VJKxs4BevSePKP1/rrwlBs+84d2sY5oZ28LrHfO3Y9JVgX0tUsRIuqMS1bmY0s5XDlYNn+UqLNG1BcZ/51U50oRsnYgV8aHC7y/sgCSBKzNJbgKBihIGTv+OPXQvNt3ZolcLvqknaBRSKbEdMpaVTovM3fgmgrF40upq5gUobuao7du+6QsJc0aOlV97xEXPJg7qNa2lNlGxVQTk3x5uy1hxXfcxw9VHKriUekaMvFAHkJ2X3v7PZldO7vr5RiGtC77MK300oG3g8uIWom2oP3kO0YOXatkGMhRYJrO6ENQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "51",
+   "name": "Windscribe - Free Proxy and Ad Blocker",
+   "optional_permissions": [ "contentSettings" ],
+   "options_ui": {
+      "open_in_tab": true,
+      "page": "options-ui/index.html"
+   },
+   "permissions": [ "\u003Call_urls>", "proxy", "management", "tabs", "webRequest", "webRequestBlocking", "activeTab", "storage", "unlimitedStorage", "contextMenus", "privacy", "webNavigation", "notifications", "cookies" ],
+   "short_name": "Windscribe",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.4.9",
+   "web_accessible_resources": [ "/web_accessible_resources/*" ]
+}

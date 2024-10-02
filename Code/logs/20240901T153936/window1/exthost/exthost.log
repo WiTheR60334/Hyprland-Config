@@ -1,0 +1,17 @@
+2024-09-01 15:39:38.459 [info] Extension host with pid 19240 started
+2024-09-01 15:39:38.459 [info] Skipping acquiring lock for /home/wither/.config/Code/User/workspaceStorage/c14ae9694b69f4daf2166cd7db0d4a16.
+2024-09-01 15:39:38.549 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-01 15:39:38.682 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-01 15:39:38.686 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-09-01 15:39:38.689 [info] ExtensionService#_doActivateExtension lihui.vs-color-picker, startup: true, activationEvent: '*'
+2024-09-01 15:39:38.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-01 15:39:38.792 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-01 15:39:38.886 [info] Eager extensions activated
+2024-09-01 15:39:38.962 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:39:38.966 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:39:38.979 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2024-09-01 15:39:39.732 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-01 15:39:39.735 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-09-01 15:39:39.738 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-09-01 15:39:39.752 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-09-01 16:16:41.878 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'

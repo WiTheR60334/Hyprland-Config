@@ -1,0 +1,41 @@
+2024-10-01 20:16:22.917 [info] Experiment 'pythonaa' is active
+2024-10-01 20:16:22.917 [info] Experiment 'pythonRecommendTensorboardExt' is active
+2024-10-01 20:16:22.917 [info] Experiment 'pythonTerminalEnvVarActivation' is active
+2024-10-01 20:16:22.917 [info] Experiment 'pythonTestAdapter' is active
+2024-10-01 20:16:22.963 [warning] Dir "/home/.pixi/envs" is not watchable (directory does not exist)
+2024-10-01 20:16:23.015 [info] Default formatter is set to null for workspace /home
+2024-10-01 20:16:23.029 [info] Starting Environment refresh
+2024-10-01 20:16:23.029 [info] Searching for interpreters in posix paths locator
+2024-10-01 20:16:23.043 [info] Searching for pyenv environments
+2024-10-01 20:16:23.043 [info] Searching for conda environments
+2024-10-01 20:16:23.043 [info] Searching for global virtual environments
+2024-10-01 20:16:23.044 [info] Searching for custom virtual environments
+2024-10-01 20:16:23.059 [info] pyenv is not installed
+2024-10-01 20:16:23.059 [info] Finished searching for pyenv environments: 28 milliseconds
+2024-10-01 20:16:23.060 [info] Finished searching for custom virtual envs: 26 milliseconds
+2024-10-01 20:16:23.075 [info] > conda info --json
+2024-10-01 20:16:23.092 [info] > pixi --version
+2024-10-01 20:16:23.100 [info] > hatch env show --json
+2024-10-01 20:16:23.100 [info] cwd: .
+2024-10-01 20:16:23.113 [info] > pyenv which python
+2024-10-01 20:16:23.113 [info] cwd: .
+2024-10-01 20:16:23.113 [info] Finished searching for global virtual envs: 80 milliseconds
+2024-10-01 20:16:23.442 [info] Found: /bin/python3 --> /bin/python3.12
+2024-10-01 20:16:23.443 [info] Found: /bin/python3.12 --> /bin/python3.12
+2024-10-01 20:16:23.470 [info] Found: /usr/bin/python3 --> /usr/bin/python3.12
+2024-10-01 20:16:23.470 [info] Found: /usr/bin/python3.12 --> /usr/bin/python3.12
+2024-10-01 20:16:23.504 [info] Finished searching for interpreters in posix paths locator: 470 milliseconds
+2024-10-01 20:16:23.504 [info] > /bin/python3 -I ./wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py ./wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+2024-10-01 20:16:23.521 [info] > /usr/bin/python3 -I ./wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/get_output_via_markers.py ./wither/.vscode/extensions/ms-python.python-2024.14.1-linux-x64/python_files/interpreterInfo.py
+2024-10-01 20:16:23.521 [info] Environments refresh paths discovered (event): 495 milliseconds
+2024-10-01 20:16:23.521 [info] Environments refresh paths discovered: 495 milliseconds
+2024-10-01 20:16:23.561 [info] Environments refresh finished (event): 535 milliseconds
+2024-10-01 20:16:23.566 [info] Environment refresh took 542 milliseconds
+2024-10-01 20:16:23.568 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-10-01 20:16:23.571 [info] Python interpreter path: /bin/python3
+2024-10-01 20:16:23.832 [info] Shell integration status changed, can confirm it's working.
+2024-10-01 20:16:23.833 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-10-01 20:16:23.835 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-10-01 20:16:24.577 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-10-01 20:16:24.580 [warning] could not find a pixi interpreter for the interpreter at /bin/python3
+2024-10-01 20:16:33.807 [info] Starting Pylance language server.

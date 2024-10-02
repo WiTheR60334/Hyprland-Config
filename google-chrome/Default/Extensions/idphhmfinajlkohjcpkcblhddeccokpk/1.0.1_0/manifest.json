@@ -1,0 +1,20 @@
+{
+   "browser_action": {
+      "default_icon": "icon.png"
+   },
+   "content_scripts": [ {
+      "js": [ "script.js" ],
+      "matches": [ "https://skribbl.io/*" ]
+   } ],
+   "description": "Fetches the Skribbl.io wordlist and displays clickable hints based on the current word's pattern.",
+   "icons": {
+      "128": "icon.png",
+      "16": "icon.png",
+      "48": "icon.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgk34yym/Gly75wpTjCLbJpp8HKpQT4RmXQHy454pzw9uF7vS6S7mCrTpRYAh3UChKL4VkIl7NipRPXftHb4XJNP7YM+LO2p6mgkj6dZlPs8xIScsJv2tgPVQ41G7MvpvKxXiA5NHY/uV0E5/97uY5lkBzEv/LlrFubqazAjwBJGGHlOw288Ah9RlkVEPC57aw+klTY8suZSy/HFQ2B6phsmSpKCH8K9ponM4CL1loUQVMADnYzkYQ7nQHWXh6f/RXr4OvFMRRHi02GjhGby8hE+HUhRNjE5ATHnebauGiSl2bbtB1Z5lUQZ1S/U3w6LDRmpzhc1nCBBdLyUs+MmzOQIDAQAB",
+   "manifest_version": 3,
+   "name": "Skribbl.io Cheats",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}

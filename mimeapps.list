@@ -1,0 +1,10 @@
+[Default Applications]
+text/html=google-chrome.desktop
+x-scheme-handler/http=google-chrome.desktop
+x-scheme-handler/https=google-chrome.desktop
+x-scheme-handler/about=google-chrome.desktop
+x-scheme-handler/unknown=google-chrome.desktop
+
+[Added Associations]
+image/jpeg=org.gnome.eog.desktop;swappy.desktop;display-im6.q16.desktop;
+image/png=org.gnome.eog.desktop;

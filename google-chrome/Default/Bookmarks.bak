@@ -1,0 +1,158 @@
+{
+   "checksum": "ee079c4242dff90df94684b4d78275b8",
+   "roots": {
+      "bookmark_bar": {
+         "children": [ {
+            "date_added": "13320241105159739",
+            "date_last_used": "13369385198052671",
+            "guid": "2deb0c64-3729-4a2f-92ef-2975141b8221",
+            "id": "5",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Gmail",
+            "type": "url",
+            "url": "https://accounts.google.com/b/0/AddMailService"
+         }, {
+            "date_added": "13347092034312060",
+            "date_last_used": "13369065424400852",
+            "guid": "b67a3df7-e98b-4ecb-8453-121d328aefd6",
+            "id": "6",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GitHub",
+            "type": "url",
+            "url": "https://github.com/WiTheR60334"
+         }, {
+            "date_added": "13345456103266067",
+            "date_last_used": "13359904479970395",
+            "guid": "0540b7ce-d810-40c6-bc38-871f284fb86a",
+            "id": "7",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LinkedIn",
+            "type": "url",
+            "url": "https://www.linkedin.com/feed/"
+         }, {
+            "date_added": "13344155168267692",
+            "date_last_used": "13370415589562454",
+            "guid": "996ddc65-e9f2-415d-8d25-7206a083d91c",
+            "id": "8",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "GPT",
+            "type": "url",
+            "url": "https://chat.openai.com/c/3cbab1b6-996e-4f53-bfae-cacf98d5df29"
+         }, {
+            "date_added": "13346342241204707",
+            "date_last_used": "13346573576126250",
+            "guid": "a5a2b076-51f9-4133-b7aa-45916f2b9160",
+            "id": "9",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Aternos",
+            "type": "url",
+            "url": "https://aternos.org/server/"
+         }, {
+            "date_added": "13347094174539989",
+            "date_last_used": "13370439381137426",
+            "guid": "d79b5392-763d-43fd-abfb-5f7b42893ae9",
+            "id": "10",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "AURIS",
+            "type": "url",
+            "url": "https://auris.ahduni.edu.in/core-emli/code/student_portal/home.php?page=manage_regular/student_offer_subject"
+         }, {
+            "date_added": "13347092022995360",
+            "date_last_used": "13370441462345043",
+            "guid": "e3acd0d8-2789-4d4d-8c30-e71eafa9ef98",
+            "id": "11",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "LMS",
+            "type": "url",
+            "url": "https://lms.ahduni.edu.in/my/"
+         }, {
+            "date_added": "13344171143818830",
+            "date_last_used": "13369660805582742",
+            "guid": "c40d64a9-8999-4003-9cdf-71a418770b8e",
+            "id": "12",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Classroom",
+            "type": "url",
+            "url": "https://classroom.google.com/h"
+         }, {
+            "date_added": "13350725563418773",
+            "date_last_used": "0",
+            "guid": "0ee0e3fc-c199-4fe2-a2d5-010c5bd194d4",
+            "id": "13",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "Notion",
+            "type": "url",
+            "url": "https://www.notion.so/Getting-Started-21ccf831c98a413094146db2947b8b65"
+         }, {
+            "date_added": "13352971080231177",
+            "date_last_used": "0",
+            "guid": "117c7ca7-e0e2-4a06-b0e9-4fff96a004ea",
+            "id": "14",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "TATAMOTORS Stock Price and Chart — NSE:TATAMOTORS — TradingView",
+            "type": "url",
+            "url": "https://www.tradingview.com/symbols/NSE-TATAMOTORS/"
+         }, {
+            "date_added": "13353334900024586",
+            "date_last_used": "0",
+            "guid": "5f1556f1-ae8f-4ae0-a19d-5458fc3eda04",
+            "id": "15",
+            "meta_info": {
+               "power_bookmark_meta": ""
+            },
+            "name": "React Table Component - CoreUI",
+            "type": "url",
+            "url": "https://coreui.io/react/docs/components/table/"
+         } ],
+         "date_added": "13369384953137286",
+         "date_last_used": "0",
+         "date_modified": "13353334900024586",
+         "guid": "0bc5d13f-2cba-5d74-951f-3f233fe6c908",
+         "id": "1",
+         "name": "Bookmarks bar",
+         "type": "folder"
+      },
+      "other": {
+         "children": [  ],
+         "date_added": "13369384953137291",
+         "date_last_used": "0",
+         "date_modified": "13369643449975047",
+         "guid": "82b081ec-3dd3-529c-8475-ab6c344590dd",
+         "id": "2",
+         "name": "Other bookmarks",
+         "type": "folder"
+      },
+      "synced": {
+         "children": [  ],
+         "date_added": "13369384953137293",
+         "date_last_used": "0",
+         "date_modified": "0",
+         "guid": "4cf2e351-0e85-532b-bb37-df045d8f8d0f",
+         "id": "3",
+         "name": "Mobile bookmarks",
+         "type": "folder"
+      }
+   },
+   "sync_metadata": "CqoBCokBCIiBAhKCASAAkgF9CjQKDmNocm9tZV9zeW5jX2JtEgU1MSFibRoSCT0AwaLBIQYAET0AwaLBIQYAKSEkwqLBIQYACkUKFmFubm90YXRpb25fY2hyb21lX3N5bmMSBTUxIWJkGhIJgHsyncEhBgARgHsyncEhBgApdRPBosEhBgAwgPfJ6Zm4iAMSACoYcHUvTEhpWnNnNFBSM04yZlEvd3c3UT09SAMSwwEIAxK+AQocbmpnRHU4OGVDcnZYcDg2cEQ3ZkhHY3FGcDg4PRJmWjpBRHF0QVp5MnJOMHZ4cDhvc2didmIzS2JYMllCVzhPajBXSzU4SW90K2VQZzUzMllQV1hvQks4eVV0dnBweDM3VVNtYnQvTHBJNkhwalpGajNMMFNIUU01b3FEY0daQ0dZZz09GAAgACgAMKqAgeDDmYgDOABAAEoceXpOQjAxY241NEE3Y1JVMHVUKy9QZ21UdFVvPVoAZQAAAAAS7AEIChLnAQocVmgvSjI1bHNyOUJjZ2hIR2Z6MzltaXFWWlJVPRJmWjpBRHF0QVp5a3hPYlhVK04rSWp6alBYSUFPV2ZaQTlkTVpiaE1ZSTJBNDJBRFFUL0szcFYwVmc4SWZzWnVRZEZlL1J1eW9ORnkrWThrZlQyLzFwSkF2aFg2bE1GQmZXdENXZz09GAAgACgAMKr0sv7jkIMDOMzm4ODGMUDM5uDgxjFKHHdiTHcxK1FhY1VwZUY3a0srQ3dGSGlodDU5WT1aHyId/Td4dTRKNStTcitrMU9HVjE5WHJjdzQwNHRncz1lAAAAABLrAQgFEuYBChxTMlU5NmM3T1pEZnRlN3FiczVPSzh5dm4wQzA9EmZaOkFEcXRBWnlreE9iWFUrTitJanpqUFhJQU9XZlpHUHBkQjVoNG91NHdubnYrbG9aMHFtQzU3U1VMZXZVN0xHaDRtakhKZE9sTzdyMU51VXI4NDZGMzVaYmJPQWZSVStIc1JBPT0YACAAKAAw4+GsnMGRhgM4wOSf3OIwQMDkn9ziMEocbXFTUG9WL3dhOThYWk9DSENpOXFNOVdERkk4PVoeIhxEd1loQ3M0NUpYYmVPVk1EN2UzazI2ZmN3bms9ZZs9hbYSqwEIARKmAQoceXhKLzZmdmtlY3I3a3A1RVF6QjR0V0xwZGJFPRJOWjpBRHF0QVp3V0Z4UTNUUWlPQ3dGV29HUFVHOE56cHVmUm5XOFhrQUpvMUQ2dTZkdno5RmJZZExKOHZ1ajZKSEcyZGJzTFdpR1ZnbDJjGAAgACgAMKqAgeDDmYgDOABAAEocYVJDV0xnaEY5YjVJbnFLSUR2dUovanZRa0ZjPVoAZQAAAAAS7QEIDBLoAQocSlR6dHozSGF0Q0EwY0hxMFV2QlZnL2o4Und3PRJmWjpBRHF0QVp5a3hPYlhVK04rSWp6alBYSUFPV2ZaZlFPQ3YzRVpqL0s3T2p5ODA4SnZKYWNwc0pqdDBjSko2Z1VMRHJ3b2VOQXNETEw4a3hVRVN1YzIySFNoL0xZNm5OTkNhQT09GAAgACgAMPCyl+ThroMDOIuV+e67MUCLlfnuuzFKHGRiYkZhcUJqVlB2NWg1bUpYRllLeTkvUk0rND1aICIe/6tBcGRSS1Z3dXIwUHY3Yml2T2loai9XYW9NT1k9ZQRHWPkSwwEIAhK+AQocWWNTVG9udkVTUHdxQ3M0TDJjclZodjY4TDk4PRJmWjpBRHF0QVp5Tmg5SVF6MDJVUkNRS2IxZTRTcHdSZlNJZVNubW15UEc2MzdUdlZIM08zT1JSLytLdVQzcVJ1aDF4VXFjbzlQSitrdWNTbm90V09KSVcyUEQrTWFqSE5NY09PUT09GAAgACgAMKqAgeDDmYgDOABAAEocb1BWa2h3QlJiVjY1S0NXUjIrSU9OSFdvT3U4PVoAZQAAAAAS6wEIBhLmAQoccFB5dkFERm9TNmJ0bUVzYk5US0JBY3RlbDJjPRJmWjpBRHF0QVp5a3hPYlhVK04rSWp6alBYSUFPV2ZaTkFZdnlUVFRodEFwYlJHSkJHV2tXb011Mk5XZlc4TnJQblRGdWlxeW1RY1N1STZFaFdwRjFlZ3VaN0laRk0yMkV5Qko3dz09GAAgASgBMPXej+PImYgDOIiW3t/GMUDO8L/mmTJKHG5VZ0svUGlwQTRPbW1neVNBOXArR2F4R0NNcz1aHiIcYnQ5N2d4dHRoR1JpUGU1L3cwWmZUeFptN2hzPWXI8z+7EuwBCAgS5wEKHEwrVEc3YUZ5dEpvRWhhMGF2MzRpbVFLMWpxMD0SZlo6QURxdEFaeWt4T2JYVStOK0lqempQWElBT1dmWjZtalB2STlMSXdwT0RFamsyaUZ4YVRPTTZoaTR5VjRNaFVvdEhidFE1NEhaYVNVZG1FTzNwQ21lUGFmWS9ZbkZtTDRWdVE9PRgAIAAoADCfivz6wreIAziLjKrnuzFAjJmj0Z0yShxFZjdLdm01RUdBWE5UUGt6eVQ2TVVoeVdIcTQ9Wh8iHdxHWEU0Q0hVOGN5Sys1eWdEcmsxWEFzOGxHOWM9ZUzSMWQS7AEICRLnAQocaFk3SEU0bi9wREtveXVsRnBJODk1NFl2dVVBPRJmWjpBRHF0QVp5a3hPYlhVK04rSWp6alBYSUFPV2ZaancvQytpaFJGOFptc0FSUkdLenNqcVI0cHF6STk0d2JBNFRDNmN0V3dPTTdzUmw5dHllTVNFazd4UmszNytHaEZKb0E3QT09GAAgACgAMPCyl+ThroMDOLa3mvrDMUC2t5r6wzFKHHlrMnBtZVZBZUx6a0F5MTk4amhSeHpZRzJNVT1aHyId/TZDMXIyOGt5UVQ5V0VEUWpsbWlHbndPRFljST1lFdFEmhLtAQgPEugBChxYYjUvSnY3MkIvUUJqZzNsU2NJWnNlTG91ZTQ9EmZaOkFEcXRBWnlreE9iWFUrTitJanpqUFhJQU9XZlpEUVpCMGxWREpydXI1N3o4b3d1RlJ3VmtEcFRNV0FnV2NIRHdmcTRvS01YellHQUZyeWpENytyOWZheWxyUjIrN1dZaUZBPT0YACAAKAAw44zusMmvhQM4ubrIgN4xQLm6yIDeMUocT3Q4UjM2OVZ1bGVEd2Y4Zy9xdTlvV3BHMmwwPVogIh7/+ndkNVIzZ1pWM2F2ZEw3VnNHc2p4SS9jaVdlND1lGs/xERLsAQgLEucBChxxSE55eFRDS0dnY0FmaG5sR2pqaUpUQ09PT2s9EmZaOkFEcXRBWnlreE9iWFUrTitJanpqUFhJQU9XZloybnRDbExFY01pZ2U1RldTWVhkRmhoRzBzTXlsaHF0YXVxYXdYdlNtTSt2MG5mL0hnVXFscCs2QlNZTXl6QUNsRVhJQ21BPT0YACAAKAAw2f2YyKbyhwM4073d38YxQNO93d/GMUocc0tlTGh2SUZ1WGMwMlJVaEEzajJCY1FFK3VzPVofIh3+WEMxN05qVW9BWEtlbGhoeklOU1J5UDdraDh3PWWMKLg5EusBCAcS5gEKHEV0S2Rya0JBTnFsakd4UGMyYVJkNDF1NFNGOD0SZlo6QURxdEFaeWt4T2JYVStOK0lqempQWElBT1dmWmtXVEhlWm9kUktQTnlUcC9MMnBjS2lnSC83MmNNemJUd05BNmRYMEpKU0dJVkU2dGdFbjlHUzdMWDZmc3dXSXZLbmdPbnc9PRgAIAAoADDy5q6kzoWGAzji7tTTwDFA4u7U08AxShxkTUZGRlF6Z0hxakU5Tjdwa05XdUZnRDFqbzQ9Wh4iHHJ0M3h4czBEWkdNRzJkS3VaSG02bytMblZ3UT1lRU1K0RLtAQgOEugBChxIaENuOFlUK01kV3NCRHUxWDgzS3k1eHVQYVE9EmZaOkFEcXRBWnlreE9iWFUrTitJanpqUFhJQU9XZlpVOFVtVHE0S3lsTzVWYTZNNnlscHR3MTlUdmhndzFyK1VaUFN3bkdkM2NVQjBFS2VoU25Kbk5nQUdDOEg0MG5TTytYOTVnPT0YACAAKAAw44zusMmvhQM4qNSK09wxQKjUitPcMUocSTVkbVBralZSSnBHalFUQnZXV016c0xVUk1FPVogIh7/9WorcnZyOS9lQUhuRmM2Q2grK29vVnMxY1RoTT1ljVZxPhLtAQgNEugBChxaNUwrZ01qUzgxYjZ0R0dJaXhmcmFJTzZEM3c9EmZaOkFEcXRBWnlreE9iWFUrTitJanpqUFhJQU9XZlp3WVVGeWxYc0pLbFN3S2ExSVZldWMwVUI2S2thWjlGcUhPU2ZraThnYkJhVDgxYk1KTFpSb252SEhVTExtL0JGTmRpZDRnPT0YACAAKAAw44zusMmvhQM4m5irpNQxQJuYq6TUMUocbGJpN2dvaldQVUF2eTZZS3AwbElBaUo2YlNFPVogIh7/1TZ1Yk5sTzBFa0JjaHVMWklHUGtITDY2cWdCUT1lzPJJHjABOAA=",
+   "version": 1
+}

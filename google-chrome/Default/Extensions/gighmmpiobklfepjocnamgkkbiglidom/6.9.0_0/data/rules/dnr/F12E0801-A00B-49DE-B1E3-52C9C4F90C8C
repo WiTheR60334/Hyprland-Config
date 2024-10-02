@@ -1,0 +1,1994 @@
+[
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/unagi.amazon.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "amazon.com",
+        "amazon.ca",
+        "amazon.de",
+        "amazon.co.uk",
+        "amazon.fr",
+        "amazon.es",
+        "amazon.it",
+        "amazon.co.jp",
+        "amazon.cn",
+        "amazon.com.au",
+        "amazon.com.br",
+        "amazon.in",
+        "amazon.com.mx",
+        "amazon.nl",
+        "amazon.eg",
+        "amazon.pl",
+        "amazon.sg"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265441
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/uedata^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "amazon.com",
+        "amazon.ca",
+        "amazon.de",
+        "amazon.co.uk",
+        "amazon.fr",
+        "amazon.es",
+        "amazon.it",
+        "amazon.co.jp",
+        "amazon.cn",
+        "amazon.com.au",
+        "amazon.com.br",
+        "amazon.in",
+        "amazon.com.mx",
+        "amazon.nl",
+        "amazon.eg",
+        "amazon.pl",
+        "amazon.sg"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265442
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/*^position=sidebar^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265443
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/*^impression?channel=sidebar",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265444
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/api/ads/auction_winners",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265445
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/api/v2/ads/auction_winners",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265446
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/api/ads/*/impressions^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265447
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||xing.com/xas/api/ads/*/clicks^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265448
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xingassets.com/public-xas-production-s3/abp-detection-public/px.js?ch=2",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265449
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||xingassets.com/public-xas-production-s3/abp-detection-public/px.js?ch=1",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "xing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265450
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||madinati-dz.com/wp-content/plugins/banner-manager/load.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "madinati-dz.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265451
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||madinati-dz.com/wp-content/uploads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "madinati-dz.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265452
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||siteground.co.uk/img/banners/general/static/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "scriptreview.net"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265453
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cmonecole.fr/images/cmonecole/upload/image/dossier/stoffel/encart_pub_c_mon_ecole_menus_general_telechargement_financement_daniel_stoffel.jpg",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cmonecole.fr"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265454
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||cmonecole.fr/images/cmonecole/upload/image/dossier/stoffel/vente-chocolat-avec-daniel-stoffel_2.jpg",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265455
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||cmonecole.fr/images/banners/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "cmonecole.fr"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265456
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||nscreenmedia.com/wp-content/plugins/simple-ads-manager/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "nscreenmedia.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265457
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||nscreenmedia.com/wp-content/uploads/*-ad1.",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "nscreenmedia.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265458
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||hochzeitswahn.de/wp-content/plugins/oiopub-direct/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "hochzeitswahn.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265459
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||wiesentbote.de/k/www/delivery/asyncspc.php?zones=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "wiesentbote.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265460
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||wiesentbote.de/wb/wp-content/themes/hueman-child/kunden/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "wiesentbote.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265461
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||wiesentbote.de/k/www/delivery/lg.php?bannerid=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "wiesentbote.de"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265462
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/px.gif?ch=1&rn=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yelp.com",
+        "yelp.com.ar",
+        "yelp.at",
+        "yelp.com.au",
+        "yelp.be",
+        "yelp.com.br",
+        "yelp.ca",
+        "yelp.ch",
+        "yelp.cl",
+        "yelp.cz",
+        "yelp.de",
+        "yelp.dk",
+        "yelp.es",
+        "yelp.fi",
+        "yelp.fr",
+        "yelp.co.uk",
+        "yelp.com.hk",
+        "yelp.ie",
+        "yelp.it",
+        "yelp.co.jp",
+        "yelp.com.mx",
+        "yelp.my",
+        "yelp.nl",
+        "yelp.no",
+        "yelp.co.nz",
+        "yelp.com.ph",
+        "yelp.pl",
+        "yelp.pt",
+        "yelp.se",
+        "yelp.com.sg",
+        "yelp.com.tr",
+        "yelp.com.tw"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265463
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/px.gif?ch=2&rn=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yelp.com",
+        "yelp.com.ar",
+        "yelp.at",
+        "yelp.com.au",
+        "yelp.be",
+        "yelp.com.br",
+        "yelp.ca",
+        "yelp.ch",
+        "yelp.cl",
+        "yelp.cz",
+        "yelp.de",
+        "yelp.dk",
+        "yelp.es",
+        "yelp.fi",
+        "yelp.fr",
+        "yelp.co.uk",
+        "yelp.com.hk",
+        "yelp.ie",
+        "yelp.it",
+        "yelp.co.jp",
+        "yelp.com.mx",
+        "yelp.my",
+        "yelp.nl",
+        "yelp.no",
+        "yelp.co.nz",
+        "yelp.com.ph",
+        "yelp.pl",
+        "yelp.pt",
+        "yelp.se",
+        "yelp.com.sg",
+        "yelp.com.tr",
+        "yelp.com.tw"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265464
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/abp-detection.js?ch=1",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265465
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/abp-detection.js?ch=2",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265466
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/px.js?ch=1",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265467
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/px.js?ch=2",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265468
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/csp/ads?f=f17x700",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265469
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/csp/ads?f=f496x80_exp_",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265470
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/csp/ads?f=f300x250_exp_",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265471
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/csp/ads?f=f160x600_exp_",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "sub_frame"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265472
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||licdn.com/scds/common/*/promo/ads^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265473
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/csp/dtag^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265474
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/tscp-serving/dtag^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265475
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||linkedin.com/li/track",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265476
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "/search/ads?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "linkedin.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265477
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||bbs.south-plus.net/images/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bbs.south-plus.net"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265478
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||readthedocs.org/api/*/sustainability/",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265479
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||readthedocs.org/sustainability/",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265480
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ethicalads.io/images^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "ethicalads.io"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265481
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||media.ethicalads.io/media/*/ethicalads.min.js",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "script"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265482
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||server.ethicalads.io/api/v1/decision^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265483
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||server.ethicalads.io/proxy/click^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265484
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||server.ethicalads.io/proxy/view^",
+      "isUrlFilterCaseSensitive": false
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265485
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||media.ethicalads.io/media/images/",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265486
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||media.ethicalads.io/abp/px.gif?ch=1&rn=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265487
+  },
+  {
+    "priority": 1000,
+    "condition": {
+      "urlFilter": "||media.ethicalads.io/abp/px.gif?ch=2&rn=",
+      "isUrlFilterCaseSensitive": false,
+      "resourceTypes": [
+        "image"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265488
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ads.filezilla-project.org/images/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "filezilla-project.org"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265489
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ads.filezilla-project.org/rightad.php",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "filezilla-project.org"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265490
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ads.filezilla-project.org/leftad.php",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "filezilla-project.org"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265491
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image",
+        "ping",
+        "xmlhttprequest"
+      ],
+      "urlFilter": "||www.google.*/aclk^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.google.ac",
+        "www.google.ad",
+        "www.google.ae",
+        "www.google.al",
+        "www.google.am",
+        "www.google.as",
+        "www.google.at",
+        "www.google.az",
+        "www.google.ba",
+        "www.google.be",
+        "www.google.bf",
+        "www.google.bg",
+        "www.google.bi",
+        "www.google.bj",
+        "www.google.bs",
+        "www.google.bt",
+        "www.google.by",
+        "www.google.ca",
+        "www.google.cat",
+        "www.google.cd",
+        "www.google.cf",
+        "www.google.cg",
+        "www.google.ch",
+        "www.google.ci",
+        "www.google.cl",
+        "www.google.cm",
+        "www.google.co.ao",
+        "www.google.co.bw",
+        "www.google.co.ck",
+        "www.google.co.cr",
+        "www.google.co.id",
+        "www.google.co.il",
+        "www.google.co.in",
+        "www.google.co.jp",
+        "www.google.co.ke",
+        "www.google.co.kr",
+        "www.google.co.ls",
+        "www.google.co.ma",
+        "www.google.co.mz",
+        "www.google.co.nz",
+        "www.google.co.th",
+        "www.google.co.tz",
+        "www.google.co.ug",
+        "www.google.co.uk",
+        "www.google.co.uz",
+        "www.google.co.ve",
+        "www.google.co.vi",
+        "www.google.co.za",
+        "www.google.co.zm",
+        "www.google.co.zw",
+        "www.google.com",
+        "www.google.com.af",
+        "www.google.com.ag",
+        "www.google.com.ai",
+        "www.google.com.ar",
+        "www.google.com.au",
+        "www.google.com.bd",
+        "www.google.com.bh",
+        "www.google.com.bn",
+        "www.google.com.bo",
+        "www.google.com.br",
+        "www.google.com.by",
+        "www.google.com.bz",
+        "www.google.com.cn",
+        "www.google.com.co",
+        "www.google.com.cu",
+        "www.google.com.cy",
+        "www.google.com.do",
+        "www.google.com.ec",
+        "www.google.com.eg",
+        "www.google.com.et",
+        "www.google.com.fj",
+        "www.google.com.gh",
+        "www.google.com.gi",
+        "www.google.com.gt",
+        "www.google.com.hk",
+        "www.google.com.jm",
+        "www.google.com.jo",
+        "www.google.com.kh",
+        "www.google.com.kw",
+        "www.google.com.lb",
+        "www.google.com.ly",
+        "www.google.com.mm",
+        "www.google.com.mt",
+        "www.google.com.mx",
+        "www.google.com.my",
+        "www.google.com.na",
+        "www.google.com.ng",
+        "www.google.com.ni",
+        "www.google.com.np",
+        "www.google.com.om",
+        "www.google.com.pa",
+        "www.google.com.pe",
+        "www.google.com.pg",
+        "www.google.com.ph",
+        "www.google.com.pk",
+        "www.google.com.pr",
+        "www.google.com.py",
+        "www.google.com.qa",
+        "www.google.com.ru",
+        "www.google.com.sa",
+        "www.google.com.sb",
+        "www.google.com.sg",
+        "www.google.com.sl",
+        "www.google.com.sv",
+        "www.google.com.tj",
+        "www.google.com.tn",
+        "www.google.com.tr",
+        "www.google.com.tw",
+        "www.google.com.ua",
+        "www.google.com.uy",
+        "www.google.com.vc",
+        "www.google.com.ve",
+        "www.google.com.vn",
+        "www.google.cv",
+        "www.google.cz",
+        "www.google.de",
+        "www.google.dj",
+        "www.google.dk",
+        "www.google.dm",
+        "www.google.dz",
+        "www.google.ee",
+        "www.google.es",
+        "www.google.fi",
+        "www.google.fm",
+        "www.google.fr",
+        "www.google.ga",
+        "www.google.ge",
+        "www.google.gg",
+        "www.google.gl",
+        "www.google.gm",
+        "www.google.gp",
+        "www.google.gr",
+        "www.google.gy",
+        "www.google.hk",
+        "www.google.hn",
+        "www.google.hr",
+        "www.google.ht",
+        "www.google.hu",
+        "www.google.ie",
+        "www.google.im",
+        "www.google.iq",
+        "www.google.is",
+        "www.google.it",
+        "www.google.it.ao",
+        "www.google.je",
+        "www.google.jo",
+        "www.google.jp",
+        "www.google.kg",
+        "www.google.ki",
+        "www.google.kz",
+        "www.google.la",
+        "www.google.li",
+        "www.google.lk",
+        "www.google.lt",
+        "www.google.lu",
+        "www.google.lv",
+        "www.google.md",
+        "www.google.me",
+        "www.google.mg",
+        "www.google.mk",
+        "www.google.ml",
+        "www.google.mn",
+        "www.google.ms",
+        "www.google.mu",
+        "www.google.mv",
+        "www.google.mw",
+        "www.google.ne",
+        "www.google.ne.jp",
+        "www.google.ng",
+        "www.google.nl",
+        "www.google.no",
+        "www.google.nr",
+        "www.google.nu",
+        "www.google.pl",
+        "www.google.pn",
+        "www.google.ps",
+        "www.google.pt",
+        "www.google.ro",
+        "www.google.rs",
+        "www.google.ru",
+        "www.google.rw",
+        "www.google.sc",
+        "www.google.se",
+        "www.google.sh",
+        "www.google.si",
+        "www.google.sk",
+        "www.google.sm",
+        "www.google.sn",
+        "www.google.so",
+        "www.google.sr",
+        "www.google.st",
+        "www.google.td",
+        "www.google.tg",
+        "www.google.tl",
+        "www.google.tm",
+        "www.google.tn",
+        "www.google.to",
+        "www.google.tt",
+        "www.google.us",
+        "www.google.vg",
+        "www.google.vu",
+        "www.google.ws"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265492
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||googlesyndication.com/simgad/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.google.ac",
+        "www.google.ad",
+        "www.google.ae",
+        "www.google.al",
+        "www.google.am",
+        "www.google.as",
+        "www.google.at",
+        "www.google.az",
+        "www.google.ba",
+        "www.google.be",
+        "www.google.bf",
+        "www.google.bg",
+        "www.google.bi",
+        "www.google.bj",
+        "www.google.bs",
+        "www.google.bt",
+        "www.google.by",
+        "www.google.ca",
+        "www.google.cat",
+        "www.google.cd",
+        "www.google.cf",
+        "www.google.cg",
+        "www.google.ch",
+        "www.google.ci",
+        "www.google.cl",
+        "www.google.cm",
+        "www.google.co.ao",
+        "www.google.co.bw",
+        "www.google.co.ck",
+        "www.google.co.cr",
+        "www.google.co.id",
+        "www.google.co.il",
+        "www.google.co.in",
+        "www.google.co.jp",
+        "www.google.co.ke",
+        "www.google.co.kr",
+        "www.google.co.ls",
+        "www.google.co.ma",
+        "www.google.co.mz",
+        "www.google.co.nz",
+        "www.google.co.th",
+        "www.google.co.tz",
+        "www.google.co.ug",
+        "www.google.co.uk",
+        "www.google.co.uz",
+        "www.google.co.ve",
+        "www.google.co.vi",
+        "www.google.co.za",
+        "www.google.co.zm",
+        "www.google.co.zw",
+        "www.google.com",
+        "www.google.com.af",
+        "www.google.com.ag",
+        "www.google.com.ai",
+        "www.google.com.ar",
+        "www.google.com.au",
+        "www.google.com.bd",
+        "www.google.com.bh",
+        "www.google.com.bn",
+        "www.google.com.bo",
+        "www.google.com.br",
+        "www.google.com.by",
+        "www.google.com.bz",
+        "www.google.com.cn",
+        "www.google.com.co",
+        "www.google.com.cu",
+        "www.google.com.cy",
+        "www.google.com.do",
+        "www.google.com.ec",
+        "www.google.com.eg",
+        "www.google.com.et",
+        "www.google.com.fj",
+        "www.google.com.gh",
+        "www.google.com.gi",
+        "www.google.com.gt",
+        "www.google.com.hk",
+        "www.google.com.jm",
+        "www.google.com.jo",
+        "www.google.com.kh",
+        "www.google.com.kw",
+        "www.google.com.lb",
+        "www.google.com.ly",
+        "www.google.com.mm",
+        "www.google.com.mt",
+        "www.google.com.mx",
+        "www.google.com.my",
+        "www.google.com.na",
+        "www.google.com.ng",
+        "www.google.com.ni",
+        "www.google.com.np",
+        "www.google.com.om",
+        "www.google.com.pa",
+        "www.google.com.pe",
+        "www.google.com.pg",
+        "www.google.com.ph",
+        "www.google.com.pk",
+        "www.google.com.pr",
+        "www.google.com.py",
+        "www.google.com.qa",
+        "www.google.com.ru",
+        "www.google.com.sa",
+        "www.google.com.sb",
+        "www.google.com.sg",
+        "www.google.com.sl",
+        "www.google.com.sv",
+        "www.google.com.tj",
+        "www.google.com.tn",
+        "www.google.com.tr",
+        "www.google.com.tw",
+        "www.google.com.ua",
+        "www.google.com.uy",
+        "www.google.com.vc",
+        "www.google.com.ve",
+        "www.google.com.vn",
+        "www.google.cv",
+        "www.google.cz",
+        "www.google.de",
+        "www.google.dj",
+        "www.google.dk",
+        "www.google.dm",
+        "www.google.dz",
+        "www.google.ee",
+        "www.google.es",
+        "www.google.fi",
+        "www.google.fm",
+        "www.google.fr",
+        "www.google.ga",
+        "www.google.ge",
+        "www.google.gg",
+        "www.google.gl",
+        "www.google.gm",
+        "www.google.gp",
+        "www.google.gr",
+        "www.google.gy",
+        "www.google.hk",
+        "www.google.hn",
+        "www.google.hr",
+        "www.google.ht",
+        "www.google.hu",
+        "www.google.ie",
+        "www.google.im",
+        "www.google.iq",
+        "www.google.is",
+        "www.google.it",
+        "www.google.it.ao",
+        "www.google.je",
+        "www.google.jo",
+        "www.google.jp",
+        "www.google.kg",
+        "www.google.ki",
+        "www.google.kz",
+        "www.google.la",
+        "www.google.li",
+        "www.google.lk",
+        "www.google.lt",
+        "www.google.lu",
+        "www.google.lv",
+        "www.google.md",
+        "www.google.me",
+        "www.google.mg",
+        "www.google.mk",
+        "www.google.ml",
+        "www.google.mn",
+        "www.google.ms",
+        "www.google.mu",
+        "www.google.mv",
+        "www.google.mw",
+        "www.google.ne",
+        "www.google.ne.jp",
+        "www.google.ng",
+        "www.google.nl",
+        "www.google.no",
+        "www.google.nr",
+        "www.google.nu",
+        "www.google.pl",
+        "www.google.pn",
+        "www.google.ps",
+        "www.google.pt",
+        "www.google.ro",
+        "www.google.rs",
+        "www.google.ru",
+        "www.google.rw",
+        "www.google.sc",
+        "www.google.se",
+        "www.google.sh",
+        "www.google.si",
+        "www.google.sk",
+        "www.google.sm",
+        "www.google.sn",
+        "www.google.so",
+        "www.google.sr",
+        "www.google.st",
+        "www.google.td",
+        "www.google.tg",
+        "www.google.tl",
+        "www.google.tm",
+        "www.google.tn",
+        "www.google.to",
+        "www.google.tt",
+        "www.google.us",
+        "www.google.vg",
+        "www.google.vu",
+        "www.google.ws"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265493
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||www.google.*/images/phd/px.gif",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "www.google.ac",
+        "www.google.ad",
+        "www.google.ae",
+        "www.google.al",
+        "www.google.am",
+        "www.google.as",
+        "www.google.at",
+        "www.google.az",
+        "www.google.ba",
+        "www.google.be",
+        "www.google.bf",
+        "www.google.bg",
+        "www.google.bi",
+        "www.google.bj",
+        "www.google.bs",
+        "www.google.bt",
+        "www.google.by",
+        "www.google.ca",
+        "www.google.cat",
+        "www.google.cd",
+        "www.google.cf",
+        "www.google.cg",
+        "www.google.ch",
+        "www.google.ci",
+        "www.google.cl",
+        "www.google.cm",
+        "www.google.co.ao",
+        "www.google.co.bw",
+        "www.google.co.ck",
+        "www.google.co.cr",
+        "www.google.co.id",
+        "www.google.co.il",
+        "www.google.co.in",
+        "www.google.co.jp",
+        "www.google.co.ke",
+        "www.google.co.kr",
+        "www.google.co.ls",
+        "www.google.co.ma",
+        "www.google.co.mz",
+        "www.google.co.nz",
+        "www.google.co.th",
+        "www.google.co.tz",
+        "www.google.co.ug",
+        "www.google.co.uk",
+        "www.google.co.uz",
+        "www.google.co.ve",
+        "www.google.co.vi",
+        "www.google.co.za",
+        "www.google.co.zm",
+        "www.google.co.zw",
+        "www.google.com",
+        "www.google.com.af",
+        "www.google.com.ag",
+        "www.google.com.ai",
+        "www.google.com.ar",
+        "www.google.com.au",
+        "www.google.com.bd",
+        "www.google.com.bh",
+        "www.google.com.bn",
+        "www.google.com.bo",
+        "www.google.com.br",
+        "www.google.com.by",
+        "www.google.com.bz",
+        "www.google.com.cn",
+        "www.google.com.co",
+        "www.google.com.cu",
+        "www.google.com.cy",
+        "www.google.com.do",
+        "www.google.com.ec",
+        "www.google.com.eg",
+        "www.google.com.et",
+        "www.google.com.fj",
+        "www.google.com.gh",
+        "www.google.com.gi",
+        "www.google.com.gt",
+        "www.google.com.hk",
+        "www.google.com.jm",
+        "www.google.com.jo",
+        "www.google.com.kh",
+        "www.google.com.kw",
+        "www.google.com.lb",
+        "www.google.com.ly",
+        "www.google.com.mm",
+        "www.google.com.mt",
+        "www.google.com.mx",
+        "www.google.com.my",
+        "www.google.com.na",
+        "www.google.com.ng",
+        "www.google.com.ni",
+        "www.google.com.np",
+        "www.google.com.om",
+        "www.google.com.pa",
+        "www.google.com.pe",
+        "www.google.com.pg",
+        "www.google.com.ph",
+        "www.google.com.pk",
+        "www.google.com.pr",
+        "www.google.com.py",
+        "www.google.com.qa",
+        "www.google.com.ru",
+        "www.google.com.sa",
+        "www.google.com.sb",
+        "www.google.com.sg",
+        "www.google.com.sl",
+        "www.google.com.sv",
+        "www.google.com.tj",
+        "www.google.com.tn",
+        "www.google.com.tr",
+        "www.google.com.tw",
+        "www.google.com.ua",
+        "www.google.com.uy",
+        "www.google.com.vc",
+        "www.google.com.ve",
+        "www.google.com.vn",
+        "www.google.cv",
+        "www.google.cz",
+        "www.google.de",
+        "www.google.dj",
+        "www.google.dk",
+        "www.google.dm",
+        "www.google.dz",
+        "www.google.ee",
+        "www.google.es",
+        "www.google.fi",
+        "www.google.fm",
+        "www.google.fr",
+        "www.google.ga",
+        "www.google.ge",
+        "www.google.gg",
+        "www.google.gl",
+        "www.google.gm",
+        "www.google.gp",
+        "www.google.gr",
+        "www.google.gy",
+        "www.google.hk",
+        "www.google.hn",
+        "www.google.hr",
+        "www.google.ht",
+        "www.google.hu",
+        "www.google.ie",
+        "www.google.im",
+        "www.google.iq",
+        "www.google.is",
+        "www.google.it",
+        "www.google.it.ao",
+        "www.google.je",
+        "www.google.jo",
+        "www.google.jp",
+        "www.google.kg",
+        "www.google.ki",
+        "www.google.kz",
+        "www.google.la",
+        "www.google.li",
+        "www.google.lk",
+        "www.google.lt",
+        "www.google.lu",
+        "www.google.lv",
+        "www.google.md",
+        "www.google.me",
+        "www.google.mg",
+        "www.google.mk",
+        "www.google.ml",
+        "www.google.mn",
+        "www.google.ms",
+        "www.google.mu",
+        "www.google.mv",
+        "www.google.mw",
+        "www.google.ne",
+        "www.google.ne.jp",
+        "www.google.ng",
+        "www.google.nl",
+        "www.google.no",
+        "www.google.nr",
+        "www.google.nu",
+        "www.google.pl",
+        "www.google.pn",
+        "www.google.ps",
+        "www.google.pt",
+        "www.google.ro",
+        "www.google.rs",
+        "www.google.ru",
+        "www.google.rw",
+        "www.google.sc",
+        "www.google.se",
+        "www.google.sh",
+        "www.google.si",
+        "www.google.sk",
+        "www.google.sm",
+        "www.google.sn",
+        "www.google.so",
+        "www.google.sr",
+        "www.google.st",
+        "www.google.td",
+        "www.google.tg",
+        "www.google.tl",
+        "www.google.tm",
+        "www.google.tn",
+        "www.google.to",
+        "www.google.tt",
+        "www.google.us",
+        "www.google.vg",
+        "www.google.vu",
+        "www.google.ws"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265494
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||bing.com/fd/ls/l?bf=msj1&",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bing.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265495
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||bing.com/fd/ls/l?bf=msj0&",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "bing.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265496
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||l.yimg.com/pv/static/misc/sme/abp/w.gif",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265497
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||l.yimg.com/pv/static/misc/sme/abp/b.gif",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265498
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||geo.yahoo.com/p?ab_type=w",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265499
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||geo.yahoo.com/p?ab_type=b",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265500
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||dmros.ysm.yahoo.com/ros/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "search.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265501
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||yimg.com^*^pid=ads^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "search.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265502
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yimg.com/av/moneyball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com",
+        "mail.aol.com"
+      ],
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265503
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yimg.com/av/curveball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com",
+        "mail.aol.com"
+      ],
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265504
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yimg.com^*/av/curveball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com",
+        "mail.aol.com"
+      ],
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265505
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yimg.com^*/av/moneyball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com",
+        "mail.aol.com"
+      ],
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265506
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yahoo.com^*/av/moneyball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265507
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||yahoo.com^*/av/curveball/ads/",
+      "isUrlFilterCaseSensitive": false,
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265508
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||beap.gemini.yahoo.com^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com",
+        "mail.aol.com"
+      ],
+      "excludedInitiatorDomains": [
+        "mail.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265509
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||yimg.com/gemini/pr/video_",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265510
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||s.yimg.com/hl/ap/default/140801/px.png?ch=2",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265511
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||pclick.internal.yahoo.com/p/s=",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265512
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||dmros.ysm.yahoo.com/ros/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "autos.yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265513
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||s.yimg.com^*/api/res/1.2/*/https://s.yimg.com/av/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "yahoo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265514
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "image"
+      ],
+      "urlFilter": "||s.yimg.com/cv/ae/*/audience/*/120x45",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "l.yimg.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265515
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||mail.aol.com/px.gif?ch=2",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "mail.aol.com"
+      ]
+    },
+    "action": {
+      "type": "block"
+    },
+    "id": 1265516
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||ads.yap.yahoo.com/*/getads",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "mail.aol.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265517
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||ads.yap.yahoo.com/*/beacon.do",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "aol.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265518
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||jill.fc.yahoo.com/v2/ads/js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "aol.ca",
+        "aol.co.uk",
+        "aol.de",
+        "alpo.mail.aol.com",
+        "mail.aol.com",
+        "aol.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265519
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "resourceTypes": [
+        "script"
+      ],
+      "urlFilter": "||webc2s-oao.pubgw.yahoo.com/jac/v2/ads/js^",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "aol.ca",
+        "aol.co.uk",
+        "aol.de",
+        "alpo.mail.aol.com",
+        "mail.aol.com",
+        "aol.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265520
+  },
+  {
+    "priority": 2001,
+    "condition": {
+      "resourceTypes": [
+        "main_frame"
+      ],
+      "urlFilter": "||jac.yahoosandbox.com^*/sandbox.html",
+      "isUrlFilterCaseSensitive": false,
+      "requestDomains": [
+        "mail.aol.com"
+      ]
+    },
+    "action": {
+      "type": "allowAllRequests"
+    },
+    "id": 1265521
+  },
+  {
+    "priority": 2001,
+    "condition": {
+      "resourceTypes": [
+        "sub_frame"
+      ],
+      "urlFilter": "||jac.yahoosandbox.com^*/sandbox.html",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "mail.aol.com"
+      ]
+    },
+    "action": {
+      "type": "allowAllRequests"
+    },
+    "id": 1265522
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||duckduckgo.com/share/spice/amazon/",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "duckduckgo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265523
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||duckduckgo.com/m.js?",
+      "isUrlFilterCaseSensitive": false,
+      "initiatorDomains": [
+        "duckduckgo.com"
+      ]
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265524
+  },
+  {
+    "priority": 2000,
+    "condition": {
+      "urlFilter": "||duckduckgo.com/t/",
+      "isUrlFilterCaseSensitive": false,
+      "domainType": "firstParty"
+    },
+    "action": {
+      "type": "allow"
+    },
+    "id": 1265525
+  }
+]

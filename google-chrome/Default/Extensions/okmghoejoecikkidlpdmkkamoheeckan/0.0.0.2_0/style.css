@@ -1,0 +1,128 @@
+body {
+  background-color: rgb(29, 28, 28);
+}
+#container {
+  width: 300px;
+  border-radius: 5px;
+  max-height: 500px;
+  overflow: auto;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.buttons-container {
+  display: flex;
+}
+#note {
+  max-width: 100%;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column-reverse;
+  margin: 5px;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+#note p {
+  word-break: break-word;
+  padding: 5px;
+  font-weight: 400;
+  font-size: 18px;
+  color: black;
+}
+#btns-cnt {
+  /* display: flex;
+  flex-direction: column; */
+  display: flex;
+  justify-content: space-between;
+}
+#btns-cnt button {
+  width: 50%;
+  /* border-radius: 3px; */
+}
+
+#btns-cnt > button:active {
+  padding-top: 2px;
+}
+#self-delete {
+  transition: all 0.3s;
+  background-color: rgb(243, 89, 89);
+  border: 1px solid rgb(243, 89, 89);
+  color: white;
+  outline: none;
+  border-top-right-radius: 8px;
+}
+#self-delete:hover {
+  border: 1px solid rgb(253, 118, 40);
+  color: rgb(5, 5, 5);
+  background-color: rgb(241, 97, 41);
+}
+#self-copy {
+  border-top-left-radius: 8px;
+  transition: all 0.3s;
+  border: 1px solid rgb(50, 63, 255);
+  background-color: rgb(50, 63, 255);
+  color: white;
+  outline: none;
+}
+#self-copy:hover {
+  border: 1px solid rgb(82, 16, 121);
+  background-color: rgb(117, 24, 129);
+  color: rgb(255, 245, 106);
+}
+.buttons-container > button {
+  margin: 5px;
+  padding: 10px;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgb(0, 0, 0);
+  color: rgb(255, 186, 58);
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+.buttons-container > button:nth-child(odd) {
+  border-radius: 60%;
+  height: 50px;
+}
+
+button:disabled {
+  background-color: gray !important;
+  border: 1px solid gray !important;
+  color: black !important;
+}
+
+.buttons-container > button:hover:enabled {
+  background-color: rgb(255, 186, 58);
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 186, 58);
+}
+#data {
+  width: 100%;
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* background-color: rgb(175, 171, 171); */
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

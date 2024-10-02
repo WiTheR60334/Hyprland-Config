@@ -1,0 +1,59 @@
+2024-10-01 20:15:23.293 [info] Extension host with pid 6805 started
+2024-10-01 20:15:23.293 [info] Skipping acquiring lock for /home/wither/.config/Code/User/workspaceStorage/c14ae9694b69f4daf2166cd7db0d4a16.
+2024-10-01 20:15:23.456 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-01 20:15:23.516 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-01 20:15:23.519 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-10-01 20:15:23.521 [info] ExtensionService#_doActivateExtension lihui.vs-color-picker, startup: true, activationEvent: '*'
+2024-10-01 20:15:23.538 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-01 20:15:23.560 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-01 20:15:23.597 [info] Eager extensions activated
+2024-10-01 20:15:23.612 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-01 20:15:23.614 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-01 20:15:23.620 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onStartupFinished'
+2024-10-01 20:15:23.629 [info] ExtensionService#_doActivateExtension GitHub.copilot, startup: false, activationEvent: 'onStartupFinished'
+2024-10-01 20:15:23.979 [info] ExtensionService#_doActivateExtension GitHub.copilot-chat, startup: false, activationEvent: 'onStartupFinished'
+2024-10-01 20:15:24.176 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-10-01 20:15:24.469 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-01 20:15:24.482 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+2024-10-01 20:15:24.495 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+2024-10-01 20:15:24.519 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onLanguage:json'
+2024-10-01 20:16:22.452 [info] ExtensionService#_doActivateExtension ms-python.python, startup: false, activationEvent: 'onLanguage:python', root cause: ms-python.debugpy
+2024-10-01 20:16:23.121 [info] ExtensionService#_doActivateExtension ms-python.debugpy, startup: false, activationEvent: 'onLanguage:python'
+2024-10-01 20:16:23.165 [info] ExtensionService#_doActivateExtension ms-python.vscode-pylance, startup: false, activationEvent: 'onLanguage:python'
+2024-10-02 09:11:59.938 [warning] vscode.json-language-features - Code actions of kind 'quickfix' requested but returned code action is of kind 'source.sort.json'. Code action will be dropped. Please check 'CodeActionContext.only' to only return requested code actions.
+2024-10-02 09:12:37.460 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7133
+2024-10-02 09:12:37.878 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7133
+2024-10-02 09:12:38.808 [error] Error: No such branch: master.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-10-02 09:12:38.887 [error] Error: No such branch: master.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-10-02 09:12:40.170 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7133
+2024-10-02 09:12:41.175 [error] Error: No such branch: master.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)
+2024-10-02 09:12:45.246 [warning] [Decorations] CAPPING events from decorations provider vscode.git 7133
+2024-10-02 09:12:46.250 [error] Error: No such branch: master.
+    at N.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:936645)
+    at T.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1032124)
+    at T.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1031728)
+    at T.getBranch (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020077)
+    at T.getBranchBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:1020363)
+    at t.GitHistoryProvider.resolveHEADMergeBase (/usr/share/code/resources/app/extensions/git/dist/main.js:2:948043)
+    at t.GitHistoryProvider.onDidRunGitStatus (/usr/share/code/resources/app/extensions/git/dist/main.js:2:941421)

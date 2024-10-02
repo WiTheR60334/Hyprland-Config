@@ -1,0 +1,43 @@
+/**
+ * Hide/adjust Google Docs' grammar checker UI when quillbot highlighting is enabled
+ */
+.quillbot-suppress-gdocs-grammar .kix-spellcheck-with-explanation-bubble,
+.quillbot-suppress-gdocs-grammar .kix-spell-bubble {
+    display: none !important;
+}
+
+.kix-canvas-tile-selection {
+    visibility: hidden;
+    pointer-events: none;
+}
+
+#enableLTButton {
+    display: none;
+}
+
+[data-qb-site="gdocs"] {
+
+    .kix-selection-overlay,
+    .kix-cursor {
+        pointer-events: none;
+    }
+
+    .kix-spellcheck-with-explanation-bubble,
+    .kix-spell-bubble {
+        display: none;
+    }
+
+    /* .kix-canvas-tile-selection is the element that contains the <svg> telling us */
+    /* where the user selected something (it purely exists for informational purposes once _docs_annotate_canvas_by_ext is enabled). */
+    /* We noticed that it was sometimes getting into the way of our click handlers. That's why we decided to hide it. */
+    .kix-canvas-tile-selection {
+        visibility: hidden;
+        pointer-events: none;
+    }
+
+    /* hack for safari where calling "document.caretPositionFromPoint()" returns incorrect values */
+    /* when ancestors have "-webkit-user-select: none" */
+    .lt-gdocs-ignore-user-select [style*="webkit-user-select"] {
+        -webkit-user-select: auto;
+    }
+}

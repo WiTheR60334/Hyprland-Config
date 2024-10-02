@@ -1,0 +1,462 @@
+2024-09-12 23:18:02.018 [info] [main] Log level: Info
+2024-09-12 23:18:02.018 [info] [main] Validating found git in: "git"
+2024-09-12 23:18:02.018 [info] [main] Using git "2.43.0" from "git"
+2024-09-12 23:18:02.018 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-12 23:18:02.018 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-12 23:20:06.713 [info] [main] Log level: Info
+2024-09-12 23:20:06.713 [info] [main] Validating found git in: "git"
+2024-09-12 23:20:06.713 [info] [main] Using git "2.43.0" from "git"
+2024-09-12 23:20:06.713 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-12 23:20:06.713 [info] > git rev-parse --show-toplevel [11ms]
+2024-09-12 23:20:06.713 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:20:06.713 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-12 23:20:06.713 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-12 23:20:06.713 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:20:08.673 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:20:08.673 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:20:42.715 [info] > git rev-parse --show-toplevel [4ms]
+2024-09-12 23:20:42.728 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-12 23:20:42.757 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)
+2024-09-12 23:20:42.779 [info] > git config --get commit.template [7ms]
+2024-09-12 23:20:42.807 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [10ms]
+2024-09-12 23:20:43.147 [info] > git status -z -uall [334ms]
+2024-09-12 23:20:43.157 [info] > git config --get commit.template [2ms]
+2024-09-12 23:20:43.179 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-09-12 23:20:43.288 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-12 23:20:43.595 [info] > git status -z -uall [411ms]
+2024-09-12 23:20:44.372 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:20:44.384 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-12 23:20:44.392 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/hyprland-protocols
+2024-09-12 23:20:44.413 [info] > git config --get commit.template [11ms]
+2024-09-12 23:20:44.416 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-12 23:20:44.433 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [10ms]
+2024-09-12 23:20:44.441 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-09-12 23:20:44.450 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/udis86
+2024-09-12 23:20:44.463 [info] > git status -z -uall [23ms]
+2024-09-12 23:20:44.469 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-12 23:20:44.469 [info] > git config --get commit.template [10ms]
+2024-09-12 23:20:44.473 [info] > git config --get commit.template [4ms]
+2024-09-12 23:20:44.480 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:20:44.483 [info] > git rev-parse --git-dir --git-common-dir [10ms]
+2024-09-12 23:20:44.485 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/tracy
+2024-09-12 23:20:44.492 [info] > git status -z -uall [10ms]
+2024-09-12 23:20:44.492 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [13ms]
+2024-09-12 23:20:44.497 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-12 23:20:44.497 [info] > git config --get commit.template [8ms]
+2024-09-12 23:20:44.506 [info] > git status -z -uall [11ms]
+2024-09-12 23:20:44.511 [info] > git config --get commit.template [5ms]
+2024-09-12 23:20:44.511 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-09-12 23:20:44.514 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/wlroots-hyprland
+2024-09-12 23:20:44.519 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-09-12 23:20:44.528 [info] > git config --get commit.template [10ms]
+2024-09-12 23:20:44.531 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:20:44.538 [info] > git status -z -uall [4ms]
+2024-09-12 23:20:44.538 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-12 23:20:44.539 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:20:44.547 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:20:44.552 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:20:44.553 [info] > git status -z -uall [11ms]
+2024-09-12 23:20:44.565 [info] > git config --get commit.template [3ms]
+2024-09-12 23:20:44.566 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:20:44.580 [info] > git status -z -uall [12ms]
+2024-09-12 23:20:44.585 [info] > git status -z -uall [63ms]
+2024-09-12 23:20:44.594 [info] > git config --get commit.template [3ms]
+2024-09-12 23:20:44.596 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-09-12 23:20:44.681 [info] > git status -z -uall [82ms]
+2024-09-12 23:20:44.927 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:20:48.611 [info] > git config --get commit.template [13ms]
+2024-09-12 23:20:48.613 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [6ms]
+2024-09-12 23:20:48.997 [info] > git status -z -uall [376ms]
+2024-09-12 23:20:50.453 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-12 23:21:03.499 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:21:11.728 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:21:11.739 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/config'
+2024-09-12 23:21:11.753 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:21:11.765 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/config'
+2024-09-12 23:22:05.869 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:05.874 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-12 23:22:05.877 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04
+2024-09-12 23:22:05.896 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:22:05.896 [info] > git config --get commit.template [11ms]
+2024-09-12 23:22:05.909 [info] > git rev-parse --git-dir --git-common-dir [5ms]
+2024-09-12 23:22:05.911 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons
+2024-09-12 23:22:05.925 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [17ms]
+2024-09-12 23:22:05.935 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:05.935 [info] > git rev-parse --show-toplevel [10ms]
+2024-09-12 23:22:05.935 [info] > git config --get commit.template [17ms]
+2024-09-12 23:22:05.942 [info] > git rev-parse refs/remotes/origin/24.04 [8ms]
+2024-09-12 23:22:05.955 [info] > git status -z -uall [6ms]
+2024-09-12 23:22:05.956 [info] > git rev-parse --git-dir --git-common-dir [14ms]
+2024-09-12 23:22:05.961 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland
+2024-09-12 23:22:05.972 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [17ms]
+2024-09-12 23:22:06.012 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.024 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [43ms]
+2024-09-12 23:22:06.036 [info] > git config --get commit.template [67ms]
+2024-09-12 23:22:06.074 [info] > git config --local branch.24.04.vscode-merge-base [39ms]
+2024-09-12 23:22:06.074 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.078 [info] > git config --get commit.template [56ms]
+2024-09-12 23:22:06.078 [info] > git rev-parse refs/remotes/origin/main [66ms]
+2024-09-12 23:22:06.087 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [9ms]
+2024-09-12 23:22:06.096 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-09-12 23:22:06.104 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [8ms]
+2024-09-12 23:22:06.105 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [15ms]
+2024-09-12 23:22:06.105 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:06.123 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:06.124 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [10ms]
+2024-09-12 23:22:06.136 [info] > git rev-parse refs/remotes/origin/24.04 [13ms]
+2024-09-12 23:22:06.144 [info] > git rev-list --count --left-right refs/heads/24.04...refs/remotes/origin/24.04 [10ms]
+2024-09-12 23:22:06.154 [info] > git status -z -uall [11ms]
+2024-09-12 23:22:06.164 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [4ms]
+2024-09-12 23:22:06.168 [info] > git diff --name-status -z --diff-filter=ADMR 4db456bd784f364be65c14baedae999809949877...refs/remotes/origin/24.04 [15ms]
+2024-09-12 23:22:06.170 [info] > git config --local branch.24.04.vscode-merge-base [2ms]
+2024-09-12 23:22:06.170 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.175 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [1ms]
+2024-09-12 23:22:06.180 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-12 23:22:06.180 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:06.192 [info] > git status -z -uall [110ms]
+2024-09-12 23:22:06.202 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-12 23:22:06.208 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:22:06.208 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.211 [info] > git config --get commit.template [10ms]
+2024-09-12 23:22:06.215 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:22:06.219 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:22:06.222 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.223 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-09-12 23:22:06.226 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-12 23:22:06.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-09-12 23:22:06.234 [info] > git config --local branch.main.vscode-merge-base origin/main [1ms]
+2024-09-12 23:22:06.239 [info] > git status -z -uall [10ms] (cancelled)
+2024-09-12 23:22:06.243 [info] > git config --get commit.template [4ms]
+2024-09-12 23:22:06.244 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-12 23:22:06.247 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.248 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-12 23:22:06.313 [info] > git status -z -uall [62ms]
+2024-09-12 23:22:06.323 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-12 23:22:06.329 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:22:06.333 [info] > git merge-base refs/heads/main refs/remotes/origin/main [10ms]
+2024-09-12 23:22:06.338 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-09-12 23:22:06.339 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [2ms]
+2024-09-12 23:22:06.344 [info] > git diff --name-status -z --diff-filter=ADMR ac275ddd5aaf201b49b588161c15cd19f99a3fc5...refs/remotes/origin/main [1ms]
+2024-09-12 23:22:06.408 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-12 23:22:06.598 [info] > git status -z -uall [495ms]
+2024-09-12 23:22:06.610 [info] > git config --get commit.template [3ms]
+2024-09-12 23:22:06.623 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:22:07.090 [info] > git status -z -uall [460ms]
+2024-09-12 23:22:07.407 [info] > git config --get commit.template [11ms]
+2024-09-12 23:22:07.409 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:22:07.418 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:07.421 [info] > git rev-parse refs/remotes/origin/main [3ms]
+2024-09-12 23:22:07.536 [info] > git status -z -uall [107ms]
+2024-09-12 23:22:07.542 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-12 23:22:07.545 [info] > git config --local branch.main.vscode-merge-base [0ms]
+2024-09-12 23:22:07.549 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-12 23:22:07.602 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:22:07.610 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-12 23:22:07.616 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/hyprland-protocols
+2024-09-12 23:22:07.635 [info] > git config --get commit.template [9ms]
+2024-09-12 23:22:07.638 [info] > git rev-parse --show-toplevel [5ms]
+2024-09-12 23:22:07.655 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [9ms]
+2024-09-12 23:22:07.663 [info] > git rev-parse --git-dir --git-common-dir [8ms]
+2024-09-12 23:22:07.666 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/udis86
+2024-09-12 23:22:07.683 [info] > git status -z -uall [21ms]
+2024-09-12 23:22:07.701 [info] > git rev-parse --show-toplevel [20ms]
+2024-09-12 23:22:07.702 [info] > git config --get commit.template [28ms]
+2024-09-12 23:22:07.717 [info] > git config --get commit.template [17ms]
+2024-09-12 23:22:07.732 [info] > git rev-parse --git-dir --git-common-dir [16ms]
+2024-09-12 23:22:07.738 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/tracy
+2024-09-12 23:22:07.756 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [25ms]
+2024-09-12 23:22:07.763 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [38ms]
+2024-09-12 23:22:07.771 [info] > git status -z -uall [8ms]
+2024-09-12 23:22:07.774 [info] > git rev-parse --show-toplevel [19ms]
+2024-09-12 23:22:07.774 [info] > git config --get commit.template [26ms]
+2024-09-12 23:22:07.792 [info] > git status -z -uall [23ms]
+2024-09-12 23:22:07.803 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [12ms]
+2024-09-12 23:22:07.807 [info] > git rev-parse --git-dir --git-common-dir [22ms]
+2024-09-12 23:22:07.811 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland
+2024-09-12 23:22:07.822 [info] > git config --get commit.template [21ms]
+2024-09-12 23:22:07.824 [info] > git config --get commit.template [3ms]
+2024-09-12 23:22:07.844 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:22:07.852 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [18ms]
+2024-09-12 23:22:07.865 [info] > git status -z -uall [9ms]
+2024-09-12 23:22:07.870 [info] > git status -z -uall [18ms]
+2024-09-12 23:22:07.879 [info] > git config --get commit.template [4ms]
+2024-09-12 23:22:07.880 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:22:07.899 [info] > git status -z -uall [16ms]
+2024-09-12 23:22:07.915 [info] > git status -z -uall [108ms]
+2024-09-12 23:22:07.926 [info] > git config --get commit.template [5ms]
+2024-09-12 23:22:07.928 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-09-12 23:22:08.009 [info] > git status -z -uall [77ms]
+2024-09-12 23:22:08.150 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:22:08.211 [info] > git config --get commit.template [11ms]
+2024-09-12 23:22:08.213 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [3ms]
+2024-09-12 23:22:08.221 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:08.224 [info] > git rev-parse refs/remotes/origin/24.04 [3ms]
+2024-09-12 23:22:08.262 [info] > git status -z -uall [29ms]
+2024-09-12 23:22:08.291 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [16ms]
+2024-09-12 23:22:08.306 [info] > git config --local branch.24.04.vscode-merge-base [6ms]
+2024-09-12 23:22:08.306 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:08.318 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:22:08.328 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:22:08.328 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:11.131 [info] > git check-ignore -v -z --stdin [16ms]
+2024-09-12 23:22:11.132 [info] > git check-ignore -v -z --stdin [10ms]
+2024-09-12 23:22:11.132 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:22:12.094 [info] > git check-ignore -v -z --stdin [5ms]
+2024-09-12 23:22:12.598 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-12 23:22:15.140 [info] > git check-ignore -v -z --stdin [1ms]
+2024-09-12 23:22:15.869 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-12 23:22:16.743 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-12 23:22:17.396 [info] > git config --get commit.template [7ms]
+2024-09-12 23:22:17.397 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [2ms]
+2024-09-12 23:22:17.405 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:17.407 [info] > git rev-parse refs/remotes/origin/24.04 [2ms]
+2024-09-12 23:22:17.449 [info] > git status -z -uall [35ms]
+2024-09-12 23:22:17.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [8ms]
+2024-09-12 23:22:17.480 [info] > git config --local branch.24.04.vscode-merge-base [5ms]
+2024-09-12 23:22:17.480 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:17.493 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:22:17.504 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:22:17.504 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:28.049 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [10ms]
+2024-09-12 23:22:28.051 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-12 23:22:28.085 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [24ms]
+2024-09-12 23:22:28.086 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [18ms]
+2024-09-12 23:22:28.088 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [5ms]
+2024-09-12 23:22:28.102 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [27ms]
+2024-09-12 23:22:28.223 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:28.223 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:28.247 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:28.247 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:28.267 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:28.267 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:28.284 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:28.284 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:28.305 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:28.305 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:28.320 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [4ms]
+2024-09-12 23:22:28.325 [info] > git merge-base refs/heads/main refs/remotes/origin/main [5ms]
+2024-09-12 23:22:28.390 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-12 23:22:28.391 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [16ms]
+2024-09-12 23:22:28.391 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [12ms]
+2024-09-12 23:22:28.397 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [13ms]
+2024-09-12 23:22:28.836 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:22:33.937 [info] > git add -A -- /home/wither/Dots/Ubuntu-Hyprland-24.04/assets/.zshrc /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland-Dots-v2.3.3-Ubuntu-24.04.tar.gz /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193413_dependencies.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193533_hypr-pkgs.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193534_image.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193534_wallust.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193650_fonts.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193653_swappy.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193653_swappy2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193708_swww.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193708_swww2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193832_rofi_wayland.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193832_rofi_wayland2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193909_ags.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193909_ags2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193929_hyprlang2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193934_hyprlock.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193942_hyprcursor.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193943_hyprcursor2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193957_hypridle.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-193957_hypridle2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194002_hyprland.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194002_hyprland2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194124_nvidia.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194128_themes.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194156_bluetooth.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194157_thunar.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194157_xdph.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194157_xdph2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194304_zsh.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194319_rofi_wayland.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194319_rofi_wayland2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194348_hyprlock.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194357_hypridle.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194357_hypridle2.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194402_input.log /home/wither/Dots/Ubuntu-Hyprland-24.04/Install-Logs/install-28-194436_dotfiles.log /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.editorconfig /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/FUNDING.yml /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/ISSUE_TEMPLATE/bug_report.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/ISSUE_TEMPLATE/custom.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/ISSUE_TEMPLATE/documentation_update.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/ISSUE_TEMPLATE/feature_request.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/.github/PULL_REQUEST_TEMPLATE.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/CODE_OF_CONDUCT.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/COMMIT_MESSAGE_GUIDELINES.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/CONTRIBUTING.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/Copy-Logs/install-28-194421_dotfiles.log /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/LICENSE.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/README.md /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/Kvantum/Catppuccin-Latte/Catppuccin-Latte.kvconfig /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/Kvantum/Catppuccin-Latte/Catppuccin-Latte.svg /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/Kvantum/Catppuccin-Mocha/Catppuccin-Mocha.kvconfig /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/Kvantum/Catppuccin-Mocha/Catppuccin-Mocha.svg /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/Kvantum/kvantum.kvconfig /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/config.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.configuration/user_options.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.miscutils/icons.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.miscutils/mathfuncs.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.miscutils/system.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.widgethacks/advancedrevealers.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.widgethacks/popupwindow.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.widgetutils/clickthrough.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.widgetutils/cursorhover.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/.widgetutils/keybind.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/actions.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/main.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/miscfunctions.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/overview_hyprland.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/searchbuttons.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/searchitem.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/modules/overview/windowcontent.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/user/style.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/user_options.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/ags/variables.js /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/btop/btop.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/btop/themes/catppuccin_frappe.theme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/btop/themes/catppuccin_latte.theme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/btop/themes/catppuccin_macchiato.theme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/btop/themes/catppuccin_mocha.theme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/cava/config /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/cava/shaders/bar_spectrum.frag /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/cava/shaders/normalized_bars.frag /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/cava/shaders/northern_lights.frag /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/cava/shaders/pass_through.vert /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/fastfetch/config-compact.jsonc /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/fastfetch/config-v2.jsonc /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/fastfetch/config.jsonc /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/fastfetch/nixos.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/00-Readme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/ENVariables.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/LaptopDisplay.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/Laptops.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/Monitors.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/Startup_Apps.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/UserDecorAnimations.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/UserKeybinds.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/UserSettings.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/WindowRules.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserConfigs/WorkspaceRules.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/00-Readme /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/QuickEdit.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/RainbowBorders.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/RofiBeats.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/RofiCalc.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/WallpaperAutoChange.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/WallpaperEffects.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/WallpaperRandom.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/WallpaperSelect.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/Weather.py /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/Weather.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/UserScripts/ZshChangeTheme.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/configs/Keybinds.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/configs/Settings.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/hypridle.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/hyprland.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/hyprlock-1080p.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/hyprlock.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/initial-boot.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/pyprland.toml /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/AirplaneMode.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Brightness.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/BrightnessKbd.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/ChangeBlur.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/ChangeLayout.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/ClipManager.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/DarkLight.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/GameMode.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/KeyHints.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/KillActiveProcess.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/LockScreen.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/MediaCtrl.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Polkit-NixOS.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Polkit.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/PortalHyprland.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Refresh.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/RefreshNoWaybar.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/RofiEmoji.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/RofiSearch.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/ScreenShot.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Sounds.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/SwitchKeyboardLayout.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/TouchPad.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/UptimeNixOS.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Volume.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/WallustSwww.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/WaybarCava.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/WaybarLayout.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/WaybarStyles.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/scripts/Wlogout.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/v2.3.3 /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/wallpaper_effects/.wallpaper_current /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/wallpaper_effects/.wallpaper_modified /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/hypr/wallust/wallust-hyprland.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/kitty/kitty.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/init.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/init.vim.txt /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lazy-lock.json /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/alpha.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/catppuccin.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/lsp-config.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/lualine.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/neo-tree.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/telescope.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/plugins/treesitter.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/nvim/lua/vim-options.lua /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt5ct/colors/Catppuccin-Latte.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt5ct/colors/Catppuccin-Mocha.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt5ct/qt5ct.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt6ct/colors/Catppuccin-Latte.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt6ct/colors/Catppuccin-Mocha.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/qt6ct/qt6ct.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/.current_wallpaper /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-calc.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-clipboard.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-compact.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-emoji.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-rofi-Beats-menu.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-rofi-Beats.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-search.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-wallpaper-effect.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-wallpaper.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-waybar-layout.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-waybar-style.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config-zsh-theme.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/config.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/master-config.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/resolution/1080p/config.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/resolution/1440p/config.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/rofi/wallust/colors-rofi.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swappy/config /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/config.json /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/backup.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/battery-quarter-solid.svg /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/battery-status.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/brightness-100.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/brightness-20.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/brightness-40.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/brightness-60.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/brightness-80.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/dropper.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/microphone-mute.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/microphone.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/music.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/palette.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/picture.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/timer.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/uptime.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/volume-high.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/volume-low.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/volume-mid.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/volume-mute.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/icons/vpn.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/images/bell.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/swaync/style.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-cava /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-hyprland.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-kitty.conf /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-rofi.rasi /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-swaync.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/templates/colors-waybar.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wallust/wallust.toml /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/config /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT & Left] SouthWest /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT & Right] SouthEast /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Camellia /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Chrysanthemum /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Default /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Default Laptop /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Gardenia /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Peony /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Simple /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[BOT] Sleek /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[Left] WestWing /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[Right] EastWing /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP & BOT] SummitSplit /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP & Left] NorthWest /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP & Right] NorthEast /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Camellia /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Chrysanthemum /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default Laptop /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default Laptop_v2 /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default Laptop_v3 /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default_v2 /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Default_v3 /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Gardenia /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Minimal - Long /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Minimal - Short /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Peony /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Simple /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/configs/[TOP] Sleek /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/modules /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Black & White] Monochrome.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Catppuccin] Latte.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Catppuccin] Mocha.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Colored] Chroma Glow.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Colored] Translucent.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Colorful] Aurora Blossom.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Colorful] Aurora.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Colorful] Rainbow Spectrum.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Dark] Golden Noir.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Dark] Half-Moon.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Dark] Latte-Wallust combined.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Dark] Purpl.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Dark] Wallust Obsidian Edge.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Extra] Crimson.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Extra] Mauve.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Extra] Rose Pine.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Extra] Simple Pink.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Light] Monochrome Contrast.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Light] Obsidian Glow.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Retro] Simple Style.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Transparent] Crystal Clear.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust Bordered] Chroma Fusion Edge.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust Bordered] Chroma Simple.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust Transparent] Crystal Clear.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Box type.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Chroma Edge.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Chroma Fusion.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Chroma Tally.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Colored.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/[Wallust] Simple.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/catppuccin-themes/latte.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/style/catppuccin-themes/mocha.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/waybar/wallust/colors-waybar.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/hibernate-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/hibernate.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/lock-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/lock.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/logout-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/logout.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/moon_865813.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/power-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/power.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/restart-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/restart.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/sleep-hover.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/icons/sleep.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/layout /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/config/wlogout/style.css /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/copy.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/release.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/upgrade.sh /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/wallpapers/Dynamic-Wallpapers/Dark/Fuji-Dark.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/wallpapers/Dynamic-Wallpapers/Light/Fuji_light.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/wallpapers/Lofi-Anime-Room.png [1814ms]
+2024-09-12 23:22:34.473 [info] > git add -A -- /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/wallpapers/Summer-Mojito.png /home/wither/Dots/Ubuntu-Hyprland-24.04/JaKooLit-Hyprland-Dots/wallpapers/Under_Starlit_Sky.png [532ms]
+2024-09-12 23:22:34.479 [info] > git config --get commit.template [1ms]
+2024-09-12 23:22:34.483 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [1ms]
+2024-09-12 23:22:34.486 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:34.486 [info] > git rev-parse refs/remotes/origin/24.04 [1ms]
+2024-09-12 23:22:34.500 [info] > git status -z -uall [12ms]
+2024-09-12 23:22:34.510 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [4ms]
+2024-09-12 23:22:34.514 [info] > git config --local branch.24.04.vscode-merge-base [1ms]
+2024-09-12 23:22:34.514 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:34.519 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [2ms]
+2024-09-12 23:22:34.524 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-12 23:22:34.524 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:34.855 [info] > git branch [3ms]
+2024-09-12 23:22:34.890 [info] > git reset -q HEAD -- . [28ms]
+2024-09-12 23:22:34.905 [info] > git config --get commit.template [7ms]
+2024-09-12 23:22:34.906 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [2ms]
+2024-09-12 23:22:34.911 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:34.913 [info] > git rev-parse refs/remotes/origin/24.04 [2ms]
+2024-09-12 23:22:34.922 [info] > git status -z -uall [4ms]
+2024-09-12 23:22:34.936 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [6ms]
+2024-09-12 23:22:34.945 [info] > git config --local branch.24.04.vscode-merge-base [2ms]
+2024-09-12 23:22:34.945 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:34.956 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [3ms]
+2024-09-12 23:22:34.965 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:22:34.965 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:36.035 [info] > git config --get commit.template [7ms]
+2024-09-12 23:22:36.037 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [3ms]
+2024-09-12 23:22:36.043 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:36.044 [info] > git rev-parse refs/remotes/origin/24.04 [2ms]
+2024-09-12 23:22:36.055 [info] > git status -z -uall [5ms]
+2024-09-12 23:22:36.071 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [9ms]
+2024-09-12 23:22:36.084 [info] > git config --local branch.24.04.vscode-merge-base [4ms]
+2024-09-12 23:22:36.084 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:36.094 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [3ms]
+2024-09-12 23:22:36.102 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:22:36.102 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:36.493 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:36.493 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:36.547 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:36.547 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:36.574 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:36.574 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:36.599 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:36.599 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:37.128 [info] > git check-ignore -v -z --stdin [2ms]
+2024-09-12 23:22:40.603 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:40.603 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:47.073 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:22:47.073 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:22:52.692 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [8ms]
+2024-09-12 23:22:52.694 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-12 23:22:52.752 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [22ms]
+2024-09-12 23:22:52.753 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [14ms]
+2024-09-12 23:22:52.754 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-12 23:22:52.767 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [22ms]
+2024-09-12 23:23:02.916 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:23:02.916 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:24:29.627 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:24:29.635 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-12 23:24:29.640 [info] [Model][openRepository] Opened repository: /home/wither/Dots
+2024-09-12 23:24:29.656 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:24:29.656 [info] > git config --get commit.template [8ms]
+2024-09-12 23:24:29.658 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-12 23:24:29.658 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.667 [info] > git status -z -uall [3ms]
+2024-09-12 23:24:29.687 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [11ms]
+2024-09-12 23:24:29.687 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.690 [info] > git config --get commit.template [4ms]
+2024-09-12 23:24:29.701 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:24:29.706 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-12 23:24:29.706 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.720 [info] > git status -z -uall [4ms]
+2024-09-12 23:24:29.733 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-12 23:24:29.733 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:30.195 [info] > git check-ignore -v -z --stdin [19ms]
+2024-09-12 23:24:30.195 [info] > git check-ignore -v -z --stdin [13ms]
+2024-09-12 23:24:30.195 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-12 23:24:30.196 [info] > git check-ignore -v -z --stdin [3ms]
+2024-09-12 23:24:46.144 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:24:46.156 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-09-12 23:24:46.156 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:46.156 [info] > git config --get commit.template [13ms]
+2024-09-12 23:24:46.172 [info] > git status -z -uall [8ms]
+2024-09-12 23:24:46.183 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-12 23:24:46.183 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:25:07.464 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:25:07.465 [info] > git config --get commit.template [8ms]
+2024-09-12 23:25:07.466 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-12 23:25:07.466 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:25:07.478 [info] > git status -z -uall [6ms]
+2024-09-12 23:25:07.487 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-12 23:25:07.487 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:26:17.706 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [5ms]
+2024-09-12 23:26:17.707 [info] > git merge-base refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-12 23:26:17.727 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [11ms]
+2024-09-12 23:26:17.727 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [7ms]
+2024-09-12 23:26:17.727 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-12 23:26:17.730 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [8ms]
+2024-09-12 23:26:18.221 [info] > git check-ignore -v -z --stdin [7ms]
+2024-09-12 23:26:18.223 [info] > git check-ignore -v -z --stdin [4ms]
+2024-09-12 23:26:21.334 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [9ms]
+2024-09-12 23:26:21.336 [info] > git merge-base refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-12 23:26:21.379 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [23ms]
+2024-09-12 23:26:21.379 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [15ms]
+2024-09-12 23:26:21.381 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [3ms]
+2024-09-12 23:26:21.396 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [25ms]
+2024-09-12 23:27:05.887 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [6ms]
+2024-09-12 23:27:05.888 [info] > git merge-base refs/heads/main refs/remotes/origin/main [1ms]
+2024-09-12 23:27:05.911 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [12ms]
+2024-09-12 23:27:05.912 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [9ms]
+2024-09-12 23:27:05.913 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [2ms]
+2024-09-12 23:27:05.915 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [8ms]
+2024-09-12 23:29:10.319 [info] > git config --get commit.template [3ms]
+2024-09-12 23:29:10.331 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:29:10.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3ms]
+2024-09-12 23:29:10.359 [info] > git status -z -uall [11ms]
+2024-09-12 23:29:10.381 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-09-12 23:29:10.396 [info] > git config --local branch.master.vscode-merge-base [2ms]
+2024-09-12 23:29:10.396 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:29:10.406 [info] > git reflog master --grep-reflog=branch: Created from *. [2ms]
+2024-09-12 23:29:10.413 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:29:10.413 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:29:10.430 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [1ms]
+2024-09-12 23:29:10.441 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 452588711484f67f365708d3cdc29ca33f9c9a80 [6ms]
+2024-09-12 23:29:10.443 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 452588711484f67f365708d3cdc29ca33f9c9a80.. --topo-order --decorate=full refs/heads/master [2ms]
+2024-09-12 23:29:25.751 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:29:25.753 [info] > git config --get commit.template [15ms]
+2024-09-12 23:29:25.754 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:29:25.776 [info] > git status -z -uall [10ms]
+2024-09-12 23:29:25.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-09-12 23:29:25.812 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-12 23:29:25.812 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:29:25.829 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:29:25.844 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:29:25.844 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:29:25.861 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [3ms]
+2024-09-12 23:29:25.888 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 452588711484f67f365708d3cdc29ca33f9c9a80 [13ms]
+2024-09-12 23:29:25.891 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 452588711484f67f365708d3cdc29ca33f9c9a80.. --topo-order --decorate=full refs/heads/main [5ms]
+2024-09-12 23:30:04.229 [info] > git config --get commit.template [14ms]
+2024-09-12 23:30:04.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:30:04.251 [info] > git status -z -uall [10ms]
+2024-09-12 23:30:04.271 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:30:04.289 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-12 23:30:04.290 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:30:04.308 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:30:04.324 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:30:04.324 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:30:13.416 [info] > git config --get commit.template [13ms]
+2024-09-12 23:30:13.418 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:30:13.439 [info] > git status -z -uall [10ms]
+2024-09-12 23:30:13.456 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-09-12 23:30:13.470 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-12 23:30:13.470 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:30:13.486 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2024-09-12 23:30:13.500 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:30:13.500 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:37:18.235 [info] > git config --get commit.template [13ms]
+2024-09-12 23:37:18.236 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:37:18.259 [info] > git status -z -uall [10ms]
+2024-09-12 23:37:18.277 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:37:18.293 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-12 23:37:18.293 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:37:18.310 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:37:18.325 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:37:18.325 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:55:13.106 [info] > git config --get commit.template [5ms]
+2024-09-12 23:55:13.107 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-12 23:55:13.117 [info] > git status -z -uall [4ms]
+2024-09-12 23:55:13.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-12 23:55:13.132 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:55:13.132 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:55:13.141 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-12 23:55:13.151 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:55:13.151 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:57:34.678 [info] > git merge-base refs/heads/main refs/remotes/origin/main [11ms]
+2024-09-12 23:57:34.679 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [24ms]
+2024-09-12 23:57:34.680 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [3ms]
+2024-09-12 23:57:34.748 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 452588711484f67f365708d3cdc29ca33f9c9a80 [11ms]
+2024-09-12 23:57:34.748 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [23ms]
+2024-09-12 23:57:34.748 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [35ms]
+2024-09-12 23:57:34.749 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [55ms]
+2024-09-12 23:57:34.749 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [47ms]
+2024-09-12 23:57:34.751 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 452588711484f67f365708d3cdc29ca33f9c9a80.. --topo-order --decorate=full refs/heads/main [5ms]
+2024-09-12 23:57:48.767 [info] > git config --get commit.template [14ms]
+2024-09-12 23:57:48.769 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:57:48.790 [info] > git status -z -uall [10ms]
+2024-09-12 23:57:48.805 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:57:48.821 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-09-12 23:57:48.821 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:57:48.836 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:57:48.851 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-12 23:57:48.851 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:59:18.721 [info] > git config --get commit.template [2ms]
+2024-09-12 23:59:18.728 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-12 23:59:18.741 [info] > git status -z -uall [5ms]
+2024-09-12 23:59:18.753 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:59:18.766 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-09-12 23:59:18.766 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:59:18.778 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-12 23:59:18.789 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:59:18.789 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:59:37.707 [info] > git merge-base refs/heads/main refs/remotes/origin/main [12ms]
+2024-09-12 23:59:37.708 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [25ms]
+2024-09-12 23:59:37.708 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z -n32 --max-parents=0 --topo-order --decorate=full HEAD [2ms]
+2024-09-12 23:59:37.753 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 452588711484f67f365708d3cdc29ca33f9c9a80 [6ms]
+2024-09-12 23:59:37.753 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 4db456bd784f364be65c14baedae999809949877.. --topo-order --decorate=full refs/heads/24.04 refs/remotes/origin/24.04 [11ms]
+2024-09-12 23:59:37.753 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z 4db456bd784f364be65c14baedae999809949877 [16ms]
+2024-09-12 23:59:37.754 [info] > git show -s --decorate=full --shortstat --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z ac275ddd5aaf201b49b588161c15cd19f99a3fc5 [27ms]
+2024-09-12 23:59:37.754 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent ac275ddd5aaf201b49b588161c15cd19f99a3fc5.. --topo-order --decorate=full refs/heads/main refs/remotes/origin/main [22ms]
+2024-09-12 23:59:37.754 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent 452588711484f67f365708d3cdc29ca33f9c9a80.. --topo-order --decorate=full refs/heads/main [2ms]
+2024-09-13 00:00:23.608 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-13 00:00:23.608 [info] > git config --get commit.template [16ms]
+2024-09-13 00:00:23.631 [info] > git status -z -uall [11ms]
+2024-09-13 00:00:23.646 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-13 00:00:23.662 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-13 00:00:23.662 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-13 00:00:23.676 [info] > git reflog main --grep-reflog=branch: Created from *. [3ms]
+2024-09-13 00:00:23.690 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-13 00:00:23.690 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

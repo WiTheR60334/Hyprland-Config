@@ -1,0 +1,10 @@
+{
+   "extensionDescription": {
+      "description": "The description of the extension, displayed in the web store.",
+      "message": "Elevate your writing with QuillBot's AI-powered productivity tools: Grammar Checker, Paraphrasing Tool, AI writer, and more!"
+   },
+   "extensionName": {
+      "description": "The name of the extension, displayed in the web store.",
+      "message": "QuillBot: AI Writing and Grammar Checker Tool"
+   }
+}

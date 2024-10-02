@@ -1,0 +1,107 @@
+{
+   "action": {
+      "default_icon": "assets/images/logo.png",
+      "default_popup": "popup.html",
+      "default_title": "QuillBot"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "commands": {
+      "paraphrase": {
+         "description": "Invoke the paraphraser-saga on the text"
+      }
+   },
+   "content_scripts": [ {
+      "css": [  ],
+      "js": [ "main-world-injection.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_start",
+      "world": "MAIN"
+   }, {
+      "css": [  ],
+      "js": [ "content-gdocs-pre.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_start"
+   }, {
+      "css": [ "assets/css/quillbot-fonts.css", "assets/css/gdocs-overrides.css" ],
+      "js": [ "content-gdocs.js" ],
+      "matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "js": [ "quillbot-content.js" ],
+      "match_origin_as_fallback": true,
+      "matches": [ "*://*.wordpress.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*" ],
+      "js": [ "quillbot-content.js" ],
+      "matches": [ "*://mail.google.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/quillbot-fonts.css" ],
+      "exclude_matches": [ "https://docs.google.com/document/*", "https://docs.google.com/presentation/*", "*://mail.google.com/*", "*://*.wordpress.com/*" ],
+      "js": [ "detect-editors.js" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "*://*/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/shadow.css" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   }, {
+      "all_frames": true,
+      "css": [ "assets/css/styles.css" ],
+      "match_about_blank": true,
+      "match_origin_as_fallback": true,
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_extensionDescription__",
+   "differential_fingerprint": "1.168bc63305be11a2bbc9e87c906856856df069763d56471946809fe6dfa3a42c",
+   "externally_connectable": {
+      "matches": [ "https://*.coursehero.com/*", "https://*.quillbot.com/*", "https://*.quillbot.dev/*", "https://quillbot.com/*", "https://quillbot.dev/*" ]
+   },
+   "host_permissions": [ "*://*/*", "https://quillbot.com/", "https://quillbot.com/*" ],
+   "icons": {
+      "128": "assets/images/logo-128.png",
+      "16": "assets/images/logo-16.png",
+      "48": "assets/images/logo-48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhrhBXDCO5d7eHunCCmp2voIXCXKuPBHLuneBYdVhwsXf+lt4YyvCBvjoBBnAtxBSLvR9tic3SL2ylMTkmprK+HLIZWY8HaeOJA0FdRGIZaiFFA6pCZSi55MrfF25961QR+5MJNPLZdnRNMaLn5zq1ZJFJi4UR2hvxyP2AhUgO8ZNWO4JU6qoavWV/xW6SGDbpayjyIfHIcQbuIyHbu9SUyNnpbIUdKvIdu1+YWkQfX3OoQPNdinZ4tL3a7N6Xr0JWIcyBvSlZB3dM4UAhk5KLgAuadkb8LBvxovyA6ZjUBAWNlA290Qx30rF1CMm5pXT1wAg5MwmQp+4f3DNnh7pmwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "__MSG_extensionName__",
+   "permissions": [ "alarms", "cookies", "storage", "activeTab", "contextMenus", "notifications", "scripting", "sidePanel" ],
+   "side_panel": {
+      "default_path": "sidePanel.html"
+   },
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "3.60.2",
+   "web_accessible_resources": [ {
+      "matches": [ "*://*/*" ],
+      "resources": [ "quillClassic.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "assets/fonts/*", "assets/css/*", "assets/images/*", "toolbox.css", "lollipop.css", "assets/emojibase-data/*" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "injection.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "content.js" ]
+   }, {
+      "matches": [ "*://*/*" ],
+      "resources": [ "executor.js" ]
+   } ]
+}

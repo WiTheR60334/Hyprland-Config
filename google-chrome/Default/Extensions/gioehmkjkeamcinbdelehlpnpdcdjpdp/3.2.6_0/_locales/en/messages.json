@@ -1,0 +1,11 @@
+{
+   "desName": {
+      "message": "Video Speed Controller for netflix video, primevideo, hotstar, etc."
+   },
+   "extName": {
+      "message": "Video Speed Controller"
+   },
+   "reset": {
+      "message": "Reset"
+   }
+}

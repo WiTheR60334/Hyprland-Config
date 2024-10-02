@@ -1,0 +1,319 @@
+2024-09-12 23:08:00.930 [info] [main] Log level: Info
+2024-09-12 23:08:00.930 [info] [main] Validating found git in: "git"
+2024-09-12 23:08:00.930 [info] [main] Using git "2.43.0" from "git"
+2024-09-12 23:08:00.930 [info] [Model][doInitialScan] Initial repository scan started
+2024-09-12 23:08:00.930 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:08:00.930 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:00.930 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:08:00.930 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:00.930 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:08:00.930 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:00.932 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-09-12 23:08:00.986 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:08:00.986 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:01.077 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:08:01.077 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:01.144 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:08:01.144 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:02.744 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:08:02.744 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:18.254 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:08:18.254 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:08:27.530 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:08:27.530 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:20:27.179 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:20:27.184 [info] > git rev-parse --git-dir --git-common-dir [0ms]
+2024-09-12 23:20:27.191 [info] [Model][openRepository] Opened repository: /home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)
+2024-09-12 23:20:27.201 [info] > git config --get commit.template [4ms]
+2024-09-12 23:20:27.204 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [3ms]
+2024-09-12 23:20:27.532 [info] > git status -z -uall [325ms]
+2024-09-12 23:20:27.542 [info] > git config --get commit.template [1ms]
+2024-09-12 23:20:27.588 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2024-09-12 23:20:27.950 [info] > git status -z -uall [354ms]
+2024-09-12 23:20:28.456 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:20:28.460 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-12 23:20:28.462 [info] [Model][openRepository] Opened repository: /home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/subprojects/tracy
+2024-09-12 23:20:28.473 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:20:28.473 [info] > git config --get commit.template [5ms]
+2024-09-12 23:20:28.479 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-12 23:20:28.482 [info] [Model][openRepository] Opened repository: /home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/subprojects/wlroots-hyprland
+2024-09-12 23:20:28.489 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [10ms]
+2024-09-12 23:20:28.493 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-12 23:20:28.494 [info] > git config --get commit.template [9ms]
+2024-09-12 23:20:28.502 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-09-12 23:20:28.505 [info] [Model][openRepository] Opened repository: /home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/subprojects/hyprland-protocols
+2024-09-12 23:20:28.514 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [12ms]
+2024-09-12 23:20:28.522 [info] > git rev-parse --show-toplevel [9ms]
+2024-09-12 23:20:28.522 [info] > git config --get commit.template [12ms]
+2024-09-12 23:20:28.530 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-12 23:20:28.532 [info] [Model][openRepository] Opened repository: /home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/subprojects/udis86
+2024-09-12 23:20:28.536 [info] > git status -z -uall [18ms]
+2024-09-12 23:20:28.536 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-09-12 23:20:28.545 [info] > git status -z -uall [6ms]
+2024-09-12 23:20:28.547 [info] > git config --get commit.template [11ms]
+2024-09-12 23:20:28.551 [info] > git config --get commit.template [6ms]
+2024-09-12 23:20:28.558 [info] > git config --get commit.template [7ms]
+2024-09-12 23:20:28.561 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:20:28.564 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [10ms]
+2024-09-12 23:20:28.567 [info] > git status -z -uall [75ms]
+2024-09-12 23:20:28.567 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [6ms]
+2024-09-12 23:20:28.575 [info] > git status -z -uall [9ms]
+2024-09-12 23:20:28.575 [info] > git status -z -uall [5ms]
+2024-09-12 23:20:28.581 [info] > git status -z -uall [17ms]
+2024-09-12 23:20:28.582 [info] > git config --get commit.template [8ms]
+2024-09-12 23:20:28.586 [info] > git config --get commit.template [5ms]
+2024-09-12 23:20:28.590 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2024-09-12 23:20:28.593 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:20:28.601 [info] > git status -z -uall [5ms]
+2024-09-12 23:20:28.660 [info] > git status -z -uall [67ms]
+2024-09-12 23:20:42.711 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:20:42.723 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-09-12 23:20:42.735 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)
+2024-09-12 23:20:42.755 [info] > git config --get commit.template [9ms]
+2024-09-12 23:20:42.759 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2024-09-12 23:20:43.132 [info] > git status -z -uall [364ms]
+2024-09-12 23:20:43.147 [info] > git config --get commit.template [7ms]
+2024-09-12 23:20:43.148 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [2ms]
+2024-09-12 23:20:43.569 [info] > git status -z -uall [418ms]
+2024-09-12 23:20:44.135 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:20:44.147 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-09-12 23:20:44.153 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/hyprland-protocols
+2024-09-12 23:20:44.174 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:20:44.174 [info] > git config --get commit.template [11ms]
+2024-09-12 23:20:44.196 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [5ms]
+2024-09-12 23:20:44.205 [info] > git rev-parse --git-dir --git-common-dir [21ms]
+2024-09-12 23:20:44.214 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/udis86
+2024-09-12 23:20:44.234 [info] > git status -z -uall [30ms]
+2024-09-12 23:20:44.248 [info] > git rev-parse --show-toplevel [15ms]
+2024-09-12 23:20:44.249 [info] > git config --get commit.template [24ms]
+2024-09-12 23:20:44.262 [info] > git config --get commit.template [14ms]
+2024-09-12 23:20:44.279 [info] > git rev-parse --git-dir --git-common-dir [18ms]
+2024-09-12 23:20:44.286 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/tracy
+2024-09-12 23:20:44.306 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [28ms]
+2024-09-12 23:20:44.314 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [45ms]
+2024-09-12 23:20:44.325 [info] > git status -z -uall [12ms]
+2024-09-12 23:20:44.327 [info] > git rev-parse --show-toplevel [24ms]
+2024-09-12 23:20:44.328 [info] > git config --get commit.template [32ms]
+2024-09-12 23:20:44.349 [info] > git status -z -uall [26ms]
+2024-09-12 23:20:44.363 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [15ms]
+2024-09-12 23:20:44.371 [info] > git rev-parse --git-dir --git-common-dir [31ms]
+2024-09-12 23:20:44.380 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Hyprland (copy 1)/subprojects/wlroots-hyprland
+2024-09-12 23:20:44.392 [info] > git config --get commit.template [30ms]
+2024-09-12 23:20:44.395 [info] > git config --get commit.template [4ms]
+2024-09-12 23:20:44.419 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [16ms]
+2024-09-12 23:20:44.431 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [13ms]
+2024-09-12 23:20:44.438 [info] > git rev-parse --show-toplevel [28ms]
+2024-09-12 23:20:44.439 [info] > git status -z -uall [13ms]
+2024-09-12 23:20:44.452 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:20:44.464 [info] > git status -z -uall [26ms]
+2024-09-12 23:20:44.469 [info] > git config --get commit.template [1ms]
+2024-09-12 23:20:44.473 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:20:44.488 [info] > git status -z -uall [12ms]
+2024-09-12 23:20:44.501 [info] > git status -z -uall [130ms]
+2024-09-12 23:20:44.510 [info] > git config --get commit.template [4ms]
+2024-09-12 23:20:44.511 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:20:44.579 [info] > git status -z -uall [64ms]
+2024-09-12 23:22:05.868 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:05.873 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-09-12 23:22:05.875 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04
+2024-09-12 23:22:05.890 [info] > git config --get commit.template [8ms]
+2024-09-12 23:22:05.894 [info] > git rev-parse --show-toplevel [6ms]
+2024-09-12 23:22:05.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [4ms]
+2024-09-12 23:22:05.912 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:05.912 [info] > git rev-parse --git-dir --git-common-dir [6ms]
+2024-09-12 23:22:05.916 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons
+2024-09-12 23:22:05.931 [info] > git rev-parse refs/remotes/origin/24.04 [20ms]
+2024-09-12 23:22:05.937 [info] > git rev-parse --show-toplevel [7ms]
+2024-09-12 23:22:05.937 [info] > git config --get commit.template [14ms]
+2024-09-12 23:22:05.944 [info] > git status -z -uall [8ms]
+2024-09-12 23:22:06.004 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [51ms]
+2024-09-12 23:22:06.020 [info] > git rev-parse --git-dir --git-common-dir [75ms]
+2024-09-12 23:22:06.026 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland
+2024-09-12 23:22:06.048 [info] > git config --local branch.24.04.vscode-merge-base [29ms]
+2024-09-12 23:22:06.048 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.054 [info] > git config --get commit.template [50ms]
+2024-09-12 23:22:06.054 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [59ms]
+2024-09-12 23:22:06.061 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.061 [info] > git config --get commit.template [14ms]
+2024-09-12 23:22:06.065 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [12ms]
+2024-09-12 23:22:06.072 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-12 23:22:06.072 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:06.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [11ms]
+2024-09-12 23:22:06.076 [info] > git rev-parse refs/remotes/origin/main [16ms]
+2024-09-12 23:22:06.082 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:22:06.083 [info] > git merge-base refs/heads/24.04 refs/remotes/origin/24.04 [7ms]
+2024-09-12 23:22:06.087 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [15ms]
+2024-09-12 23:22:06.091 [info] > git rev-list --count --left-right refs/heads/24.04...refs/remotes/origin/24.04 [4ms]
+2024-09-12 23:22:06.097 [info] > git rev-parse refs/remotes/origin/24.04 [15ms]
+2024-09-12 23:22:06.104 [info] > git diff --name-status -z --diff-filter=ADMR 4db456bd784f364be65c14baedae999809949877...refs/remotes/origin/24.04 [7ms]
+2024-09-12 23:22:06.107 [info] > git status -z -uall [4ms]
+2024-09-12 23:22:06.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [7ms]
+2024-09-12 23:22:06.133 [info] > git config --local branch.24.04.vscode-merge-base [2ms]
+2024-09-12 23:22:06.133 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.142 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [2ms]
+2024-09-12 23:22:06.149 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:22:06.149 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:22:06.198 [info] > git status -z -uall [119ms]
+2024-09-12 23:22:06.209 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-09-12 23:22:06.217 [info] > git config --local branch.main.vscode-merge-base [5ms]
+2024-09-12 23:22:06.217 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:22:06.221 [info] > git config --get commit.template [12ms]
+2024-09-12 23:22:06.225 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:22:06.229 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:22:06.232 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.232 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-12 23:22:06.236 [info] > git rev-parse refs/remotes/origin/main [4ms]
+2024-09-12 23:22:06.239 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-09-12 23:22:06.244 [info] > git config --local branch.main.vscode-merge-base origin/main [1ms]
+2024-09-12 23:22:06.248 [info] > git status -z -uall [9ms] (cancelled)
+2024-09-12 23:22:06.252 [info] > git config --get commit.template [4ms]
+2024-09-12 23:22:06.253 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-12 23:22:06.256 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:22:06.257 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-09-12 23:22:06.322 [info] > git status -z -uall [62ms]
+2024-09-12 23:22:06.330 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-12 23:22:06.334 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:22:06.337 [info] > git merge-base refs/heads/main refs/remotes/origin/main [8ms]
+2024-09-12 23:22:06.341 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [4ms]
+2024-09-12 23:22:06.341 [info] > git rev-list --count --left-right refs/heads/main...refs/remotes/origin/main [1ms]
+2024-09-12 23:22:06.345 [info] > git diff --name-status -z --diff-filter=ADMR ac275ddd5aaf201b49b588161c15cd19f99a3fc5...refs/remotes/origin/main [1ms]
+2024-09-12 23:22:06.588 [info] > git status -z -uall [498ms]
+2024-09-12 23:22:06.599 [info] > git config --get commit.template [2ms]
+2024-09-12 23:22:06.610 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [4ms]
+2024-09-12 23:22:07.070 [info] > git status -z -uall [453ms]
+2024-09-12 23:22:07.577 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:07.584 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-09-12 23:22:07.588 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/hyprland-protocols
+2024-09-12 23:22:07.603 [info] > git config --get commit.template [8ms]
+2024-09-12 23:22:07.604 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:22:07.619 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [7ms]
+2024-09-12 23:22:07.628 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-09-12 23:22:07.633 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/udis86
+2024-09-12 23:22:07.651 [info] > git status -z -uall [24ms]
+2024-09-12 23:22:07.662 [info] > git rev-parse --show-toplevel [13ms]
+2024-09-12 23:22:07.662 [info] > git config --get commit.template [21ms]
+2024-09-12 23:22:07.670 [info] > git config --get commit.template [9ms]
+2024-09-12 23:22:07.685 [info] > git rev-parse --git-dir --git-common-dir [15ms]
+2024-09-12 23:22:07.691 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/tracy
+2024-09-12 23:22:07.711 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [27ms]
+2024-09-12 23:22:07.719 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [41ms]
+2024-09-12 23:22:07.727 [info] > git status -z -uall [8ms]
+2024-09-12 23:22:07.729 [info] > git rev-parse --show-toplevel [19ms]
+2024-09-12 23:22:07.729 [info] > git config --get commit.template [28ms]
+2024-09-12 23:22:07.749 [info] > git status -z -uall [23ms]
+2024-09-12 23:22:07.762 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [14ms]
+2024-09-12 23:22:07.768 [info] > git rev-parse --git-dir --git-common-dir [29ms]
+2024-09-12 23:22:07.773 [info] [Model][openRepository] Opened repository: /home/wither/Dots/Ubuntu-Hyprland-24.04/Hyprland/subprojects/wlroots-hyprland
+2024-09-12 23:22:07.783 [info] > git config --get commit.template [23ms]
+2024-09-12 23:22:07.785 [info] > git config --get commit.template [3ms]
+2024-09-12 23:22:07.801 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [8ms]
+2024-09-12 23:22:07.806 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [8ms]
+2024-09-12 23:22:07.815 [info] > git status -z -uall [10ms]
+2024-09-12 23:22:07.847 [info] > git status -z -uall [36ms]
+2024-09-12 23:22:07.860 [info] > git config --get commit.template [3ms]
+2024-09-12 23:22:07.866 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:22:07.882 [info] > git status -z -uall [12ms]
+2024-09-12 23:22:07.898 [info] > git status -z -uall [130ms]
+2024-09-12 23:22:07.904 [info] > git config --get commit.template [1ms]
+2024-09-12 23:22:07.909 [info] > git for-each-ref --format %(refname) %(objectname) %(*objectname) refs/tags [1ms]
+2024-09-12 23:22:07.991 [info] > git status -z -uall [78ms]
+2024-09-12 23:23:09.837 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:23:09.853 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/config'
+2024-09-12 23:23:09.872 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:23:09.888 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/.git/config'
+2024-09-12 23:23:09.922 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:23:09.936 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Dots/Hyprland (copy 1)/.git/config'
+2024-09-12 23:23:09.951 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/.git/HEAD'
+2024-09-12 23:23:09.964 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/wither/Ubuntu-Hyprland-24.04/Hyprland (copy 1)/.git/config'
+2024-09-12 23:23:09.976 [info] > git config --get commit.template [69ms]
+2024-09-12 23:23:09.981 [info] > git config --get commit.template [67ms]
+2024-09-12 23:23:10.000 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [8ms]
+2024-09-12 23:23:10.008 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/GTK-themes-icons/.git/refs/remotes/origin/main'
+2024-09-12 23:23:10.009 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [11ms]
+2024-09-12 23:23:10.017 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:23:10.018 [info] > git rev-parse refs/remotes/origin/main [10ms]
+2024-09-12 23:23:10.027 [info] > git rev-parse refs/remotes/origin/24.04 [10ms]
+2024-09-12 23:23:10.043 [info] > git status -z -uall [9ms]
+2024-09-12 23:23:10.065 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [10ms]
+2024-09-12 23:23:10.074 [info] > git config --local branch.24.04.vscode-merge-base [2ms]
+2024-09-12 23:23:10.074 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:23:10.080 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [2ms]
+2024-09-12 23:23:10.084 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [1ms]
+2024-09-12 23:23:10.084 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:23:10.108 [info] > git status -z -uall [82ms]
+2024-09-12 23:23:10.112 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-09-12 23:23:10.116 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:23:10.119 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [1ms]
+2024-09-12 23:24:29.772 [info] > git rev-parse --show-toplevel [3ms]
+2024-09-12 23:24:29.782 [info] > git rev-parse --git-dir --git-common-dir [3ms]
+2024-09-12 23:24:29.786 [info] [Model][openRepository] Opened repository: /home/wither/Dots
+2024-09-12 23:24:29.805 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:24:29.806 [info] > git config --get commit.template [10ms]
+2024-09-12 23:24:29.807 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-12 23:24:29.807 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.818 [info] > git status -z -uall [3ms]
+2024-09-12 23:24:29.840 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-09-12 23:24:29.841 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.846 [info] > git config --get commit.template [6ms]
+2024-09-12 23:24:29.847 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:24:29.857 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-12 23:24:29.858 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:24:29.867 [info] > git status -z -uall [3ms]
+2024-09-12 23:24:29.877 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-09-12 23:24:29.877 [warning] [Git][getBranch] No such branch: master
+2024-09-12 23:26:44.486 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:26:44.486 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:27:03.421 [info] > git rev-parse --show-toplevel [1ms]
+2024-09-12 23:27:03.421 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:28:34.688 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:28:34.688 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:28:55.412 [info] > git rev-parse --show-toplevel [2ms]
+2024-09-12 23:28:55.412 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-09-12 23:29:43.059 [info] > git config --get commit.template [7ms]
+2024-09-12 23:29:43.067 [info] [Git][getRemotes] No remotes found in the git config file
+2024-09-12 23:29:43.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [10ms]
+2024-09-12 23:29:43.077 [info] > git config --get commit.template [18ms]
+2024-09-12 23:29:43.087 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/wither/Dots/Ubuntu-Hyprland-24.04/.git/refs/remotes/origin/24.04'
+2024-09-12 23:29:43.088 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-09-12 23:29:43.100 [info] > git rev-parse refs/remotes/origin/24.04 [13ms]
+2024-09-12 23:29:43.111 [info] > git status -z -uall [12ms]
+2024-09-12 23:29:43.131 [info] > git status -z -uall [21ms]
+2024-09-12 23:29:43.131 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-09-12 23:29:43.170 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/24.04 refs/remotes/24.04 [11ms]
+2024-09-12 23:29:43.182 [info] > git config --local branch.main.vscode-merge-base [39ms]
+2024-09-12 23:29:43.182 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:29:43.198 [info] > git reflog main --grep-reflog=branch: Created from *. [5ms]
+2024-09-12 23:29:43.209 [info] > git config --local branch.24.04.vscode-merge-base [28ms]
+2024-09-12 23:29:43.209 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:29:43.232 [info] > git reflog 24.04 --grep-reflog=branch: Created from *. [9ms]
+2024-09-12 23:29:43.247 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [37ms]
+2024-09-12 23:29:43.247 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:29:43.314 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [68ms]
+2024-09-12 23:29:43.314 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:54:25.974 [info] > git config --get commit.template [13ms]
+2024-09-12 23:54:25.976 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:54:25.996 [info] > git status -z -uall [9ms]
+2024-09-12 23:54:26.014 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-09-12 23:54:26.029 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-12 23:54:26.029 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:54:26.043 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-12 23:54:26.056 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [4ms]
+2024-09-12 23:54:26.056 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-12 23:54:31.035 [info] > git config --get commit.template [9ms]
+2024-09-12 23:54:31.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-12 23:54:31.050 [info] > git status -z -uall [7ms]
+2024-09-12 23:54:31.060 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-12 23:54:31.071 [info] > git config --local branch.main.vscode-merge-base [1ms]
+2024-09-12 23:54:31.071 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-12 23:54:31.080 [info] > git reflog main --grep-reflog=branch: Created from *. [2ms]
+2024-09-12 23:54:31.090 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [2ms]
+2024-09-12 23:54:31.090 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-09-13 00:00:40.557 [info] > git config --get commit.template [12ms]
+2024-09-13 00:00:40.558 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-09-13 00:00:40.577 [info] > git status -z -uall [10ms]
+2024-09-13 00:00:40.591 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-09-13 00:00:40.603 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-09-13 00:00:40.603 [warning] [Git][config] git config failed: Failed to execute git
+2024-09-13 00:00:40.617 [info] > git reflog main --grep-reflog=branch: Created from *. [4ms]
+2024-09-13 00:00:40.630 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [3ms]
+2024-09-13 00:00:40.630 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref

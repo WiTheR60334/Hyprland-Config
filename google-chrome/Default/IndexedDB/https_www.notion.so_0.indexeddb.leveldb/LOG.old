@@ -1,0 +1,6 @@
+2024/09/01-15:58:22.800 c7a Creating DB /home/wither/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb since it was missing.
+2024/09/01-15:58:22.803 c7a Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_www.notion.so_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/01-15:58:23.187 c7a Level-0 table #5: started
+2024/09/01-15:58:23.189 c7a Level-0 table #5: 2639 bytes OK
+2024/09/01-15:58:23.191 c7a Delete type=0 #3
+2024/09/01-15:58:23.191 c78 Manual compaction at level-0 from '\x00\x01\x00\x00\x00' @ 72057594037927935 : 1 .. '\x00\x02\x00\x00\x00' @ 0 : 0; will stop at (end)

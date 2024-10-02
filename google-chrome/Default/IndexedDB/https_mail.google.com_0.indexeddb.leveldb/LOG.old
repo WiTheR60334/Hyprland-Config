@@ -1,0 +1,12 @@
+2024/09/08-14:15:48.175 22fd Reusing MANIFEST /home/wither/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/MANIFEST-000001
+2024/09/08-14:15:48.175 22fd Recovering log #72
+2024/09/08-14:15:48.177 22fd Reusing old log /home/wither/.config/google-chrome/Default/IndexedDB/https_mail.google.com_0.indexeddb.leveldb/000072.log 
+2024/09/08-14:15:51.862 22fd Compacting 1@1 + 1@2 files
+2024/09/08-14:15:51.869 22fd Generated table #75@1: 237 keys, 837395 bytes
+2024/09/08-14:15:51.869 22fd Compacted 1@1 + 1@2 files => 837395 bytes
+2024/09/08-14:15:51.870 22fd compacted to: files[ 0 0 1 0 0 0 0 ]
+2024/09/08-14:15:51.871 22fd Delete type=2 #73
+2024/09/08-14:15:51.871 22fd Delete type=2 #71
+2024/09/08-14:16:05.174 22fe Level-0 table #77: started
+2024/09/08-14:16:05.184 22fe Level-0 table #77: 2942928 bytes OK
+2024/09/08-14:16:05.186 22fe Delete type=0 #72

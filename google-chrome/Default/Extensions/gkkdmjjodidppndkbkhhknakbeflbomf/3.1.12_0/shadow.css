@@ -1,0 +1,289 @@
+:host {
+    --themeColour: rgb(0, 185, 251);
+}
+
+#cornerWrapper {
+    position: absolute !important;
+    left: 10px;
+    padding: 0 !important;
+    z-index: 1000 !important;
+    text-align: center !important;
+    background-color: rgba(0, 0, 0, 0) !important;
+    box-shadow: none !important;
+    font-family: 'Open Sans ExtraBold', 'Arial', sans-serif !important;
+    font-size: 20px;
+    pointer-events: auto;
+}
+
+#screenshotButton {
+    position: absolute;
+    left: 10px;
+    padding: 0;
+    z-index: 1000;
+    display: flex;
+    background-color: white;
+    border: 2px var(--themeColour) solid;
+    justify-content: center;
+    align-items: center;
+    pointer-events: auto;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+    box-sizing: border-box;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+#cameraIcon {
+    width: 20px;
+    height: 20px;
+}
+
+.alertMessage {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px rgb(153, 153, 153);
+    padding: 15px;
+    top: 10px;
+    font-size: 20px;
+    color: black;
+    text-align: center;
+    position: absolute;
+    border-radius: 5px;
+
+    max-width: 80%;
+    white-space: pre-wrap;
+
+    flex: 0 1 auto;
+    align-self: auto;
+    z-index: 1000;
+
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+    font-family: 'Open Sans ExtraBold', 'Arial', sans-serif !important;
+}
+
+
+#textWrapper {
+    width: 100%;
+    pointer-events: auto;
+    overflow: visible;
+    height: 100%;
+    position: relative;
+}
+
+
+#videoOverlay, #messageOverlay {
+    display: flex;
+    justify-content: center;
+    font-family: 'Open Sans Regular', 'Arial', sans-serif !important;
+    cursor: default !important;
+    color: black;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    pointer-events: none;
+    align-items: center;
+    width: 0px;
+    height: 0px;
+    overflow: visible;
+    --sliderTransition: 0s;
+}
+
+
+#selectextSmallLogoImage {
+    position: relative;
+    z-index: 100;
+    width: 100px;
+}
+
+
+#selecTextLoader {
+    border: 7px solid #f3f3f3;
+    /* Light grey */
+    border-top: 7px solid var(--themeColour);
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1.5s linear infinite;
+    position: absolute;
+    margin: auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100000;
+}
+
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+
+#noTextFound {
+    position: absolute;
+    margin: auto;
+    top: 50px;
+    left: 0;
+    right: 0;
+    color: var(--themeColour);
+    font-weight: bold;
+}
+
+
+/*SLIDER*/
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+    z-index: 10000;
+}
+
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc !important;
+    -webkit-transition: var(--sliderTransition);
+    transition: var(--sliderTransition);
+}
+
+
+.slider:before {
+    position: absolute;
+    content: "S";
+    font-weight: bold;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24px;
+    left: 4px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: var(--sliderTransition);
+    transition: var(--sliderTransition);
+    border-width: 2px;
+    border-color: var(--themeColour) !important;
+    border-style: solid;
+    /*background-image: url('chrome-extension://__MSG_@@extension_id__/images/');*/
+}
+
+
+input:checked+.slider {
+    background-color: var(--themeColour) !important;
+}
+
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--themeColour) !important;
+}
+
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+.ui-selecting,
+.ui-selected {
+    background-color: var(--themeColour) !important;
+}
+
+.transparent .ui-selecting, .transparent .ui-selected {
+    background-color: rgba(0, 185, 251, 0.6) !important;
+}
+
+
+.selectextText {
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+
+    border-style: solid !important;
+    border-color: var(--themeColour);
+    border-radius: 3px;
+    /* line-height: normal !important; */
+    position: absolute;
+    background-color: white;
+    box-sizing: content-box;
+    text-wrap: nowrap;
+}
+
+
+.transparent .selectextText {
+    /* background-color: transparent; */
+    background-color: rgba(0, 185, 251, 0.15);
+    border-color: transparent;
+    color: transparent;
+}
+
+
+.selectextText span {
+    transform-origin: left top;
+    display: inline-block;
+}
+
+.fadingMessageText {
+    color: var(--themeColour) !important;
+    font-weight: bold !important;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.ui-lasso {
+    border-color: var(--themeColour) !important;
+    border-width: 2px !important;
+    border-style: dotted !important;
+    background-color: unset !important;
+}

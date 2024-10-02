@@ -1,0 +1,17 @@
+2024-09-12 17:32:36.034 [info] Extension host with pid 4200 started
+2024-09-12 17:32:36.034 [info] Skipping acquiring lock for /home/wither/.config/Code/User/workspaceStorage/c14ae9694b69f4daf2166cd7db0d4a16.
+2024-09-12 17:32:36.130 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-09-12 17:32:36.136 [info] ExtensionService#_doActivateExtension vscode.css-language-features, startup: false, activationEvent: 'onLanguage:css'
+2024-09-12 17:32:36.149 [info] ExtensionService#_doActivateExtension bierner.color-info, startup: false, activationEvent: 'onLanguage:css'
+2024-09-12 17:32:36.483 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-09-12 17:32:36.517 [info] ExtensionService#_doActivateExtension akhail.save-typing, startup: true, activationEvent: '*'
+2024-09-12 17:32:36.521 [info] ExtensionService#_doActivateExtension lihui.vs-color-picker, startup: true, activationEvent: '*'
+2024-09-12 17:32:36.529 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-09-12 17:32:36.550 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-09-12 17:32:36.591 [info] Eager extensions activated
+2024-09-12 17:32:36.625 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 17:32:36.627 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-09-12 17:46:19.684 [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:markdown'
+2024-09-12 17:46:19.690 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onLanguage:markdown'
+2024-09-12 17:46:19.990 [info] ExtensionService#_doActivateExtension vscode.markdown-math, startup: false, activationEvent: 'api', root cause: vscode.markdown-language-features
+2024-09-12 18:14:22.994 [info] ExtensionService#_doActivateExtension vscode.debug-server-ready, startup: false, activationEvent: 'onDebugResolve'
